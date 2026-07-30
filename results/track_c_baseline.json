@@ -1,0 +1,1646 @@
+{
+  "track": "C",
+  "description": "Random expression baseline (no LLM)",
+  "n_generated": 1000,
+  "n_compiled": 809,
+  "n_runtime_ok": 809,
+  "archive_size": 136,
+  "n_insertions": 192,
+  "time_s": 2070.24,
+  "resolution": 64,
+  "steps": 2000,
+  "archive": [
+    {
+      "bin": [
+        0,
+        0
+      ],
+      "expression": "clip(A + 0.3 * (0.1 * (conv(A) - ((exp(-((conv(A) - 0.5 * laplacian(A) - 0.25) / 0.05)**2 / 2) + (A * conv(A))) + (laplacian(A) + conv(A))))), 0, 1)",
+      "fitness": 0.048828125,
+      "alive_fraction": 0.027099609375,
+      "complexity": 0.048828125,
+      "spatial_entropy": 0.4310400666170139,
+      "num_clusters": 60
+    },
+    {
+      "bin": [
+        0,
+        1
+      ],
+      "expression": "clip(A + 0.15 * ((2 * (0.5 * (sigmoid((exp(-((conv(A) - 0.12) / 0.1)**2 / 2) * cos(laplacian(A)))) - laplacian(A)) + 0.5 * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.3)) + 0.5 * (0.15 + (A - threshold(conv(A), 0.1) * (1 - threshold(conv(A), 0.4))))) - 1)), 0, 1)",
+      "fitness": 0.0478515625,
+      "alive_fraction": 0.050048828125,
+      "complexity": 0.0478515625,
+      "spatial_entropy": 1.1183927290103626,
+      "num_clusters": 17
+    },
+    {
+      "bin": [
+        0,
+        2
+      ],
+      "expression": "clip(A + 0.25 * ((2 * (0.3 * cos(conv(A)) + 2 * abs(A)) - 1)), 0, 1)",
+      "fitness": 0.0458984375,
+      "alive_fraction": 0.144775390625,
+      "complexity": 0.0458984375,
+      "spatial_entropy": 1.530028124459133,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        0,
+        9
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (2 * threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.4))) - 1)), 0, 1)",
+      "fitness": 0.048828125,
+      "alive_fraction": 0.4580078125,
+      "complexity": 0.048828125,
+      "spatial_entropy": 5.011184179450871,
+      "num_clusters": 5
+    },
+    {
+      "bin": [
+        0,
+        19
+      ],
+      "expression": "clip(A + 0.15 * (2 * abs((0.2 - A))), 0, 1)",
+      "fitness": 0.0458984375,
+      "alive_fraction": 1.0,
+      "complexity": 0.0458984375,
+      "spatial_entropy": 0.4622900666170139,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        1,
+        0
+      ],
+      "expression": "clip(A + 0.12 * (0.1 * ((laplacian(A) + (abs(conv(A)) - exp(-((conv(A) - 0.2) / 0.08)**2 / 2))) - exp(sin(sin(laplacian(A))))) + 0.5 * tanh(exp(-((conv(A) - 0.5 * laplacian(A) - 0.18) / 0.03)**2 / 2))), 0, 1)",
+      "fitness": 0.080078125,
+      "alive_fraction": 0.036376953125,
+      "complexity": 0.080078125,
+      "spatial_entropy": 0.38799494939570967,
+      "num_clusters": 36
+    },
+    {
+      "bin": [
+        1,
+        1
+      ],
+      "expression": "clip(A + 0.25 * ((tanh((A - 0.1)) * exp(-((conv(A) + laplacian(A) - 0.15) / 0.05)**2 / 2))), 0, 1)",
+      "fitness": 0.09765625,
+      "alive_fraction": 0.062255859375,
+      "complexity": 0.09765625,
+      "spatial_entropy": 0.4310400666170139,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        1,
+        2
+      ],
+      "expression": "clip(A + 0.08 * ((2 * (threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.3))) - 1)), 0, 1)",
+      "fitness": 0.0830078125,
+      "alive_fraction": 0.1015625,
+      "complexity": 0.0830078125,
+      "spatial_entropy": 1.0191833309992433,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        1,
+        3
+      ],
+      "expression": "clip(A + 0.15 * ((2 * (2 * (A + tanh((A - A))) + 0.5 * exp(-((conv(A) + laplacian(A) - 0.15) / 0.1)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.056640625,
+      "alive_fraction": 0.151611328125,
+      "complexity": 0.056640625,
+      "spatial_entropy": 1.9535956449655538,
+      "num_clusters": 4
+    },
+    {
+      "bin": [
+        1,
+        5
+      ],
+      "expression": "clip(A + 0.08 * ((2 * (2 * threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.25)) + 0.5 * (0.18 - 0.12)) - 1)), 0, 1)",
+      "fitness": 0.095703125,
+      "alive_fraction": 0.287109375,
+      "complexity": 0.095703125,
+      "spatial_entropy": 3.2181390622295662,
+      "num_clusters": 13
+    },
+    {
+      "bin": [
+        1,
+        7
+      ],
+      "expression": "clip(A + 0.3 * ((2 * (2 * (exp(-((conv(A) - 0.18) / 0.1)**2 / 2) * (0.15 + 0.2)) + 0.3 * threshold(conv(A), 0.12) * (1 - threshold(conv(A), 0.35))) - 1)), 0, 1)",
+      "fitness": 0.09765625,
+      "alive_fraction": 0.3623046875,
+      "complexity": 0.09765625,
+      "spatial_entropy": 4.628524413893479,
+      "num_clusters": 10
+    },
+    {
+      "bin": [
+        1,
+        8
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (threshold(conv(A), 0.1) * (1 - threshold(conv(A), 0.4)) + 0.1 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.25) / 0.05)**2 / 2) + 0.1 * (0.12 - 0.1)) - 1)), 0, 1)",
+      "fitness": 0.09765625,
+      "alive_fraction": 0.423828125,
+      "complexity": 0.09765625,
+      "spatial_entropy": 4.745864648336088,
+      "num_clusters": 10
+    },
+    {
+      "bin": [
+        1,
+        9
+      ],
+      "expression": "clip(A + 0.25 * ((2 * (2 * (laplacian(A) + A) + 2 * (conv(A) - conv(A))) - 1)), 0, 1)",
+      "fitness": 0.0703125,
+      "alive_fraction": 0.49951171875,
+      "complexity": 0.0703125,
+      "spatial_entropy": 0.8799376519972371,
+      "num_clusters": 1834
+    },
+    {
+      "bin": [
+        1,
+        10
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (0.1 * threshold(conv(A), 0.12) * (1 - threshold(conv(A), 0.25)) + 2 * cos(laplacian(A)) + (laplacian(A) + laplacian(A))) - 1)), 0, 1)",
+      "fitness": 0.060546875,
+      "alive_fraction": 0.5029296875,
+      "complexity": 0.060546875,
+      "spatial_entropy": 0.8707234356069651,
+      "num_clusters": 1849
+    },
+    {
+      "bin": [
+        1,
+        17
+      ],
+      "expression": "clip(A + 0.3 * ((2 * (0.1 * exp(-((conv(A) - 0.2) / 0.065)**2 / 2) + 0.5 * abs((A + conv(A))) + 2 * threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.4))) - 1)), 0, 1)",
+      "fitness": 0.07421875,
+      "alive_fraction": 0.86328125,
+      "complexity": 0.07421875,
+      "spatial_entropy": 2.700160529743282,
+      "num_clusters": 5
+    },
+    {
+      "bin": [
+        1,
+        19
+      ],
+      "expression": "clip(A + 0.3 * ((2 * (0.1 * exp(-((conv(A) + laplacian(A) - 0.25) / 0.03)**2 / 2) + abs(sigmoid(threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.3)))) + 2 * (threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.4)) - ((sin(laplacian(A)) * A) - 0.3))) - 1)), 0, 1)",
+      "fitness": 0.095703125,
+      "alive_fraction": 1.0,
+      "complexity": 0.095703125,
+      "spatial_entropy": 2.7426470818788395,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        2,
+        1
+      ],
+      "expression": "clip(A + 0.05 * ((2 * (2 * sin(abs(laplacian(A)))) - 1)), 0, 1)",
+      "fitness": 0.1171875,
+      "alive_fraction": 0.089599609375,
+      "complexity": 0.1171875,
+      "spatial_entropy": 1.0948024945677544,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        2,
+        2
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (0.5 * ((A + exp(A)) - abs(exp(A))) + 0.1 * (sigmoid((conv(A) * 0.15)) * tanh(conv(A))) + 0.5 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.2) / 0.08)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.1416015625,
+      "alive_fraction": 0.143310546875,
+      "complexity": 0.1416015625,
+      "spatial_entropy": 1.3547860556164644,
+      "num_clusters": 2
+    },
+    {
+      "bin": [
+        2,
+        3
+      ],
+      "expression": "clip(A + 0.1 * (0.5 * (((0.5 * 0.05) + (A - conv(A))) * ((A + A) + (conv(A) + A))) + ((0.05 * conv(A)) * 0.15)), 0, 1)",
+      "fitness": 0.1181640625,
+      "alive_fraction": 0.182373046875,
+      "complexity": 0.1181640625,
+      "spatial_entropy": 4.0999590183336725,
+      "num_clusters": 54
+    },
+    {
+      "bin": [
+        2,
+        4
+      ],
+      "expression": "clip(A + 0.15 * ((2 * (tanh((exp(sin(conv(A))) * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.4)))) + 0.1 * tanh(abs((conv(A) * 0.3)))) - 1)), 0, 1)",
+      "fitness": 0.12890625,
+      "alive_fraction": 0.240234375,
+      "complexity": 0.12890625,
+      "spatial_entropy": 1.271782221599798,
+      "num_clusters": 0
+    },
+    {
+      "bin": [
+        2,
+        5
+      ],
+      "expression": "clip(A + 0.08 * ((2 * (0.3 * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.4)) + 0.1 * threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.25)) + 0.5 * threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.3))) - 1)), 0, 1)",
+      "fitness": 0.1240234375,
+      "alive_fraction": 0.271728515625,
+      "complexity": 0.1240234375,
+      "spatial_entropy": 1.0,
+      "num_clusters": 0
+    },
+    {
+      "bin": [
+        2,
+        6
+      ],
+      "expression": "clip(A + 0.05 * ((2 * (0.1 * (((conv(A) * A) - threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.25))) + sin(threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.35)))) + 2 * threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.3)) + 0.5 * (conv(A) + (0.15 * conv(A)))) - 1)), 0, 1)",
+      "fitness": 0.146484375,
+      "alive_fraction": 0.342041015625,
+      "complexity": 0.146484375,
+      "spatial_entropy": 4.7386085007312415,
+      "num_clusters": 12
+    },
+    {
+      "bin": [
+        2,
+        7
+      ],
+      "expression": "clip(A + 0.1 * ((2 * (0.1 * tanh(threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.3))) + 2 * threshold(conv(A), 0.1) * (1 - threshold(conv(A), 0.3))) - 1)), 0, 1)",
+      "fitness": 0.1220703125,
+      "alive_fraction": 0.353515625,
+      "complexity": 0.1220703125,
+      "spatial_entropy": 4.612593945008262,
+      "num_clusters": 9
+    },
+    {
+      "bin": [
+        2,
+        8
+      ],
+      "expression": "clip(A + 0.3 * ((2 * (0.5 * tanh(((threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.3)) + sin(A)) - laplacian(A))) + threshold(conv(A), 0.12) * (1 - threshold(conv(A), 0.4))) - 1)), 0, 1)",
+      "fitness": 0.1376953125,
+      "alive_fraction": 0.435546875,
+      "complexity": 0.1376953125,
+      "spatial_entropy": 4.757659765557392,
+      "num_clusters": 129
+    },
+    {
+      "bin": [
+        2,
+        10
+      ],
+      "expression": "clip(A + 0.3 * ((2 * (((laplacian(A) + 0.05) * A) + 0.1 * exp(-((conv(A) + laplacian(A) - 0.2) / 0.03)**2 / 2) + ((laplacian(A) - (exp(-((conv(A) - 0.5 * laplacian(A) - 0.1) / 0.1)**2 / 2) - tanh(conv(A)))) + threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.25)))) - 1)), 0, 1)",
+      "fitness": 0.1328125,
+      "alive_fraction": 0.505859375,
+      "complexity": 0.1328125,
+      "spatial_entropy": 2.0718197932447238,
+      "num_clusters": 1586
+    },
+    {
+      "bin": [
+        2,
+        11
+      ],
+      "expression": "clip(A + 0.15 * (0.3 * (0.25 - laplacian(A))), 0, 1)",
+      "fitness": 0.1318359375,
+      "alive_fraction": 0.5703125,
+      "complexity": 0.1318359375,
+      "spatial_entropy": 2.8598734461247153,
+      "num_clusters": 1344
+    },
+    {
+      "bin": [
+        2,
+        15
+      ],
+      "expression": "clip(A + 0.25 * ((2 * (2 * (exp(A) * A) + 2 * threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.3))) - 1)), 0, 1)",
+      "fitness": 0.1083984375,
+      "alive_fraction": 0.76171875,
+      "complexity": 0.1083984375,
+      "spatial_entropy": 4.192738235582061,
+      "num_clusters": 10
+    },
+    {
+      "bin": [
+        2,
+        16
+      ],
+      "expression": "clip(A + 0.3 * (0.3 * (laplacian(A) + threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.4))) + 2 * (conv(A) - laplacian(A))), 0, 1)",
+      "fitness": 0.1298828125,
+      "alive_fraction": 0.839599609375,
+      "complexity": 0.1298828125,
+      "spatial_entropy": 3.8992895004082113,
+      "num_clusters": 113
+    },
+    {
+      "bin": [
+        2,
+        17
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.4)) + 2 * tanh((exp(-((conv(A) - 0.5 * laplacian(A) - 0.3) / 0.03)**2 / 2) + A)) + 0.1 * (laplacian(A) * (exp(-((conv(A) - 0.25) / 0.1)**2 / 2) + A))) - 1)), 0, 1)",
+      "fitness": 0.134765625,
+      "alive_fraction": 0.861572265625,
+      "complexity": 0.134765625,
+      "spatial_entropy": 3.5966634761230463,
+      "num_clusters": 7
+    },
+    {
+      "bin": [
+        2,
+        19
+      ],
+      "expression": "clip(A + 0.3 * (0.3 * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.35)) + 0.1 * tanh(laplacian(A)) + exp(-((conv(A) - 0.5 * laplacian(A) - 0.12) / 0.03)**2 / 2)), 0, 1)",
+      "fitness": 0.1337890625,
+      "alive_fraction": 1.0,
+      "complexity": 0.1337890625,
+      "spatial_entropy": 1.650721452868996,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        3,
+        1
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (0.1 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.3) / 0.03)**2 / 2) + 0.5 * threshold(conv(A), 0.12) * (1 - threshold(conv(A), 0.35)) + 0.5 * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.3))) - 1)), 0, 1)",
+      "fitness": 0.1572265625,
+      "alive_fraction": 0.09765625,
+      "complexity": 0.1572265625,
+      "spatial_entropy": 1.4969873517384964,
+      "num_clusters": 47
+    },
+    {
+      "bin": [
+        3,
+        2
+      ],
+      "expression": "clip(A + 0.08 * (0.3 * ((0.2 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.2) / 0.05)**2 / 2)) - conv(A))), 0, 1)",
+      "fitness": 0.1767578125,
+      "alive_fraction": 0.118896484375,
+      "complexity": 0.1767578125,
+      "spatial_entropy": 1.4588975411566851,
+      "num_clusters": 21
+    },
+    {
+      "bin": [
+        3,
+        3
+      ],
+      "expression": "clip(A + 0.05 * (0.5 * (cos(threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.3))) * abs((threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.3)) - threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.25)))))), 0, 1)",
+      "fitness": 0.1669921875,
+      "alive_fraction": 0.17626953125,
+      "complexity": 0.1669921875,
+      "spatial_entropy": 0.7623144431995964,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        3,
+        4
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.25)) + 2 * ((exp(-((conv(A) + laplacian(A) - 0.25) / 0.1)**2 / 2) - abs(conv(A))) * abs(conv(A)))) - 1)), 0, 1)",
+      "fitness": 0.1884765625,
+      "alive_fraction": 0.208984375,
+      "complexity": 0.1884765625,
+      "spatial_entropy": 1.5194753258943998,
+      "num_clusters": 368
+    },
+    {
+      "bin": [
+        3,
+        5
+      ],
+      "expression": "clip(A + 0.25 * ((2 * ((threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.3)) * sin(threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.3)))) + 0.5 * sin(laplacian(A)) + 0.5 * threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.25))) - 1)), 0, 1)",
+      "fitness": 0.19921875,
+      "alive_fraction": 0.26220703125,
+      "complexity": 0.19921875,
+      "spatial_entropy": 2.5003576519542308,
+      "num_clusters": 510
+    },
+    {
+      "bin": [
+        3,
+        6
+      ],
+      "expression": "clip(A + 0.08 * ((2 * (tanh(threshold(conv(A), 0.1) * (1 - threshold(conv(A), 0.25))) + 0.1 * exp(-((conv(A) - 0.12) / 0.05)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.1787109375,
+      "alive_fraction": 0.330078125,
+      "complexity": 0.1787109375,
+      "spatial_entropy": 4.913909765557392,
+      "num_clusters": 11
+    },
+    {
+      "bin": [
+        3,
+        7
+      ],
+      "expression": "clip(A + 0.25 * ((2 * ((threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.3)) - (A - (0.25 - laplacian(A))))) - 1)), 0, 1)",
+      "fitness": 0.1884765625,
+      "alive_fraction": 0.3525390625,
+      "complexity": 0.1884765625,
+      "spatial_entropy": 3.299297908526345,
+      "num_clusters": 1172
+    },
+    {
+      "bin": [
+        3,
+        8
+      ],
+      "expression": "clip(A + 0.3 * (((conv(A) * conv(A)) - laplacian(A))), 0, 1)",
+      "fitness": 0.1796875,
+      "alive_fraction": 0.412109375,
+      "complexity": 0.1796875,
+      "spatial_entropy": 3.0411581784968456,
+      "num_clusters": 1466
+    },
+    {
+      "bin": [
+        3,
+        9
+      ],
+      "expression": "clip(A + 0.3 * ((2 * (0.3 * sin(threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.35))) + 2 * (abs(conv(A)) - laplacian(A))) - 1)), 0, 1)",
+      "fitness": 0.1884765625,
+      "alive_fraction": 0.4501953125,
+      "complexity": 0.1884765625,
+      "spatial_entropy": 3.4248437507738325,
+      "num_clusters": 1369
+    },
+    {
+      "bin": [
+        3,
+        10
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (2 * (laplacian(A) + laplacian(A)) + 0.1 * threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.4)) + 2 * exp(-((conv(A) - 0.3) / 0.1)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.1845703125,
+      "alive_fraction": 0.50048828125,
+      "complexity": 0.1845703125,
+      "spatial_entropy": 2.731324883379142,
+      "num_clusters": 1180
+    },
+    {
+      "bin": [
+        3,
+        11
+      ],
+      "expression": "clip(A + 0.08 * (0.3 * exp(-((conv(A) - 0.2) / 0.03)**2 / 2) + 0.1 * ((conv(A) * 0.05) - tanh(laplacian(A))) + 0.1 * (threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.25)) + tanh(A))), 0, 1)",
+      "fitness": 0.1943359375,
+      "alive_fraction": 0.552490234375,
+      "complexity": 0.1943359375,
+      "spatial_entropy": 2.907713627454153,
+      "num_clusters": 893
+    },
+    {
+      "bin": [
+        3,
+        13
+      ],
+      "expression": "clip(A + 0.12 * (0.5 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.25) / 0.065)**2 / 2) + 0.1 * (A - abs(conv(A)))), 0, 1)",
+      "fitness": 0.1650390625,
+      "alive_fraction": 0.68017578125,
+      "complexity": 0.1650390625,
+      "spatial_entropy": 4.441024413893479,
+      "num_clusters": 6
+    },
+    {
+      "bin": [
+        3,
+        15
+      ],
+      "expression": "clip(A + 0.2 * (0.1 * ((A - laplacian(A)) - threshold(conv(A), 0.12) * (1 - threshold(conv(A), 0.35))) + 0.1 * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.25)) + 0.5 * ((conv(A) + ((0.18 * 0.18) + (0.05 * A))) * exp(-((conv(A) + laplacian(A) - 0.18) / 0.065)**2 / 2))), 0, 1)",
+      "fitness": 0.19140625,
+      "alive_fraction": 0.77197265625,
+      "complexity": 0.19140625,
+      "spatial_entropy": 3.3299369707559108,
+      "num_clusters": 45
+    },
+    {
+      "bin": [
+        3,
+        17
+      ],
+      "expression": "clip(A + 0.25 * (2 * threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.3))), 0, 1)",
+      "fitness": 0.1611328125,
+      "alive_fraction": 0.881103515625,
+      "complexity": 0.1611328125,
+      "spatial_entropy": 3.9688120039411734,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        3,
+        18
+      ],
+      "expression": "clip(A + 0.25 * (2 * threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.3))), 0, 1)",
+      "fitness": 0.197265625,
+      "alive_fraction": 0.920654296875,
+      "complexity": 0.197265625,
+      "spatial_entropy": 4.231352353126395,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        3,
+        19
+      ],
+      "expression": "clip(A + 0.05 * (0.3 * ((A + 0.15) * (0.1 * 0.3)) + 2 * exp(-((conv(A) + laplacian(A) - 0.2) / 0.065)**2 / 2)), 0, 1)",
+      "fitness": 0.16796875,
+      "alive_fraction": 1.0,
+      "complexity": 0.16796875,
+      "spatial_entropy": 1.299144532628288,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        4,
+        2
+      ],
+      "expression": "clip(A + 0.3 * (2 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.2) / 0.02)**2 / 2)), 0, 1)",
+      "fitness": 0.2490234375,
+      "alive_fraction": 0.1416015625,
+      "complexity": 0.2490234375,
+      "spatial_entropy": 2.2004780125989316,
+      "num_clusters": 254
+    },
+    {
+      "bin": [
+        4,
+        5
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (2 * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.25))) - 1)), 0, 1)",
+      "fitness": 0.224609375,
+      "alive_fraction": 0.258544921875,
+      "complexity": 0.224609375,
+      "spatial_entropy": 2.1908845220221926,
+      "num_clusters": 580
+    },
+    {
+      "bin": [
+        4,
+        6
+      ],
+      "expression": "clip(A + 0.3 * ((2 * (0.1 * exp(-((conv(A) + laplacian(A) - 0.25) / 0.08)**2 / 2) + 0.5 * threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.3)) + (exp(-((conv(A) - 0.15) / 0.1)**2 / 2) - threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.25)))) - 1)), 0, 1)",
+      "fitness": 0.2216796875,
+      "alive_fraction": 0.318115234375,
+      "complexity": 0.2216796875,
+      "spatial_entropy": 4.925704882778696,
+      "num_clusters": 36
+    },
+    {
+      "bin": [
+        4,
+        7
+      ],
+      "expression": "clip(A + 0.05 * ((2 * (0.5 * threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.25)) + 0.1 * (tanh(exp(-((conv(A) + laplacian(A) - 0.25) / 0.065)**2 / 2)) * 0.3)) - 1)), 0, 1)",
+      "fitness": 0.2490234375,
+      "alive_fraction": 0.360107421875,
+      "complexity": 0.2490234375,
+      "spatial_entropy": 3.7611841794508707,
+      "num_clusters": 16
+    },
+    {
+      "bin": [
+        4,
+        8
+      ],
+      "expression": "clip(A + 0.05 * ((2 * (0.1 * (conv(A) + laplacian(A)) + 0.5 * exp(-((conv(A) - 0.2) / 0.1)**2 / 2) + 0.3 * sin(threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.35)))) - 1)), 0, 1)",
+      "fitness": 0.2392578125,
+      "alive_fraction": 0.4140625,
+      "complexity": 0.2392578125,
+      "spatial_entropy": 4.7698585007312415,
+      "num_clusters": 6
+    },
+    {
+      "bin": [
+        4,
+        9
+      ],
+      "expression": "clip(A + 0.15 * ((2 * (((0.3 + A) - A) + threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.25))) - 1)), 0, 1)",
+      "fitness": 0.2373046875,
+      "alive_fraction": 0.4609375,
+      "complexity": 0.2373046875,
+      "spatial_entropy": 1.443271532360812,
+      "num_clusters": 731
+    },
+    {
+      "bin": [
+        4,
+        10
+      ],
+      "expression": "clip(A + 0.05 * ((2 * (2 * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.25))) - 1)), 0, 1)",
+      "fitness": 0.24609375,
+      "alive_fraction": 0.51220703125,
+      "complexity": 0.24609375,
+      "spatial_entropy": 1.4517168249365768,
+      "num_clusters": 562
+    },
+    {
+      "bin": [
+        4,
+        11
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (0.5 * cos(sin((exp(A) + abs(laplacian(A))))) + threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.3)) + 0.3 * (0.12 + tanh(exp(-((conv(A) - 0.25) / 0.1)**2 / 2)))) - 1)), 0, 1)",
+      "fitness": 0.232421875,
+      "alive_fraction": 0.55615234375,
+      "complexity": 0.232421875,
+      "spatial_entropy": 4.331343945008262,
+      "num_clusters": 122
+    },
+    {
+      "bin": [
+        4,
+        12
+      ],
+      "expression": "clip(A + 0.2 * (0.1 * (sigmoid(laplacian(A)) - conv(A))), 0, 1)",
+      "fitness": 0.228515625,
+      "alive_fraction": 0.63916015625,
+      "complexity": 0.228515625,
+      "spatial_entropy": 4.340924852072124,
+      "num_clusters": 6
+    },
+    {
+      "bin": [
+        4,
+        13
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (0.3 * (A + sigmoid(conv(A))) + 2 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.15) / 0.1)**2 / 2) + 0.1 * (0.25 - laplacian(A))) - 1)), 0, 1)",
+      "fitness": 0.2470703125,
+      "alive_fraction": 0.6962890625,
+      "complexity": 0.2470703125,
+      "spatial_entropy": 4.886184179450871,
+      "num_clusters": 5
+    },
+    {
+      "bin": [
+        4,
+        17
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (0.5 * ((exp(laplacian(A)) - exp(-((conv(A) - 0.25) / 0.03)**2 / 2)) + (conv(A) - sin(exp(-((conv(A) - 0.3) / 0.03)**2 / 2)))) + 0.5 * (0.5 + ((exp(-((conv(A) - 0.15) / 0.05)**2 / 2) + 0.2) - laplacian(A))) + 2 * (laplacian(A) + ((conv(A) * laplacian(A)) * (conv(A) - A)))) - 1)), 0, 1)",
+      "fitness": 0.2373046875,
+      "alive_fraction": 0.876708984375,
+      "complexity": 0.2373046875,
+      "spatial_entropy": 4.169398195373883,
+      "num_clusters": 386
+    },
+    {
+      "bin": [
+        4,
+        18
+      ],
+      "expression": "clip(A + 0.25 * ((threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.3)) + threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.4)))), 0, 1)",
+      "fitness": 0.248046875,
+      "alive_fraction": 0.943359375,
+      "complexity": 0.248046875,
+      "spatial_entropy": 4.279078664259099,
+      "num_clusters": 7
+    },
+    {
+      "bin": [
+        4,
+        19
+      ],
+      "expression": "clip(A + 0.05 * (2 * tanh(exp(-((conv(A) + laplacian(A) - 0.2) / 0.08)**2 / 2)) + 0.5 * (sigmoid(conv(A)) * (laplacian(A) * 0.15))), 0, 1)",
+      "fitness": 0.2275390625,
+      "alive_fraction": 1.0,
+      "complexity": 0.2275390625,
+      "spatial_entropy": 0.7375146087387003,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        5,
+        3
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (exp(-((conv(A) + laplacian(A) - 0.1) / 0.03)**2 / 2) + 0.3 * (threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.4)) * 0.25) + 0.1 * (laplacian(A) * threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.35)))) - 1)), 0, 1)",
+      "fitness": 0.283203125,
+      "alive_fraction": 0.158447265625,
+      "complexity": 0.283203125,
+      "spatial_entropy": 0.7281342378690551,
+      "num_clusters": 199
+    },
+    {
+      "bin": [
+        5,
+        4
+      ],
+      "expression": "clip(A + 0.08 * (0.5 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.15) / 0.02)**2 / 2)), 0, 1)",
+      "fitness": 0.26171875,
+      "alive_fraction": 0.2021484375,
+      "complexity": 0.26171875,
+      "spatial_entropy": 1.58839277279522,
+      "num_clusters": 16
+    },
+    {
+      "bin": [
+        5,
+        5
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (0.1 * cos((0.12 * A)) + 2 * exp(-((conv(A) - 0.12) / 0.02)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.267578125,
+      "alive_fraction": 0.275634765625,
+      "complexity": 0.267578125,
+      "spatial_entropy": 4.589364454101657,
+      "num_clusters": 18
+    },
+    {
+      "bin": [
+        5,
+        7
+      ],
+      "expression": "clip(A + 0.08 * (0.1 * abs(sin(laplacian(A)))), 0, 1)",
+      "fitness": 0.291015625,
+      "alive_fraction": 0.38330078125,
+      "complexity": 0.291015625,
+      "spatial_entropy": 1.835490496095348,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        5,
+        9
+      ],
+      "expression": "clip(A + 0.15 * ((2 * (((0.15 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.12) / 0.02)**2 / 2)) * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.3))) + 2 * threshold(conv(A), 0.12) * (1 - threshold(conv(A), 0.3)) + (tanh(laplacian(A)) - exp(-((conv(A) - 0.5 * laplacian(A) - 0.2) / 0.03)**2 / 2))) - 1)), 0, 1)",
+      "fitness": 0.2685546875,
+      "alive_fraction": 0.459228515625,
+      "complexity": 0.2685546875,
+      "spatial_entropy": 4.946469969293428,
+      "num_clusters": 9
+    },
+    {
+      "bin": [
+        5,
+        10
+      ],
+      "expression": "clip(A + 0.05 * ((2 * ((0.5 + (exp(-((conv(A) - 0.5 * laplacian(A) - 0.1) / 0.065)**2 / 2) + threshold(conv(A), 0.1) * (1 - threshold(conv(A), 0.3)))) + 0.3 * (sin((A - 0.12)) - A) + (exp(-((conv(A) - 0.18) / 0.08)**2 / 2) + exp(-((conv(A) - 0.12) / 0.05)**2 / 2))) - 1)), 0, 1)",
+      "fitness": 0.283203125,
+      "alive_fraction": 0.531982421875,
+      "complexity": 0.283203125,
+      "spatial_entropy": 4.442334617629516,
+      "num_clusters": 6
+    },
+    {
+      "bin": [
+        5,
+        11
+      ],
+      "expression": "clip(A + 0.15 * ((2 * (0.3 * (tanh(laplacian(A)) + laplacian(A)) + threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.4))) - 1)), 0, 1)",
+      "fitness": 0.2861328125,
+      "alive_fraction": 0.564208984375,
+      "complexity": 0.2861328125,
+      "spatial_entropy": 2.135770624092781,
+      "num_clusters": 105
+    },
+    {
+      "bin": [
+        5,
+        13
+      ],
+      "expression": "clip(A + 0.2 * (0.5 * cos((threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.25)) - conv(A))) + (laplacian(A) * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.35))) + 2 * ((0.5 - conv(A)) + threshold(conv(A), 0.1) * (1 - threshold(conv(A), 0.4)))), 0, 1)",
+      "fitness": 0.2861328125,
+      "alive_fraction": 0.690673828125,
+      "complexity": 0.2861328125,
+      "spatial_entropy": 4.779078664259099,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        5,
+        18
+      ],
+      "expression": "clip(A + 0.3 * (threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.3))), 0, 1)",
+      "fitness": 0.2548828125,
+      "alive_fraction": 0.9267578125,
+      "complexity": 0.2548828125,
+      "spatial_entropy": 3.4855331585689355,
+      "num_clusters": 10
+    },
+    {
+      "bin": [
+        5,
+        19
+      ],
+      "expression": "clip(A + 0.15 * (0.1 * threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.25))), 0, 1)",
+      "fitness": 0.29296875,
+      "alive_fraction": 1.0,
+      "complexity": 0.29296875,
+      "spatial_entropy": 3.378024025424619,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        6,
+        5
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (2 * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.3)) + 0.1 * ((laplacian(A) * conv(A)) * laplacian(A))) - 1)), 0, 1)",
+      "fitness": 0.345703125,
+      "alive_fraction": 0.286865234375,
+      "complexity": 0.345703125,
+      "spatial_entropy": 2.351466418759193,
+      "num_clusters": 863
+    },
+    {
+      "bin": [
+        6,
+        7
+      ],
+      "expression": "clip(A + 0.08 * ((2 * (tanh(((A - abs(conv(A))) + ((conv(A) * laplacian(A)) - threshold(conv(A), 0.12) * (1 - threshold(conv(A), 0.25))))) + threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.35)) + 0.5 * sigmoid(laplacian(A))) - 1)), 0, 1)",
+      "fitness": 0.328125,
+      "alive_fraction": 0.381591796875,
+      "complexity": 0.328125,
+      "spatial_entropy": 4.107509133144316,
+      "num_clusters": 122
+    },
+    {
+      "bin": [
+        6,
+        8
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (0.3 * (exp(-((conv(A) + laplacian(A) - 0.18) / 0.05)**2 / 2) - (0.15 - (threshold(conv(A), 0.12) * (1 - threshold(conv(A), 0.35)) + (laplacian(A) - laplacian(A))))) + 0.3 * abs((cos(A) - cos(conv(A)))) + 0.3 * sigmoid((threshold(conv(A), 0.1) * (1 - threshold(conv(A), 0.25)) + cos(laplacian(A))))) - 1)), 0, 1)",
+      "fitness": 0.3271484375,
+      "alive_fraction": 0.41015625,
+      "complexity": 0.3271484375,
+      "spatial_entropy": 4.840924852072124,
+      "num_clusters": 28
+    },
+    {
+      "bin": [
+        6,
+        9
+      ],
+      "expression": "clip(A + 0.05 * (2 * exp(-((conv(A) + laplacian(A) - 0.2) / 0.02)**2 / 2)), 0, 1)",
+      "fitness": 0.30859375,
+      "alive_fraction": 0.45556640625,
+      "complexity": 0.30859375,
+      "spatial_entropy": 2.8826597655573916,
+      "num_clusters": 53
+    },
+    {
+      "bin": [
+        6,
+        10
+      ],
+      "expression": "clip(A + 0.3 * ((2 * (2 * threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.4)) + 0.3 * cos(tanh(A)) + 0.1 * cos(laplacian(A))) - 1)), 0, 1)",
+      "fitness": 0.3359375,
+      "alive_fraction": 0.5,
+      "complexity": 0.3359375,
+      "spatial_entropy": 2.75491511782175,
+      "num_clusters": 1505
+    },
+    {
+      "bin": [
+        6,
+        11
+      ],
+      "expression": "clip(A + 0.1 * ((2 * (((A * A) * laplacian(A)) + threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.35)) + 2 * (0.18 * threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.3)))) - 1)), 0, 1)",
+      "fitness": 0.3427734375,
+      "alive_fraction": 0.574951171875,
+      "complexity": 0.3427734375,
+      "spatial_entropy": 1.1714416385441488,
+      "num_clusters": 429
+    },
+    {
+      "bin": [
+        6,
+        12
+      ],
+      "expression": "clip(A + 0.1 * ((2 * (0.1 * exp(threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.35))) + 0.3 * (threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.3)) + ((threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.35)) - (laplacian(A) - A)) + threshold(conv(A), 0.12) * (1 - threshold(conv(A), 0.4))))) - 1)), 0, 1)",
+      "fitness": 0.3349609375,
+      "alive_fraction": 0.627197265625,
+      "complexity": 0.3349609375,
+      "spatial_entropy": 3.5458163690494073,
+      "num_clusters": 308
+    },
+    {
+      "bin": [
+        6,
+        18
+      ],
+      "expression": "clip(A + 0.1 * (2 * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.25)) + 2 * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.35))), 0, 1)",
+      "fitness": 0.3154296875,
+      "alive_fraction": 0.9248046875,
+      "complexity": 0.3154296875,
+      "spatial_entropy": 3.77338291462472,
+      "num_clusters": 11
+    },
+    {
+      "bin": [
+        6,
+        19
+      ],
+      "expression": "clip(A + 0.25 * (0.3 * threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.4))), 0, 1)",
+      "fitness": 0.34375,
+      "alive_fraction": 1.0,
+      "complexity": 0.34375,
+      "spatial_entropy": 3.5724359796560066,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        7,
+        7
+      ],
+      "expression": "clip(A + 0.12 * (0.5 * (exp(-((conv(A) - 0.5 * laplacian(A) - 0.18) / 0.065)**2 / 2) - 0.25) + 0.3 * abs(A)), 0, 1)",
+      "fitness": 0.3720703125,
+      "alive_fraction": 0.382080078125,
+      "complexity": 0.3720703125,
+      "spatial_entropy": 3.5421839852164405,
+      "num_clusters": 116
+    },
+    {
+      "bin": [
+        7,
+        9
+      ],
+      "expression": "clip(A + 0.1 * ((2 * (0.3 * (((0.15 * conv(A)) * exp(laplacian(A))) + (A * A)) + 0.5 * threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.4)) + 2 * (0.12 - threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.35)))) - 1)), 0, 1)",
+      "fitness": 0.3916015625,
+      "alive_fraction": 0.4931640625,
+      "complexity": 0.3916015625,
+      "spatial_entropy": 4.957358500731241,
+      "num_clusters": 10
+    },
+    {
+      "bin": [
+        7,
+        13
+      ],
+      "expression": "clip(A + 0.25 * (0.3 * threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.3)) + 2 * (laplacian(A) * conv(A))), 0, 1)",
+      "fitness": 0.359375,
+      "alive_fraction": 0.660400390625,
+      "complexity": 0.359375,
+      "spatial_entropy": 2.4201140298448567,
+      "num_clusters": 1362
+    },
+    {
+      "bin": [
+        7,
+        15
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (0.5 * ((laplacian(A) - laplacian(A)) - A) + 0.3 * (0.5 * exp(-((conv(A) + laplacian(A) - 0.1) / 0.08)**2 / 2)) + 0.5 * threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.25))) - 1)), 0, 1)",
+      "fitness": 0.396484375,
+      "alive_fraction": 0.76318359375,
+      "complexity": 0.396484375,
+      "spatial_entropy": 1.7521225983653008,
+      "num_clusters": 103
+    },
+    {
+      "bin": [
+        7,
+        19
+      ],
+      "expression": "clip(A + 0.1 * (0.3 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.1) / 0.03)**2 / 2)), 0, 1)",
+      "fitness": 0.392578125,
+      "alive_fraction": 1.0,
+      "complexity": 0.392578125,
+      "spatial_entropy": 3.233972760598469,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        8,
+        5
+      ],
+      "expression": "clip(A + 0.25 * ((2 * (2 * (((conv(A) * conv(A)) * threshold(conv(A), 0.1) * (1 - threshold(conv(A), 0.35))) - conv(A)) + threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.3)) + 0.3 * threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.4))) - 1)), 0, 1)",
+      "fitness": 0.4150390625,
+      "alive_fraction": 0.27099609375,
+      "complexity": 0.4150390625,
+      "spatial_entropy": 2.0726129013276027,
+      "num_clusters": 687
+    },
+    {
+      "bin": [
+        8,
+        8
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (exp(-((conv(A) - 0.5 * laplacian(A) - 0.15) / 0.1)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.443359375,
+      "alive_fraction": 0.448974609375,
+      "complexity": 0.443359375,
+      "spatial_entropy": 1.8295874266430805,
+      "num_clusters": 693
+    },
+    {
+      "bin": [
+        8,
+        9
+      ],
+      "expression": "clip(A + 0.05 * ((2 * (0.3 * exp(-((conv(A) + laplacian(A) - 0.18) / 0.065)**2 / 2) + 2 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.1) / 0.08)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.4267578125,
+      "alive_fraction": 0.490966796875,
+      "complexity": 0.4267578125,
+      "spatial_entropy": 4.765723149067329,
+      "num_clusters": 14
+    },
+    {
+      "bin": [
+        8,
+        12
+      ],
+      "expression": "clip(A + 0.05 * ((2 * (2 * ((0.05 * 0.12) + exp(-((conv(A) - 0.5 * laplacian(A) - 0.15) / 0.1)**2 / 2)) + 0.5 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.15) / 0.1)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.427734375,
+      "alive_fraction": 0.6005859375,
+      "complexity": 0.427734375,
+      "spatial_entropy": 4.702819531114783,
+      "num_clusters": 5
+    },
+    {
+      "bin": [
+        8,
+        15
+      ],
+      "expression": "clip(A + 0.2 * ((2 * ((tanh(conv(A)) * laplacian(A)) + sigmoid(laplacian(A)) + 0.1 * (abs(exp(laplacian(A))) - sigmoid(conv(A)))) - 1)), 0, 1)",
+      "fitness": 0.44140625,
+      "alive_fraction": 0.764404296875,
+      "complexity": 0.44140625,
+      "spatial_entropy": 2.650096736313303,
+      "num_clusters": 1228
+    },
+    {
+      "bin": [
+        8,
+        18
+      ],
+      "expression": "clip(A + 0.15 * (0.1 * (tanh(exp(-((conv(A) - 0.5 * laplacian(A) - 0.2) / 0.1)**2 / 2)) * exp(-((conv(A) - 0.5 * laplacian(A) - 0.3) / 0.03)**2 / 2)) + 2 * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.25))), 0, 1)",
+      "fitness": 0.4208984375,
+      "alive_fraction": 0.9072265625,
+      "complexity": 0.4208984375,
+      "spatial_entropy": 3.7137535163312236,
+      "num_clusters": 12
+    },
+    {
+      "bin": [
+        8,
+        19
+      ],
+      "expression": "clip(A + 0.2 * (0.1 * tanh(threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.35)))), 0, 1)",
+      "fitness": 0.443359375,
+      "alive_fraction": 1.0,
+      "complexity": 0.443359375,
+      "spatial_entropy": 3.0326650820937515,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        9,
+        8
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (0.3 * cos(A) + threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.25)) + 0.1 * (((conv(A) * laplacian(A)) * sin(A)) * laplacian(A))) - 1)), 0, 1)",
+      "fitness": 0.4892578125,
+      "alive_fraction": 0.4384765625,
+      "complexity": 0.4892578125,
+      "spatial_entropy": 2.0005991745541305,
+      "num_clusters": 776
+    },
+    {
+      "bin": [
+        9,
+        9
+      ],
+      "expression": "clip(A + 0.3 * (0.1 * ((A - sigmoid(conv(A))) * ((laplacian(A) - A) * 0.12))), 0, 1)",
+      "fitness": 0.4501953125,
+      "alive_fraction": 0.49365234375,
+      "complexity": 0.4501953125,
+      "spatial_entropy": 4.4429884298164914,
+      "num_clusters": 1051
+    },
+    {
+      "bin": [
+        9,
+        10
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.35)) + 0.1 * ((laplacian(A) * exp(-((conv(A) + laplacian(A) - 0.12) / 0.1)**2 / 2)) * ((conv(A) - A) * (laplacian(A) + conv(A))))) - 1)), 0, 1)",
+      "fitness": 0.46484375,
+      "alive_fraction": 0.544189453125,
+      "complexity": 0.46484375,
+      "spatial_entropy": 0.9823166080205501,
+      "num_clusters": 171
+    },
+    {
+      "bin": [
+        9,
+        11
+      ],
+      "expression": "clip(A + 0.25 * ((2 * (2 * tanh((threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.3)) + threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.25)))) + exp(-((conv(A) - 0.5 * laplacian(A) - 0.25) / 0.1)**2 / 2) + 0.1 * (laplacian(A) - (conv(A) + laplacian(A)))) - 1)), 0, 1)",
+      "fitness": 0.4794921875,
+      "alive_fraction": 0.562255859375,
+      "complexity": 0.4794921875,
+      "spatial_entropy": 4.956343945008262,
+      "num_clusters": 336
+    },
+    {
+      "bin": [
+        9,
+        13
+      ],
+      "expression": "clip(A + 0.05 * ((2 * (2 * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.35))) - 1)), 0, 1)",
+      "fitness": 0.4619140625,
+      "alive_fraction": 0.667724609375,
+      "complexity": 0.4619140625,
+      "spatial_entropy": 2.084313845019723,
+      "num_clusters": 157
+    },
+    {
+      "bin": [
+        9,
+        17
+      ],
+      "expression": "clip(A + 0.15 * ((A * (threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.25)) + exp(-((conv(A) - 0.18) / 0.02)**2 / 2)))), 0, 1)",
+      "fitness": 0.455078125,
+      "alive_fraction": 0.891845703125,
+      "complexity": 0.455078125,
+      "spatial_entropy": 4.376964015923012,
+      "num_clusters": 121
+    },
+    {
+      "bin": [
+        9,
+        19
+      ],
+      "expression": "clip(A + 0.1 * (0.3 * threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.35)) + 0.5 * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.25))), 0, 1)",
+      "fitness": 0.4990234375,
+      "alive_fraction": 1.0,
+      "complexity": 0.4990234375,
+      "spatial_entropy": 3.3950547988658983,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        10,
+        7
+      ],
+      "expression": "clip(A + 0.25 * (0.1 * (((conv(A) - conv(A)) + (0.5 - laplacian(A))) + threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.35))) + 2 * (exp(-((conv(A) - 0.5 * laplacian(A) - 0.18) / 0.05)**2 / 2) - 0.18)), 0, 1)",
+      "fitness": 0.544921875,
+      "alive_fraction": 0.367919921875,
+      "complexity": 0.544921875,
+      "spatial_entropy": 1.8176541879040062,
+      "num_clusters": 1206
+    },
+    {
+      "bin": [
+        10,
+        8
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (0.3 * ((0.18 - threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.25))) + sin(exp(-((conv(A) + laplacian(A) - 0.2) / 0.03)**2 / 2))) + threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.4))) - 1)), 0, 1)",
+      "fitness": 0.5107421875,
+      "alive_fraction": 0.425048828125,
+      "complexity": 0.5107421875,
+      "spatial_entropy": 1.6599596903449056,
+      "num_clusters": 383
+    },
+    {
+      "bin": [
+        10,
+        10
+      ],
+      "expression": "clip(A + 0.15 * ((2 * (0.5 * threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.25)) + exp(-((conv(A) + laplacian(A) - 0.18) / 0.08)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.509765625,
+      "alive_fraction": 0.51611328125,
+      "complexity": 0.509765625,
+      "spatial_entropy": 4.310328664259099,
+      "num_clusters": 147
+    },
+    {
+      "bin": [
+        10,
+        11
+      ],
+      "expression": "clip(A + 0.08 * (0.3 * (threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.4)) * conv(A)) + 0.5 * exp(-((conv(A) - 0.15) / 0.05)**2 / 2) + (exp(-((conv(A) - 0.5 * laplacian(A) - 0.3) / 0.05)**2 / 2) - tanh(conv(A)))), 0, 1)",
+      "fitness": 0.5087890625,
+      "alive_fraction": 0.5888671875,
+      "complexity": 0.5087890625,
+      "spatial_entropy": 5.140319531114783,
+      "num_clusters": 5
+    },
+    {
+      "bin": [
+        10,
+        13
+      ],
+      "expression": "clip(A + 0.05 * ((2 * (2 * threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.35))) - 1)), 0, 1)",
+      "fitness": 0.5146484375,
+      "alive_fraction": 0.65087890625,
+      "complexity": 0.5146484375,
+      "spatial_entropy": 2.260468841866259,
+      "num_clusters": 97
+    },
+    {
+      "bin": [
+        10,
+        19
+      ],
+      "expression": "clip(A + 0.05 * (0.5 * exp(-((conv(A) + laplacian(A) - 0.18) / 0.03)**2 / 2) + 0.5 * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.3))), 0, 1)",
+      "fitness": 0.5126953125,
+      "alive_fraction": 1.0,
+      "complexity": 0.5126953125,
+      "spatial_entropy": 3.5612781244591334,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        11,
+        7
+      ],
+      "expression": "clip(A + 0.15 * ((2 * (2 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.12) / 0.03)**2 / 2) + 0.1 * ((exp(sigmoid(laplacian(A))) + laplacian(A)) + sigmoid(abs(tanh(A))))) - 1)), 0, 1)",
+      "fitness": 0.5810546875,
+      "alive_fraction": 0.376953125,
+      "complexity": 0.5810546875,
+      "spatial_entropy": 1.8367708494271175,
+      "num_clusters": 946
+    },
+    {
+      "bin": [
+        11,
+        8
+      ],
+      "expression": "clip(A + 0.25 * ((2 * (abs((((0.1 - laplacian(A)) + sigmoid(laplacian(A))) * exp(-((conv(A) - 0.5 * laplacian(A) - 0.1) / 0.05)**2 / 2))) + 0.1 * (laplacian(A) - laplacian(A)) + 0.3 * cos(A)) - 1)), 0, 1)",
+      "fitness": 0.5625,
+      "alive_fraction": 0.447021484375,
+      "complexity": 0.5625,
+      "spatial_entropy": 1.10007810872141,
+      "num_clusters": 1040
+    },
+    {
+      "bin": [
+        11,
+        9
+      ],
+      "expression": "clip(A + 0.15 * ((exp(tanh(threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.3)))) * tanh((tanh(laplacian(A)) - (conv(A) - laplacian(A))))) + 0.1 * sigmoid((laplacian(A) - laplacian(A)))), 0, 1)",
+      "fitness": 0.5546875,
+      "alive_fraction": 0.4990234375,
+      "complexity": 0.5546875,
+      "spatial_entropy": 4.0037207120281355,
+      "num_clusters": 44
+    },
+    {
+      "bin": [
+        11,
+        14
+      ],
+      "expression": "clip(A + 0.15 * (0.5 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.3) / 0.065)**2 / 2) + 0.1 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.18) / 0.03)**2 / 2)), 0, 1)",
+      "fitness": 0.5927734375,
+      "alive_fraction": 0.700927734375,
+      "complexity": 0.5927734375,
+      "spatial_entropy": 1.9836237694246868,
+      "num_clusters": 1530
+    },
+    {
+      "bin": [
+        11,
+        19
+      ],
+      "expression": "clip(A + 0.3 * (2 * (exp(-((conv(A) - 0.18) / 0.065)**2 / 2) * laplacian(A))), 0, 1)",
+      "fitness": 0.5869140625,
+      "alive_fraction": 1.0,
+      "complexity": 0.5869140625,
+      "spatial_entropy": 3.943392047769037,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        12,
+        8
+      ],
+      "expression": "clip(A + 0.3 * ((2 * (0.1 * (exp(conv(A)) - tanh(A)) + ((threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.35)) * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.4))) + exp(-((conv(A) + laplacian(A) - 0.25) / 0.03)**2 / 2))) - 1)), 0, 1)",
+      "fitness": 0.6103515625,
+      "alive_fraction": 0.400146484375,
+      "complexity": 0.6103515625,
+      "spatial_entropy": 2.9778183690435593,
+      "num_clusters": 760
+    },
+    {
+      "bin": [
+        12,
+        9
+      ],
+      "expression": "clip(A + 0.15 * ((2 * (0.5 * tanh(((conv(A) + laplacian(A)) + laplacian(A))) + 2 * threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.35))) - 1)), 0, 1)",
+      "fitness": 0.6494140625,
+      "alive_fraction": 0.487060546875,
+      "complexity": 0.6494140625,
+      "spatial_entropy": 3.1532604066707783,
+      "num_clusters": 538
+    },
+    {
+      "bin": [
+        12,
+        11
+      ],
+      "expression": "clip(A + 0.05 * ((2 * (2 * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.25)) + 0.5 * (threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.3)) * laplacian(A))) - 1)), 0, 1)",
+      "fitness": 0.646484375,
+      "alive_fraction": 0.567626953125,
+      "complexity": 0.646484375,
+      "spatial_entropy": 1.2488972938217937,
+      "num_clusters": 471
+    },
+    {
+      "bin": [
+        12,
+        16
+      ],
+      "expression": "clip(A + 0.2 * (0.3 * (cos(conv(A)) - (conv(A) + 0.5)) + 0.5 * threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.25)) + 0.1 * exp((abs(laplacian(A)) - A))), 0, 1)",
+      "fitness": 0.60546875,
+      "alive_fraction": 0.82861328125,
+      "complexity": 0.60546875,
+      "spatial_entropy": 5.088054250365621,
+      "num_clusters": 3
+    },
+    {
+      "bin": [
+        12,
+        19
+      ],
+      "expression": "clip(A + 0.1 * (0.5 * (threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.3)) + threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.25))) + 0.3 * threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.3)) + 2 * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.25))), 0, 1)",
+      "fitness": 0.6484375,
+      "alive_fraction": 1.0,
+      "complexity": 0.6484375,
+      "spatial_entropy": 3.9147195808245687,
+      "num_clusters": 2
+    },
+    {
+      "bin": [
+        13,
+        8
+      ],
+      "expression": "clip(A + 0.25 * ((2 * (2 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.2) / 0.08)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.685546875,
+      "alive_fraction": 0.41845703125,
+      "complexity": 0.685546875,
+      "spatial_entropy": 2.781080305957804,
+      "num_clusters": 1012
+    },
+    {
+      "bin": [
+        13,
+        11
+      ],
+      "expression": "clip(A + 0.08 * ((2 * (2 * exp(-((conv(A) - 0.25) / 0.03)**2 / 2) + 2 * (exp(-((conv(A) + laplacian(A) - 0.1) / 0.08)**2 / 2) - abs(A)) + 0.3 * (((conv(A) - conv(A)) + threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.35))) - threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.35)))) - 1)), 0, 1)",
+      "fitness": 0.6748046875,
+      "alive_fraction": 0.58740234375,
+      "complexity": 0.6748046875,
+      "spatial_entropy": 4.757048827786958,
+      "num_clusters": 33
+    },
+    {
+      "bin": [
+        13,
+        12
+      ],
+      "expression": "clip(A + 0.08 * ((2 * (exp(-((conv(A) - 0.5 * laplacian(A) - 0.2) / 0.08)**2 / 2) + 0.3 * sigmoid(conv(A)) + 0.5 * sigmoid((conv(A) - 0.25))) - 1)), 0, 1)",
+      "fitness": 0.697265625,
+      "alive_fraction": 0.6181640625,
+      "complexity": 0.697265625,
+      "spatial_entropy": 3.485942127260853,
+      "num_clusters": 568
+    },
+    {
+      "bin": [
+        13,
+        14
+      ],
+      "expression": "clip(A + 0.2 * (0.5 * sin((((laplacian(A) + laplacian(A)) * (laplacian(A) + laplacian(A))) - conv(A))) + threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.3)) + 0.3 * ((exp(-((conv(A) - 0.1) / 0.08)**2 / 2) + abs(laplacian(A))) + exp(-((conv(A) + laplacian(A) - 0.15) / 0.03)**2 / 2))), 0, 1)",
+      "fitness": 0.6923828125,
+      "alive_fraction": 0.731689453125,
+      "complexity": 0.6923828125,
+      "spatial_entropy": 4.869304250365621,
+      "num_clusters": 5
+    },
+    {
+      "bin": [
+        13,
+        18
+      ],
+      "expression": "clip(A + 0.08 * (0.3 * (threshold(conv(A), 0.05) * (1 - threshold(conv(A), 0.3)) - exp(-((conv(A) - 0.5 * laplacian(A) - 0.18) / 0.065)**2 / 2))), 0, 1)",
+      "fitness": 0.67578125,
+      "alive_fraction": 0.90283203125,
+      "complexity": 0.67578125,
+      "spatial_entropy": 4.341982282211645,
+      "num_clusters": 185
+    },
+    {
+      "bin": [
+        13,
+        19
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (2 * (A * (exp(-((conv(A) - 0.5 * laplacian(A) - 0.3) / 0.05)**2 / 2) - ((conv(A) + laplacian(A)) - exp(-((conv(A) - 0.15) / 0.03)**2 / 2)))) + 2 * (sin(laplacian(A)) * abs(A)) + 2 * sigmoid(laplacian(A))) - 1)), 0, 1)",
+      "fitness": 0.6962890625,
+      "alive_fraction": 1.0,
+      "complexity": 0.6962890625,
+      "spatial_entropy": 4.213207674083736,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        14,
+        9
+      ],
+      "expression": "clip(A + 0.1 * ((2 * (2 * (exp(-((conv(A) - 0.5 * laplacian(A) - 0.1) / 0.05)**2 / 2) * exp(threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.4))))) - 1)), 0, 1)",
+      "fitness": 0.736328125,
+      "alive_fraction": 0.466064453125,
+      "complexity": 0.736328125,
+      "spatial_entropy": 2.8685451398096413,
+      "num_clusters": 872
+    },
+    {
+      "bin": [
+        14,
+        11
+      ],
+      "expression": "clip(A + 0.1 * ((2 * (2 * exp(-((conv(A) + laplacian(A) - 0.18) / 0.08)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.7275390625,
+      "alive_fraction": 0.5537109375,
+      "complexity": 0.7275390625,
+      "spatial_entropy": 2.0586740751344053,
+      "num_clusters": 510
+    },
+    {
+      "bin": [
+        14,
+        12
+      ],
+      "expression": "clip(A + 0.1 * ((2 * (2 * (threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.25)) * conv(A)) + 0.3 * exp(-((conv(A) - 0.12) / 0.03)**2 / 2) + exp(-((conv(A) - 0.5 * laplacian(A) - 0.18) / 0.08)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.7451171875,
+      "alive_fraction": 0.643798828125,
+      "complexity": 0.7451171875,
+      "spatial_entropy": 4.429229296672175,
+      "num_clusters": 42
+    },
+    {
+      "bin": [
+        14,
+        15
+      ],
+      "expression": "clip(A + 0.08 * ((2 * (exp(-((conv(A) + laplacian(A) - 0.1) / 0.1)**2 / 2)) - 1)), 0, 1)",
+      "fitness": 0.7197265625,
+      "alive_fraction": 0.763427734375,
+      "complexity": 0.7197265625,
+      "spatial_entropy": 0.9816479661460082,
+      "num_clusters": 451
+    },
+    {
+      "bin": [
+        14,
+        16
+      ],
+      "expression": "clip(A + 0.1 * (0.1 * (tanh((threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.3)) - threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.3)))) - 0.3) + 0.5 * threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.25)) + 0.3 * sin(threshold(conv(A) + laplacian(A), 0.08) * (1 - threshold(conv(A) + laplacian(A), 0.35)))), 0, 1)",
+      "fitness": 0.7041015625,
+      "alive_fraction": 0.8251953125,
+      "complexity": 0.7041015625,
+      "spatial_entropy": 1.4450433532967597,
+      "num_clusters": 76
+    },
+    {
+      "bin": [
+        14,
+        19
+      ],
+      "expression": "clip(A + 0.15 * (0.3 * exp(-((conv(A) + laplacian(A) - 0.12) / 0.08)**2 / 2) + exp(-((conv(A) + laplacian(A) - 0.12) / 0.05)**2 / 2)), 0, 1)",
+      "fitness": 0.7470703125,
+      "alive_fraction": 1.0,
+      "complexity": 0.7470703125,
+      "spatial_entropy": 3.5830577666968444,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        15,
+        10
+      ],
+      "expression": "clip(A + 0.3 * ((2 * (0.5 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.2) / 0.1)**2 / 2) + ((abs(exp(-((conv(A) - 0.5 * laplacian(A) - 0.1) / 0.08)**2 / 2)) - conv(A)) + 0.25)) - 1)), 0, 1)",
+      "fitness": 0.7685546875,
+      "alive_fraction": 0.51806640625,
+      "complexity": 0.7685546875,
+      "spatial_entropy": 2.717722000253458,
+      "num_clusters": 576
+    },
+    {
+      "bin": [
+        15,
+        13
+      ],
+      "expression": "clip(A + 0.2 * ((2 * (2 * exp(-((conv(A) + laplacian(A) - 0.1) / 0.1)**2 / 2) + tanh(laplacian(A)) + 0.3 * threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.25))) - 1)), 0, 1)",
+      "fitness": 0.7939453125,
+      "alive_fraction": 0.660888671875,
+      "complexity": 0.7939453125,
+      "spatial_entropy": 4.550093945008262,
+      "num_clusters": 124
+    },
+    {
+      "bin": [
+        15,
+        14
+      ],
+      "expression": "clip(A + 0.08 * ((2 * (0.5 * ((0.5 + exp(-((conv(A) + laplacian(A) - 0.18) / 0.08)**2 / 2)) - laplacian(A)) + 0.3 * ((exp(-((conv(A) + laplacian(A) - 0.3) / 0.065)**2 / 2) - cos(laplacian(A))) * sin(tanh(A))) + 0.1 * threshold(conv(A) + laplacian(A), 0.05) * (1 - threshold(conv(A) + laplacian(A), 0.25))) - 1)), 0, 1)",
+      "fitness": 0.787109375,
+      "alive_fraction": 0.732666015625,
+      "complexity": 0.787109375,
+      "spatial_entropy": 4.274289500408212,
+      "num_clusters": 196
+    },
+    {
+      "bin": [
+        15,
+        17
+      ],
+      "expression": "clip(A + 0.12 * ((2 * (0.1 * sigmoid(laplacian(A)) + 0.3 * exp(-((conv(A) + laplacian(A) - 0.15) / 0.05)**2 / 2) + 0.3 * (((0.3 + laplacian(A)) + threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.4))) + cos(threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.4))))) - 1)), 0, 1)",
+      "fitness": 0.791015625,
+      "alive_fraction": 0.85400390625,
+      "complexity": 0.791015625,
+      "spatial_entropy": 5.140319531114784,
+      "num_clusters": 4
+    },
+    {
+      "bin": [
+        15,
+        19
+      ],
+      "expression": "clip(A + 0.05 * (0.3 * (0.05 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.18) / 0.065)**2 / 2))), 0, 1)",
+      "fitness": 0.77734375,
+      "alive_fraction": 0.9873046875,
+      "complexity": 0.77734375,
+      "spatial_entropy": 2.5662646707223646,
+      "num_clusters": 878
+    },
+    {
+      "bin": [
+        16,
+        19
+      ],
+      "expression": "clip(A + 0.15 * (0.1 * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.25)) + 2 * (exp(-((conv(A) - 0.5 * laplacian(A) - 0.25) / 0.1)**2 / 2) * (conv(A) * conv(A)))), 0, 1)",
+      "fitness": 0.8447265625,
+      "alive_fraction": 0.992431640625,
+      "complexity": 0.8447265625,
+      "spatial_entropy": 3.92287973485082,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        17,
+        15
+      ],
+      "expression": "clip(A + 0.3 * ((2 * ((threshold(conv(A) + laplacian(A), 0.12) * (1 - threshold(conv(A) + laplacian(A), 0.4)) + (threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.3)) - (conv(A) - (laplacian(A) * 0.5)))) + exp(-((conv(A) - 0.5 * laplacian(A) - 0.3) / 0.05)**2 / 2) + ((threshold(conv(A), 0.08) * (1 - threshold(conv(A), 0.3)) - exp(-((conv(A) - 0.3) / 0.03)**2 / 2)) * (exp(-((conv(A) - 0.25) / 0.065)**2 / 2) + conv(A)))) - 1)), 0, 1)",
+      "fitness": 0.8681640625,
+      "alive_fraction": 0.784912109375,
+      "complexity": 0.8681640625,
+      "spatial_entropy": 3.1012857722322544,
+      "num_clusters": 438
+    },
+    {
+      "bin": [
+        17,
+        19
+      ],
+      "expression": "clip(A + 0.12 * (tanh(exp(-((conv(A) + laplacian(A) - 0.2) / 0.03)**2 / 2)) + exp(-((conv(A) - 0.18) / 0.065)**2 / 2) + 0.5 * exp(-((conv(A) + laplacian(A) - 0.18) / 0.05)**2 / 2)), 0, 1)",
+      "fitness": 0.8955078125,
+      "alive_fraction": 1.0,
+      "complexity": 0.8955078125,
+      "spatial_entropy": 4.206343945008262,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        18,
+        19
+      ],
+      "expression": "clip(A + 0.2 * (0.1 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.1) / 0.03)**2 / 2) + 0.1 * threshold(conv(A) + laplacian(A), 0.1) * (1 - threshold(conv(A) + laplacian(A), 0.3))), 0, 1)",
+      "fitness": 0.943359375,
+      "alive_fraction": 0.990234375,
+      "complexity": 0.943359375,
+      "spatial_entropy": 4.478373781480403,
+      "num_clusters": 1
+    },
+    {
+      "bin": [
+        19,
+        17
+      ],
+      "expression": "clip(A + 0.15 * ((2 * (2 * exp(-((conv(A) - 0.5 * laplacian(A) - 0.1) / 0.1)**2 / 2) + 0.3 * cos(laplacian(A))) - 1)), 0, 1)",
+      "fitness": 0.966796875,
+      "alive_fraction": 0.899658203125,
+      "complexity": 0.966796875,
+      "spatial_entropy": 3.893233007237829,
+      "num_clusters": 2
+    },
+    {
+      "bin": [
+        19,
+        19
+      ],
+      "expression": "clip(A + 0.1 * (0.5 * exp(-((conv(A) + laplacian(A) - 0.25) / 0.03)**2 / 2)), 0, 1)",
+      "fitness": 0.9619140625,
+      "alive_fraction": 1.0,
+      "complexity": 0.9619140625,
+      "spatial_entropy": 4.640723149067329,
+      "num_clusters": 5
+    }
+  ]
+}

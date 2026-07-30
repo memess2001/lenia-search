@@ -1,0 +1,89 @@
+{
+  "genome": {
+    "kernel_type": "morse",
+    "growth_type": "relu_like",
+    "geometry": "flat_plane",
+    "resolution": 256,
+    "kernel_radius": 20.278144951053108,
+    "kernel_peaks": 0.9056801391770588,
+    "growth_mu": 0.12471621858819384,
+    "growth_sigma": 0.037866588257700104,
+    "dt": 0.2207736733736189,
+    "aniso_strength": 0.4648416110974048,
+    "aniso_angle": 3.9184863096721143
+  },
+  "results": [
+    {
+      "pos": "top_left",
+      "seed": 42,
+      "nd": 107.62,
+      "conc": 0.7546,
+      "alive": 0.0135,
+      "dir": -78.6
+    },
+    {
+      "pos": "top_left",
+      "seed": 123,
+      "nd": 107.62,
+      "conc": 0.7546,
+      "alive": 0.0135,
+      "dir": -78.6
+    },
+    {
+      "pos": "top_left",
+      "seed": 777,
+      "nd": 107.62,
+      "conc": 0.7546,
+      "alive": 0.0135,
+      "dir": -78.6
+    },
+    {
+      "pos": "center",
+      "seed": 42,
+      "nd": 67.23,
+      "conc": 0.3729,
+      "alive": 0.016,
+      "dir": 105.7
+    },
+    {
+      "pos": "center",
+      "seed": 123,
+      "nd": 67.23,
+      "conc": 0.3729,
+      "alive": 0.016,
+      "dir": 105.7
+    },
+    {
+      "pos": "center",
+      "seed": 777,
+      "nd": 67.23,
+      "conc": 0.3729,
+      "alive": 0.016,
+      "dir": 105.7
+    },
+    {
+      "pos": "bottom_right",
+      "seed": 42,
+      "nd": 0.0,
+      "conc": 0.0,
+      "alive": 0.0,
+      "dir": 0
+    },
+    {
+      "pos": "bottom_right",
+      "seed": 123,
+      "nd": 0.0,
+      "conc": 0.0,
+      "alive": 0.0,
+      "dir": 0
+    },
+    {
+      "pos": "bottom_right",
+      "seed": 777,
+      "nd": 0.0,
+      "conc": 0.0,
+      "alive": 0.0,
+      "dir": 0
+    }
+  ]
+}

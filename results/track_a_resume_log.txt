@@ -1,0 +1,46 @@
+============================================================
+  Project 24: Large-scale Lenia Variant Search
+============================================================
+  Resolution : 64x64
+  Steps/eval : 2000
+  Batch size : 8
+  Time limit : 8.0 hours
+  Device     : cpu
+  Results dir: results
+============================================================
+Resuming from archive: results/archive.json
+  Loaded 287 cells, 24264 prior evaluations.
+
+Estimated iterations: ~1800 (will stop at time limit)
+
+Evaluating genomes:   0%|          | 0/8 [00:00<?, ?genome/s]Evaluating genomes:  12%|█▎        | 1/8 [00:00<00:02,  2.36genome/s]Evaluating genomes:  25%|██▌       | 2/8 [00:00<00:02,  2.40genome/s]Evaluating genomes:  38%|███▊      | 3/8 [00:10<00:23,  4.66s/genome]Evaluating genomes:  50%|█████     | 4/8 [00:11<00:12,  3.01s/genome]Evaluating genomes:  62%|██████▎   | 5/8 [00:11<00:06,  2.06s/genome]Evaluating genomes:  75%|███████▌  | 6/8 [00:11<00:02,  1.49s/genome]Evaluating genomes:  88%|████████▊ | 7/8 [00:17<00:02,  2.89s/genome]Evaluating genomes: 100%|██████████| 8/8 [00:18<00:00,  2.12s/genome]Evaluating genomes: 100%|██████████| 8/8 [00:18<00:00,  2.26s/genome]
+[iter    1] evaluated=24272  archive=287/400 (71.8%)  new_cells=0  elapsed=18.1s
+Evaluating genomes:   0%|          | 0/8 [00:00<?, ?genome/s]Evaluating genomes:  12%|█▎        | 1/8 [00:00<00:02,  2.62genome/s]Evaluating genomes:  25%|██▌       | 2/8 [00:09<00:31,  5.30s/genome]Evaluating genomes:  38%|███▊      | 3/8 [00:09<00:15,  3.11s/genome]Evaluating genomes:  50%|█████     | 4/8 [00:09<00:07,  1.92s/genome]Evaluating genomes:  62%|██████▎   | 5/8 [00:09<00:03,  1.30s/genome]Evaluating genomes:  75%|███████▌  | 6/8 [00:10<00:01,  1.09genome/s]Evaluating genomes:  88%|████████▊ | 7/8 [00:10<00:00,  1.29genome/s]Evaluating genomes: 100%|██████████| 8/8 [00:11<00:00,  1.49genome/s]Evaluating genomes: 100%|██████████| 8/8 [00:11<00:00,  1.38s/genome]
+[iter    1] evaluated=24280  archive=287/400 (71.8%)  new_cells=0  elapsed=11.0s
+Evaluating genomes:   0%|          | 0/8 [00:00<?, ?genome/s]Evaluating genomes:  12%|█▎        | 1/8 [00:00<00:03,  2.13genome/s]Evaluating genomes:  25%|██▌       | 2/8 [00:00<00:01,  3.96genome/s]Evaluating genomes:  38%|███▊      | 3/8 [00:00<00:01,  3.13genome/s]Evaluating genomes:  50%|█████     | 4/8 [00:01<00:01,  2.56genome/s]Evaluating genomes:  62%|██████▎   | 5/8 [00:06<00:05,  1.93s/genome]Evaluating genomes:  75%|███████▌  | 6/8 [00:06<00:02,  1.31s/genome]Evaluating genomes:  88%|████████▊ | 7/8 [00:06<00:00,  1.10genome/s]Evaluating genomes: 100%|██████████| 8/8 [00:06<00:00,  1.25genome/s]
+[iter    1] evaluated=24288  archive=287/400 (71.8%)  new_cells=0  elapsed=6.4s
+Evaluating genomes:   0%|          | 0/8 [00:00<?, ?genome/s]Evaluating genomes:  12%|█▎        | 1/8 [00:00<00:01,  5.24genome/s]Evaluating genomes:  25%|██▌       | 2/8 [00:00<00:01,  3.10genome/s]Evaluating genomes:  38%|███▊      | 3/8 [00:01<00:01,  2.55genome/s]Evaluating genomes:  50%|█████     | 4/8 [00:01<00:01,  2.54genome/s]Evaluating genomes:  62%|██████▎   | 5/8 [00:01<00:01,  2.54genome/s]Evaluating genomes:  75%|███████▌  | 6/8 [00:02<00:00,  2.41genome/s]Evaluating genomes:  88%|████████▊ | 7/8 [00:02<00:00,  3.20genome/s]Evaluating genomes: 100%|██████████| 8/8 [00:02<00:00,  2.75genome/s]Evaluating genomes: 100%|██████████| 8/8 [00:02<00:00,  2.76genome/s]
+[iter    1] evaluated=24296  archive=287/400 (71.8%)  new_cells=0  elapsed=2.9s
+Evaluating genomes:   0%|          | 0/8 [00:00<?, ?genome/s]Evaluating genomes:  12%|█▎        | 1/8 [00:09<01:04,  9.24s/genome]Evaluating genomes:  25%|██▌       | 2/8 [00:09<00:23,  3.96s/genome]Evaluating genomes:  38%|███▊      | 3/8 [00:09<00:11,  2.37s/genome]Evaluating genomes:  50%|█████     | 4/8 [00:10<00:06,  1.65s/genome]Evaluating genomes:  62%|██████▎   | 5/8 [00:11<00:03,  1.23s/genome]Evaluating genomes:  75%|███████▌  | 6/8 [00:11<00:01,  1.06genome/s]Evaluating genomes:  88%|████████▊ | 7/8 [00:11<00:00,  1.27genome/s]Evaluating genomes: 100%|██████████| 8/8 [00:12<00:00,  1.51genome/s]Evaluating genomes: 100%|██████████| 8/8 [00:12<00:00,  1.53s/genome]
+[iter    1] evaluated=24304  archive=287/400 (71.8%)  new_cells=0  elapsed=12.3s
+Evaluating genomes:   0%|          | 0/8 [00:00<?, ?genome/s]Evaluating genomes:  12%|█▎        | 1/8 [00:00<00:03,  2.03genome/s]Evaluating genomes:  25%|██▌       | 2/8 [00:00<00:02,  2.09genome/s]Evaluating genomes:  38%|███▊      | 3/8 [00:01<00:01,  2.96genome/s]Evaluating genomes:  50%|█████     | 4/8 [00:01<00:01,  2.77genome/s]Evaluating genomes:  62%|██████▎   | 5/8 [00:01<00:00,  3.44genome/s]Evaluating genomes:  75%|███████▌  | 6/8 [00:02<00:00,  2.62genome/s]Evaluating genomes:  88%|████████▊ | 7/8 [00:02<00:00,  2.41genome/s]Evaluating genomes: 100%|██████████| 8/8 [00:02<00:00,  2.82genome/s]
+[iter    1] evaluated=24312  archive=287/400 (71.8%)  new_cells=0  elapsed=2.8s
+Evaluating genomes:   0%|          | 0/8 [00:00<?, ?genome/s]Evaluating genomes:  12%|█▎        | 1/8 [00:08<00:58,  8.39s/genome]Evaluating genomes:  25%|██▌       | 2/8 [00:08<00:22,  3.74s/genome]Evaluating genomes:  38%|███▊      | 3/8 [00:09<00:11,  2.24s/genome]Evaluating genomes:  50%|█████     | 4/8 [00:09<00:06,  1.57s/genome]Evaluating genomes:  62%|██████▎   | 5/8 [00:10<00:03,  1.20s/genome]Evaluating genomes:  75%|███████▌  | 6/8 [00:17<00:06,  3.16s/genome]Evaluating genomes: 100%|██████████| 8/8 [00:17<00:00,  1.67s/genome]Evaluating genomes: 100%|██████████| 8/8 [00:17<00:00,  2.21s/genome]
+[iter    1] evaluated=24320  archive=287/400 (71.8%)  new_cells=0  elapsed=17.7s
+Traceback (most recent call last):
+  File "/Users/sdaasimulation/Projects/project_lenia_search/run_search.py", line 124, in <module>
+    main()
+    ~~~~^^
+  File "/Users/sdaasimulation/Projects/project_lenia_search/run_search.py", line 106, in main
+    me.run(n_iterations=1, batch_size=args.batch_size, steps_per_eval=args.steps)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sdaasimulation/Projects/project_lenia_search/src/map_elites.py", line 180, in run
+    genomes.append(mutate(parent))
+                   ~~~~~~^^^^^^^^
+  File "/Users/sdaasimulation/Projects/project_lenia_search/src/genome.py", line 136, in mutate
+    _mutate_field(child, key)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/sdaasimulation/Projects/project_lenia_search/src/genome.py", line 99, in _mutate_field
+    current = genome[key]
+              ~~~~~~^^^^^
+KeyError: 'geometry'

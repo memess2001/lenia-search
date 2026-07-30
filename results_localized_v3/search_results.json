@@ -1,0 +1,4905 @@
+{
+  "total_evaluated": 500,
+  "archive_size": 163,
+  "nonzero_velocity": 353,
+  "localized_count": 16,
+  "time_s": 936.18,
+  "config": {
+    "resolution": 256,
+    "steps": 10000,
+    "n_genomes": 500,
+    "focused": true
+  },
+  "archive": [
+    {
+      "bin": [
+        0,
+        0
+      ],
+      "genome": {
+        "kernel_type": "lennard_jones",
+        "growth_type": "relu_like",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.04480144321539,
+        "kernel_peaks": 1.1499600523186055,
+        "growth_mu": 0.14001773002007978,
+        "growth_sigma": 0.09344212491722897,
+        "dt": 0.04502142909044345
+      },
+      "metrics": {
+        "velocity": 0.4549,
+        "mass": 1266.57,
+        "alive_fraction": 0.0237,
+        "spatial_concentration": 0.8566,
+        "fitness": 0.389628,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": "True"
+      },
+      "fitness": 0.389628
+    },
+    {
+      "bin": [
+        0,
+        4
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.15997260490483,
+        "kernel_peaks": 1.332944987967289,
+        "growth_mu": 0.32544929923043076,
+        "growth_sigma": 0.04096236513160789,
+        "dt": 0.2835467769610267
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 7566.8330078125,
+        "alive_fraction": 1.0,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        5
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.729733759605622,
+        "kernel_peaks": 1.3769517973311969,
+        "growth_mu": 0.06746051801602639,
+        "growth_sigma": 0.07158147318397129,
+        "dt": 0.07049246443534901
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 9464.6640625,
+        "alive_fraction": 0.9951171875,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        6
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.334180776619927,
+        "kernel_peaks": 0.5150800092463479,
+        "growth_mu": 0.33997897239999775,
+        "growth_sigma": 0.07660218734028645,
+        "dt": 0.24569698239850102
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 10576.125,
+        "alive_fraction": 1.0,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        7
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 1.8017597435058132,
+        "growth_mu": 0.07949399586760872,
+        "growth_sigma": 0.09917009081213371,
+        "dt": 0.07427649905750354
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 12861.95703125,
+        "alive_fraction": 1.0,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        8
+      ],
+      "genome": {
+        "kernel_type": "wendland_c2",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.80158551674119,
+        "kernel_peaks": 1.936846156003206,
+        "growth_mu": 0.07949399586760872,
+        "growth_sigma": 0.12,
+        "dt": 0.07427649905750354
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 14469.25,
+        "alive_fraction": 1.0,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        9
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.504390377004084,
+        "kernel_peaks": 2.3561792338334775,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.08556595277049729,
+        "dt": 0.123926361549408
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 16085.01953125,
+        "alive_fraction": 1.0,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        10
+      ],
+      "genome": {
+        "kernel_type": "wendland_c2",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.010490249123801,
+        "kernel_peaks": 1.7882155588538646,
+        "growth_mu": 0.1985260963470537,
+        "growth_sigma": 0.053421200623784165,
+        "dt": 0.030184632794205885
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 16409.966796875,
+        "alive_fraction": 1.0,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        11
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8,
+        "kernel_peaks": 2.560770404135527,
+        "growth_mu": 0.11813963494200826,
+        "growth_sigma": 0.10872231251217643,
+        "dt": 0.20740373595069073
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 19273.18359375,
+        "alive_fraction": 0.9568939208984375,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        12
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8.88424882571328,
+        "kernel_peaks": 2.560770404135527,
+        "growth_mu": 0.11813963494200826,
+        "growth_sigma": 0.10872231251217643,
+        "dt": 0.21022759144359432
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 20313.0234375,
+        "alive_fraction": 0.98602294921875,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        13
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.028952177349094,
+        "kernel_peaks": 1.3256559011995825,
+        "growth_mu": 0.12480965771158505,
+        "growth_sigma": 0.028877581370382578,
+        "dt": 0.20199521315845914
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 21578.69921875,
+        "alive_fraction": 0.978424072265625,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        14
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.381937201413404,
+        "kernel_peaks": 1.251780294553914,
+        "growth_mu": 0.16242739404771897,
+        "growth_sigma": 0.06729908054021712,
+        "dt": 0.20114016489253167
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 24282.607421875,
+        "alive_fraction": 0.999755859375,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        16
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.71350991836099,
+        "kernel_peaks": 2.302611958289459,
+        "growth_mu": 0.1967757976781644,
+        "growth_sigma": 0.09893495254141692,
+        "dt": 0.2028553956775577
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 27357.4140625,
+        "alive_fraction": 0.969329833984375,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        18
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.918686695678844,
+        "kernel_peaks": 2.9892219869733596,
+        "growth_mu": 0.30478848390276586,
+        "growth_sigma": 0.08959479591681781,
+        "dt": 0.08852482873587454
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 29818.59765625,
+        "alive_fraction": 0.9918212890625,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        19
+      ],
+      "genome": {
+        "kernel_type": "yukawa",
+        "growth_type": "gompertz",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.954589763344423,
+        "kernel_peaks": 1.174096520619619,
+        "growth_mu": 0.18601866984739196,
+        "growth_sigma": 0.031111494337871297,
+        "dt": 0.27245022034212313
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 65536.0,
+        "alive_fraction": 1.0,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "centroid": [
+          128.0,
+          128.0
+        ],
+        "is_localized": false
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        3,
+        5
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.649536878998262,
+        "kernel_peaks": 1.0834565041264606,
+        "growth_mu": 0.10559310522409283,
+        "growth_sigma": 0.057648888527545857,
+        "dt": 0.2532325299993964
+      },
+      "metrics": {
+        "velocity": 1.8968,
+        "mass": 8656.17,
+        "alive_fraction": 0.517,
+        "spatial_concentration": 0.4512,
+        "fitness": 0.855807,
+        "centroid": [
+          127.7,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 0.855807
+    },
+    {
+      "bin": [
+        3,
+        8
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.158851155623594,
+        "kernel_peaks": 1.7882155588538646,
+        "growth_mu": 0.1985260963470537,
+        "growth_sigma": 0.053421200623784165,
+        "dt": 0.07320884121002119
+      },
+      "metrics": {
+        "velocity": 1.9192,
+        "mass": 14649.03,
+        "alive_fraction": 0.3838,
+        "spatial_concentration": 0.4589,
+        "fitness": 0.880692,
+        "centroid": [
+          127.8,
+          127.8
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 0.880692
+    },
+    {
+      "bin": [
+        3,
+        9
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 1.8997945989525125,
+        "growth_mu": 0.11550195482365169,
+        "growth_sigma": 0.10921639966928458,
+        "dt": 0.11203325843333549
+      },
+      "metrics": {
+        "velocity": 1.8978,
+        "mass": 15090.7,
+        "alive_fraction": 0.4898,
+        "spatial_concentration": 0.4819,
+        "fitness": 0.914511,
+        "centroid": [
+          127.7,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 0.914511
+    },
+    {
+      "bin": [
+        4,
+        4
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.028952177349094,
+        "kernel_peaks": 1.9909059947064804,
+        "growth_mu": 0.12480965771158505,
+        "growth_sigma": 0.028877581370382578,
+        "dt": 0.20199521315845914
+      },
+      "metrics": {
+        "velocity": 2.3132,
+        "mass": 8049.0,
+        "alive_fraction": 0.5934,
+        "spatial_concentration": 0.4601,
+        "fitness": 1.064282,
+        "centroid": [
+          127.7,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.064282
+    },
+    {
+      "bin": [
+        4,
+        8
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.381937201413404,
+        "kernel_peaks": 1.251780294553914,
+        "growth_mu": 0.16242739404771897,
+        "growth_sigma": 0.06729908054021712,
+        "dt": 0.25818762760288366
+      },
+      "metrics": {
+        "velocity": 2.4,
+        "mass": 13660.22,
+        "alive_fraction": 0.7774,
+        "spatial_concentration": 0.4557,
+        "fitness": 1.093586,
+        "centroid": [
+          127.7,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.093586
+    },
+    {
+      "bin": [
+        4,
+        13
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8,
+        "kernel_peaks": 2.560770404135527,
+        "growth_mu": 0.11813963494200826,
+        "growth_sigma": 0.09870691452443203,
+        "dt": 0.21022759144359432
+      },
+      "metrics": {
+        "velocity": 2.3661,
+        "mass": 22805.06,
+        "alive_fraction": 0.9237,
+        "spatial_concentration": 0.4358,
+        "fitness": 1.031031,
+        "centroid": [
+          127.7,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.031031
+    },
+    {
+      "bin": [
+        5,
+        3
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.48524389395422,
+        "kernel_peaks": 2.666712111275593,
+        "growth_mu": 0.051415568952340784,
+        "growth_sigma": 0.03941295435355671,
+        "dt": 0.03581114960841367
+      },
+      "metrics": {
+        "velocity": 2.9435,
+        "mass": 5061.98,
+        "alive_fraction": 0.3699,
+        "spatial_concentration": 0.461,
+        "fitness": 1.356944,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.356944
+    },
+    {
+      "bin": [
+        5,
+        6
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.48524389395422,
+        "kernel_peaks": 2.0555706819809934,
+        "growth_mu": 0.051415568952340784,
+        "growth_sigma": 0.03941295435355671,
+        "dt": 0.09498842072009306
+      },
+      "metrics": {
+        "velocity": 2.7781,
+        "mass": 10285.05,
+        "alive_fraction": 0.5307,
+        "spatial_concentration": 0.4541,
+        "fitness": 1.261624,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.261624
+    },
+    {
+      "bin": [
+        5,
+        7
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.313788865457944,
+        "kernel_peaks": 2.2586260087210555,
+        "growth_mu": 0.14993512788130492,
+        "growth_sigma": 0.1064029398870325,
+        "dt": 0.21489325288416491
+      },
+      "metrics": {
+        "velocity": 2.8569,
+        "mass": 12687.63,
+        "alive_fraction": 0.6239,
+        "spatial_concentration": 0.4488,
+        "fitness": 1.282171,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.282171
+    },
+    {
+      "bin": [
+        5,
+        8
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.313788865457944,
+        "kernel_peaks": 2.7192247637646063,
+        "growth_mu": 0.14993512788130492,
+        "growth_sigma": 0.1064029398870325,
+        "dt": 0.21489325288416491
+      },
+      "metrics": {
+        "velocity": 2.8583,
+        "mass": 13542.19,
+        "alive_fraction": 0.6741,
+        "spatial_concentration": 0.442,
+        "fitness": 1.263266,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.263266
+    },
+    {
+      "bin": [
+        5,
+        10
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.41258537465633,
+        "kernel_peaks": 2.9395901881284425,
+        "growth_mu": 0.24920505096208193,
+        "growth_sigma": 0.09852291672139943,
+        "dt": 0.18008839707650923
+      },
+      "metrics": {
+        "velocity": 2.7167,
+        "mass": 17810.0,
+        "alive_fraction": 0.5772,
+        "spatial_concentration": 0.4647,
+        "fitness": 1.262358,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.262358
+    },
+    {
+      "bin": [
+        5,
+        17
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.78921520796306,
+        "kernel_peaks": 0.5067668036708979,
+        "growth_mu": 0.28707590476992995,
+        "growth_sigma": 0.08587136935984531,
+        "dt": 0.0931854788145629
+      },
+      "metrics": {
+        "velocity": 2.9071,
+        "mass": 29028.08,
+        "alive_fraction": 0.4436,
+        "spatial_concentration": 0.4596,
+        "fitness": 1.336149,
+        "centroid": [
+          127.7,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.336149
+    },
+    {
+      "bin": [
+        6,
+        1
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.48087108882865,
+        "kernel_peaks": 1.2759851471666004,
+        "growth_mu": 0.058456795742551394,
+        "growth_sigma": 0.05384355334826528,
+        "dt": 0.22022779038053505
+      },
+      "metrics": {
+        "velocity": 3.1803,
+        "mass": 2369.83,
+        "alive_fraction": 0.15,
+        "spatial_concentration": 0.4987,
+        "fitness": 1.586109,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.586109
+    },
+    {
+      "bin": [
+        6,
+        4
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.471822876680516,
+        "kernel_peaks": 0.70501744284357,
+        "growth_mu": 0.19766686184951354,
+        "growth_sigma": 0.017144715227664566,
+        "dt": 0.2151668451340605
+      },
+      "metrics": {
+        "velocity": 3.3197,
+        "mass": 7832.26,
+        "alive_fraction": 0.4023,
+        "spatial_concentration": 0.4703,
+        "fitness": 1.561275,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.561275
+    },
+    {
+      "bin": [
+        6,
+        7
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 9.610363930920045,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.18466235462817782,
+        "growth_sigma": 0.08105144723619555,
+        "dt": 0.1834961878138456
+      },
+      "metrics": {
+        "velocity": 3.0926,
+        "mass": 12659.68,
+        "alive_fraction": 0.2494,
+        "spatial_concentration": 0.4592,
+        "fitness": 1.420034,
+        "centroid": [
+          127.7,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.420034
+    },
+    {
+      "bin": [
+        6,
+        12
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.12351313448901,
+        "kernel_peaks": 2.7190363671981643,
+        "growth_mu": 0.1716412373003342,
+        "growth_sigma": 0.10473765920184938,
+        "dt": 0.13356360453905275
+      },
+      "metrics": {
+        "velocity": 3.2327,
+        "mass": 20643.47,
+        "alive_fraction": 0.323,
+        "spatial_concentration": 0.4607,
+        "fitness": 1.489462,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.489462
+    },
+    {
+      "bin": [
+        6,
+        13
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 0.5035658962821326,
+        "growth_mu": 0.22169233468585006,
+        "growth_sigma": 0.10485246063030479,
+        "dt": 0.02683820396184971
+      },
+      "metrics": {
+        "velocity": 3.1035,
+        "mass": 22312.29,
+        "alive_fraction": 0.343,
+        "spatial_concentration": 0.4609,
+        "fitness": 1.430361,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.430361
+    },
+    {
+      "bin": [
+        6,
+        16
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.793538350575009,
+        "kernel_peaks": 1.15981712516085,
+        "growth_mu": 0.23136825298391495,
+        "growth_sigma": 0.08407392069795265,
+        "dt": 0.18706797203171513
+      },
+      "metrics": {
+        "velocity": 3.3282,
+        "mass": 27125.59,
+        "alive_fraction": 0.4152,
+        "spatial_concentration": 0.4618,
+        "fitness": 1.537038,
+        "centroid": [
+          127.7,
+          128.0
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.537038
+    },
+    {
+      "bin": [
+        6,
+        17
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.847285053380723,
+        "kernel_peaks": 2.8142569193720846,
+        "growth_mu": 0.28763318049401304,
+        "growth_sigma": 0.09327180530982915,
+        "dt": 0.2795260329864599
+      },
+      "metrics": {
+        "velocity": 3.3963,
+        "mass": 28248.95,
+        "alive_fraction": 0.4323,
+        "spatial_concentration": 0.4614,
+        "fitness": 1.56701,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.56701
+    },
+    {
+      "bin": [
+        6,
+        18
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.78921520796306,
+        "kernel_peaks": 0.7553399915498971,
+        "growth_mu": 0.28707590476992995,
+        "growth_sigma": 0.10237729819041887,
+        "dt": 0.0931854788145629
+      },
+      "metrics": {
+        "velocity": 3.3122,
+        "mass": 30680.75,
+        "alive_fraction": 0.4697,
+        "spatial_concentration": 0.4593,
+        "fitness": 1.521418,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.521418
+    },
+    {
+      "bin": [
+        7,
+        5
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.858467542937827,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.17558154765071202,
+        "growth_sigma": 0.12,
+        "dt": 0.02
+      },
+      "metrics": {
+        "velocity": 3.694,
+        "mass": 9551.47,
+        "alive_fraction": 0.8105,
+        "spatial_concentration": 0.4607,
+        "fitness": 1.701818,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.701818
+    },
+    {
+      "bin": [
+        7,
+        6
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.858467542937827,
+        "kernel_peaks": 0.8332848549777276,
+        "growth_mu": 0.22169233468585006,
+        "growth_sigma": 0.10485246063030479,
+        "dt": 0.02683820396184971
+      },
+      "metrics": {
+        "velocity": 3.7135,
+        "mass": 10352.41,
+        "alive_fraction": 0.5432,
+        "spatial_concentration": 0.4653,
+        "fitness": 1.727954,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.727954
+    },
+    {
+      "bin": [
+        7,
+        7
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.01762978105542,
+        "kernel_peaks": 0.6768839096709601,
+        "growth_mu": 0.19710507100705038,
+        "growth_sigma": 0.08508733531054383,
+        "dt": 0.14723999930128717
+      },
+      "metrics": {
+        "velocity": 3.8952,
+        "mass": 12119.36,
+        "alive_fraction": 0.7654,
+        "spatial_concentration": 0.4401,
+        "fitness": 1.714367,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.714367
+    },
+    {
+      "bin": [
+        7,
+        8
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.40445460757697,
+        "kernel_peaks": 2.2708178524626508,
+        "growth_mu": 0.19842248452435446,
+        "growth_sigma": 0.10350696615369745,
+        "dt": 0.1435413569661864
+      },
+      "metrics": {
+        "velocity": 3.9495,
+        "mass": 13321.42,
+        "alive_fraction": 0.8356,
+        "spatial_concentration": 0.4602,
+        "fitness": 1.817549,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.817549
+    },
+    {
+      "bin": [
+        7,
+        10
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.89106235243306,
+        "kernel_peaks": 1.3498059130516689,
+        "growth_mu": 0.1308465520015508,
+        "growth_sigma": 0.0650923144322687,
+        "dt": 0.03542024695042012
+      },
+      "metrics": {
+        "velocity": 3.6195,
+        "mass": 16403.25,
+        "alive_fraction": 0.2522,
+        "spatial_concentration": 0.4599,
+        "fitness": 1.664437,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.664437
+    },
+    {
+      "bin": [
+        7,
+        14
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.690500268537464,
+        "kernel_peaks": 1.4076292899014493,
+        "growth_mu": 0.2839224780646689,
+        "growth_sigma": 0.11313404605654168,
+        "dt": 0.21714079877394796
+      },
+      "metrics": {
+        "velocity": 3.5319,
+        "mass": 23201.45,
+        "alive_fraction": 0.8909,
+        "spatial_concentration": 0.4589,
+        "fitness": 1.620878,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.620878
+    },
+    {
+      "bin": [
+        7,
+        16
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.78921520796306,
+        "kernel_peaks": 0.7553399915498971,
+        "growth_mu": 0.22674279658217583,
+        "growth_sigma": 0.10237729819041887,
+        "dt": 0.0867048640443708
+      },
+      "metrics": {
+        "velocity": 3.6519,
+        "mass": 27102.88,
+        "alive_fraction": 0.4162,
+        "spatial_concentration": 0.4597,
+        "fitness": 1.678802,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.678802
+    },
+    {
+      "bin": [
+        7,
+        17
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.41258537465633,
+        "kernel_peaks": 2.9395901881284425,
+        "growth_mu": 0.24920505096208193,
+        "growth_sigma": 0.09559272874171071,
+        "dt": 0.18008839707650923
+      },
+      "metrics": {
+        "velocity": 3.875,
+        "mass": 28026.04,
+        "alive_fraction": 0.4296,
+        "spatial_concentration": 0.4593,
+        "fitness": 1.779701,
+        "centroid": [
+          127.9,
+          127.8
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.779701
+    },
+    {
+      "bin": [
+        7,
+        19
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.475114213455793,
+        "kernel_peaks": 0.5067668036708979,
+        "growth_mu": 0.3414902808291606,
+        "growth_sigma": 0.08587136935984531,
+        "dt": 0.10123067344662003
+      },
+      "metrics": {
+        "velocity": 3.669,
+        "mass": 32216.47,
+        "alive_fraction": 0.4927,
+        "spatial_concentration": 0.4591,
+        "fitness": 1.684381,
+        "centroid": [
+          127.5,
+          128.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.684381
+    },
+    {
+      "bin": [
+        8,
+        0
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.74596788088526,
+        "kernel_peaks": 1.3050073960403523,
+        "growth_mu": 0.1693365990511812,
+        "growth_sigma": 0.0351153447299866,
+        "dt": 0.2982953762625432
+      },
+      "metrics": {
+        "velocity": 4.0295,
+        "mass": 390.61,
+        "alive_fraction": 0.0276,
+        "spatial_concentration": 0.8151,
+        "fitness": 3.284605,
+        "centroid": [
+          128.7,
+          128.4
+        ],
+        "is_localized": "True"
+      },
+      "fitness": 3.284605
+    },
+    {
+      "bin": [
+        8,
+        4
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 10.94423312362753,
+        "kernel_peaks": 0.5879318519828787,
+        "growth_mu": 0.08886657806034493,
+        "growth_sigma": 0.11420359768775638,
+        "dt": 0.19639434945324838
+      },
+      "metrics": {
+        "velocity": 4.3925,
+        "mass": 6626.88,
+        "alive_fraction": 0.7193,
+        "spatial_concentration": 0.4602,
+        "fitness": 2.021326,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.021326
+    },
+    {
+      "bin": [
+        8,
+        8
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.80158551674119,
+        "kernel_peaks": 1.6556737302980866,
+        "growth_mu": 0.07949399586760872,
+        "growth_sigma": 0.09917009081213371,
+        "dt": 0.07427649905750354
+      },
+      "metrics": {
+        "velocity": 4.2747,
+        "mass": 14156.26,
+        "alive_fraction": 0.2636,
+        "spatial_concentration": 0.4587,
+        "fitness": 1.961008,
+        "centroid": [
+          127.6,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.961008
+    },
+    {
+      "bin": [
+        8,
+        9
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.80158551674119,
+        "kernel_peaks": 2.0257336773838635,
+        "growth_mu": 0.07949399586760872,
+        "growth_sigma": 0.09917009081213371,
+        "dt": 0.07427649905750354
+      },
+      "metrics": {
+        "velocity": 4.4594,
+        "mass": 14939.13,
+        "alive_fraction": 0.2817,
+        "spatial_concentration": 0.4587,
+        "fitness": 2.045636,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.045636
+    },
+    {
+      "bin": [
+        8,
+        10
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.756463972749803,
+        "kernel_peaks": 1.7854266165868449,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.0923850993319142,
+        "dt": 0.04081570441339853
+      },
+      "metrics": {
+        "velocity": 4.1598,
+        "mass": 16799.0,
+        "alive_fraction": 0.2618,
+        "spatial_concentration": 0.4591,
+        "fitness": 1.909915,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.909915
+    },
+    {
+      "bin": [
+        8,
+        11
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.01146931914841,
+        "kernel_peaks": 1.0850550120447002,
+        "growth_mu": 0.21180787666169276,
+        "growth_sigma": 0.057188368037177716,
+        "dt": 0.05077294254676783
+      },
+      "metrics": {
+        "velocity": 4.389,
+        "mass": 18148.15,
+        "alive_fraction": 0.3808,
+        "spatial_concentration": 0.459,
+        "fitness": 2.01447,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.01447
+    },
+    {
+      "bin": [
+        8,
+        14
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.239369476049589,
+        "kernel_peaks": 1.086697963327817,
+        "growth_mu": 0.2839224780646689,
+        "growth_sigma": 0.11313404605654168,
+        "dt": 0.21714079877394796
+      },
+      "metrics": {
+        "velocity": 4.038,
+        "mass": 23465.29,
+        "alive_fraction": 0.5018,
+        "spatial_concentration": 0.4591,
+        "fitness": 1.853871,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.853871
+    },
+    {
+      "bin": [
+        8,
+        15
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8.421407484920952,
+        "kernel_peaks": 1.2919458320824226,
+        "growth_mu": 0.26134784534001404,
+        "growth_sigma": 0.09870298820716061,
+        "dt": 0.1325827697160754
+      },
+      "metrics": {
+        "velocity": 4.4881,
+        "mass": 25759.0,
+        "alive_fraction": 0.3964,
+        "spatial_concentration": 0.4593,
+        "fitness": 2.061444,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.061444
+    },
+    {
+      "bin": [
+        8,
+        16
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 9.385542804946974,
+        "kernel_peaks": 2.8378869207018695,
+        "growth_mu": 0.19986663505457153,
+        "growth_sigma": 0.11099506220874791,
+        "dt": 0.09413294728336154
+      },
+      "metrics": {
+        "velocity": 4.3101,
+        "mass": 26566.9,
+        "alive_fraction": 0.4057,
+        "spatial_concentration": 0.4616,
+        "fitness": 1.989617,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 1.989617
+    },
+    {
+      "bin": [
+        8,
+        17
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.475114213455793,
+        "kernel_peaks": 0.5067668036708979,
+        "growth_mu": 0.28707590476992995,
+        "growth_sigma": 0.08587136935984531,
+        "dt": 0.0931854788145629
+      },
+      "metrics": {
+        "velocity": 4.4997,
+        "mass": 29015.24,
+        "alive_fraction": 0.444,
+        "spatial_concentration": 0.4593,
+        "fitness": 2.066663,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.066663
+    },
+    {
+      "bin": [
+        8,
+        18
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.864905676625316,
+        "kernel_peaks": 1.1723567289332433,
+        "growth_mu": 0.2725326962178731,
+        "growth_sigma": 0.10229783855674064,
+        "dt": 0.182280458604394
+      },
+      "metrics": {
+        "velocity": 4.4959,
+        "mass": 29842.22,
+        "alive_fraction": 0.4562,
+        "spatial_concentration": 0.4594,
+        "fitness": 2.065335,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.065335
+    },
+    {
+      "bin": [
+        9,
+        4
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.672456592103309,
+        "kernel_peaks": 2.7612499746074692,
+        "growth_mu": 0.07217010861921415,
+        "growth_sigma": 0.06406508770880695,
+        "dt": 0.198060739024885
+      },
+      "metrics": {
+        "velocity": 4.6364,
+        "mass": 6744.09,
+        "alive_fraction": 0.4023,
+        "spatial_concentration": 0.4376,
+        "fitness": 2.029078,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.029078
+    },
+    {
+      "bin": [
+        9,
+        8
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.37398269698373,
+        "kernel_peaks": 2.9129839068972183,
+        "growth_mu": 0.1738625136840292,
+        "growth_sigma": 0.051069861863136855,
+        "dt": 0.23005553179815483
+      },
+      "metrics": {
+        "velocity": 4.9515,
+        "mass": 13835.53,
+        "alive_fraction": 0.213,
+        "spatial_concentration": 0.4583,
+        "fitness": 2.269061,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.269061
+    },
+    {
+      "bin": [
+        9,
+        9
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.235063436647348,
+        "kernel_peaks": 2.0257336773838635,
+        "growth_mu": 0.07949399586760872,
+        "growth_sigma": 0.11198395128121633,
+        "dt": 0.07427649905750354
+      },
+      "metrics": {
+        "velocity": 4.7226,
+        "mass": 15871.71,
+        "alive_fraction": 0.2814,
+        "spatial_concentration": 0.4588,
+        "fitness": 2.166927,
+        "centroid": [
+          127.7,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.166927
+    },
+    {
+      "bin": [
+        9,
+        10
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.992471148374037,
+        "kernel_peaks": 1.4300079724614294,
+        "growth_mu": 0.15310472640960515,
+        "growth_sigma": 0.07357133772934045,
+        "dt": 0.20678166393173658
+      },
+      "metrics": {
+        "velocity": 4.9409,
+        "mass": 17987.85,
+        "alive_fraction": 0.2752,
+        "spatial_concentration": 0.459,
+        "fitness": 2.268041,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.268041
+    },
+    {
+      "bin": [
+        9,
+        11
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.116886051244958,
+        "kernel_peaks": 1.494478366891778,
+        "growth_mu": 0.20410329730517096,
+        "growth_sigma": 0.03973978201240662,
+        "dt": 0.1058204004272588
+      },
+      "metrics": {
+        "velocity": 4.7088,
+        "mass": 19015.27,
+        "alive_fraction": 0.2917,
+        "spatial_concentration": 0.4589,
+        "fitness": 2.161073,
+        "centroid": [
+          127.7,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.161073
+    },
+    {
+      "bin": [
+        9,
+        13
+      ],
+      "genome": {
+        "kernel_type": "step_ring",
+        "growth_type": "allee",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 10.725084513513064,
+        "kernel_peaks": 0.7975354521323698,
+        "growth_mu": 0.19134892982224888,
+        "growth_sigma": 0.10855390497480548,
+        "dt": 0.2572429835545988
+      },
+      "metrics": {
+        "velocity": 4.7214,
+        "mass": 22248.67,
+        "alive_fraction": 0.3423,
+        "spatial_concentration": 0.4583,
+        "fitness": 2.163582,
+        "centroid": [
+          127.4,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.163582
+    },
+    {
+      "bin": [
+        9,
+        14
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.41258537465633,
+        "kernel_peaks": 2.9222433401388597,
+        "growth_mu": 0.2230021163720505,
+        "growth_sigma": 0.09559272874171071,
+        "dt": 0.18008839707650923
+      },
+      "metrics": {
+        "velocity": 4.7382,
+        "mass": 23723.73,
+        "alive_fraction": 0.3639,
+        "spatial_concentration": 0.461,
+        "fitness": 2.184524,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.184524
+    },
+    {
+      "bin": [
+        9,
+        17
+      ],
+      "genome": {
+        "kernel_type": "lennard_jones",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.941593268609683,
+        "kernel_peaks": 1.3301812959999366,
+        "growth_mu": 0.08426979828829628,
+        "growth_sigma": 0.1153282325731229,
+        "dt": 0.17312291683404518
+      },
+      "metrics": {
+        "velocity": 4.8989,
+        "mass": 28661.06,
+        "alive_fraction": 0.4935,
+        "spatial_concentration": 0.4576,
+        "fitness": 2.241786,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.241786
+    },
+    {
+      "bin": [
+        10,
+        4
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.96665383261533,
+        "kernel_peaks": 1.0637284819137995,
+        "growth_mu": 0.12136985690811089,
+        "growth_sigma": 0.10244525712119153,
+        "dt": 0.2999763110762018
+      },
+      "metrics": {
+        "velocity": 5.4848,
+        "mass": 7819.58,
+        "alive_fraction": 0.1857,
+        "spatial_concentration": 0.4584,
+        "fitness": 2.514378,
+        "centroid": [
+          127.6,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.514378
+    },
+    {
+      "bin": [
+        10,
+        6
+      ],
+      "genome": {
+        "kernel_type": "spiral",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.015350592649815,
+        "kernel_peaks": 2.059454898225214,
+        "growth_mu": 0.08908191442885327,
+        "growth_sigma": 0.07131051076430708,
+        "dt": 0.07299794583137469
+      },
+      "metrics": {
+        "velocity": 5.4819,
+        "mass": 10935.43,
+        "alive_fraction": 0.1692,
+        "spatial_concentration": 0.4586,
+        "fitness": 2.513739,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.513739
+    },
+    {
+      "bin": [
+        10,
+        11
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.01146931914841,
+        "kernel_peaks": 1.0850550120447002,
+        "growth_mu": 0.21180787666169276,
+        "growth_sigma": 0.057188368037177716,
+        "dt": 0.046187664957719865
+      },
+      "metrics": {
+        "velocity": 5.3107,
+        "mass": 18628.83,
+        "alive_fraction": 0.3626,
+        "spatial_concentration": 0.459,
+        "fitness": 2.437538,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.437538
+    },
+    {
+      "bin": [
+        10,
+        12
+      ],
+      "genome": {
+        "kernel_type": "chirp",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 9.385542804946974,
+        "kernel_peaks": 2.0136673512645986,
+        "growth_mu": 0.18758829031425012,
+        "growth_sigma": 0.11099506220874791,
+        "dt": 0.09413294728336154
+      },
+      "metrics": {
+        "velocity": 5.3705,
+        "mass": 20177.82,
+        "alive_fraction": 0.3138,
+        "spatial_concentration": 0.4595,
+        "fitness": 2.467494,
+        "centroid": [
+          127.6,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.467494
+    },
+    {
+      "bin": [
+        10,
+        15
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.41258537465633,
+        "kernel_peaks": 2.9222433401388597,
+        "growth_mu": 0.20711860114318575,
+        "growth_sigma": 0.09559272874171071,
+        "dt": 0.18008839707650923
+      },
+      "metrics": {
+        "velocity": 5.0063,
+        "mass": 25769.1,
+        "alive_fraction": 0.3948,
+        "spatial_concentration": 0.46,
+        "fitness": 2.302842,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.302842
+    },
+    {
+      "bin": [
+        10,
+        17
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.911190754541387,
+        "kernel_peaks": 2.0319433234045965,
+        "growth_mu": 0.2783528534112004,
+        "growth_sigma": 0.09176620616591431,
+        "dt": 0.08032311821255501
+      },
+      "metrics": {
+        "velocity": 5.4704,
+        "mass": 29283.49,
+        "alive_fraction": 0.4604,
+        "spatial_concentration": 0.4587,
+        "fitness": 2.509451,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.509451
+    },
+    {
+      "bin": [
+        10,
+        18
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.864905676625316,
+        "kernel_peaks": 1.1723567289332433,
+        "growth_mu": 0.2725326962178731,
+        "growth_sigma": 0.10229783855674064,
+        "dt": 0.1626018719358723
+      },
+      "metrics": {
+        "velocity": 5.277,
+        "mass": 29839.18,
+        "alive_fraction": 0.4564,
+        "spatial_concentration": 0.4594,
+        "fitness": 2.424446,
+        "centroid": [
+          127.7,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.424446
+    },
+    {
+      "bin": [
+        10,
+        19
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.41258537465633,
+        "kernel_peaks": 2.9395901881284425,
+        "growth_mu": 0.35,
+        "growth_sigma": 0.09559272874171071,
+        "dt": 0.18008839707650923
+      },
+      "metrics": {
+        "velocity": 5.2296,
+        "mass": 33598.91,
+        "alive_fraction": 0.5142,
+        "spatial_concentration": 0.4589,
+        "fitness": 2.399991,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.399991
+    },
+    {
+      "bin": [
+        11,
+        7
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.928538719505317,
+        "kernel_peaks": 0.6350547634139293,
+        "growth_mu": 0.18466235462817782,
+        "growth_sigma": 0.08105144723619555,
+        "dt": 0.1834961878138456
+      },
+      "metrics": {
+        "velocity": 5.8214,
+        "mass": 12533.11,
+        "alive_fraction": 0.261,
+        "spatial_concentration": 0.4589,
+        "fitness": 2.671687,
+        "centroid": [
+          127.3,
+          127.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.671687
+    },
+    {
+      "bin": [
+        11,
+        8
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.37398269698373,
+        "kernel_peaks": 2.9129839068972183,
+        "growth_mu": 0.1738625136840292,
+        "growth_sigma": 0.05540192019884074,
+        "dt": 0.23005553179815483
+      },
+      "metrics": {
+        "velocity": 5.9914,
+        "mass": 13973.09,
+        "alive_fraction": 0.2154,
+        "spatial_concentration": 0.4602,
+        "fitness": 2.757218,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.757218
+    },
+    {
+      "bin": [
+        11,
+        9
+      ],
+      "genome": {
+        "kernel_type": "fourier_series",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.572806826024475,
+        "kernel_peaks": 2.3319377829422407,
+        "growth_mu": 0.058824696412227644,
+        "growth_sigma": 0.07320192833925347,
+        "dt": 0.034670949366327024
+      },
+      "metrics": {
+        "velocity": 5.7025,
+        "mass": 14982.59,
+        "alive_fraction": 0.229,
+        "spatial_concentration": 0.4578,
+        "fitness": 2.610872,
+        "centroid": [
+          127.2,
+          127.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.610872
+    },
+    {
+      "bin": [
+        11,
+        10
+      ],
+      "genome": {
+        "kernel_type": "chirp",
+        "growth_type": "sigmoid_pair",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.1209540110112,
+        "kernel_peaks": 2.70119640775051,
+        "growth_mu": 0.18855013775037893,
+        "growth_sigma": 0.06414290534509719,
+        "dt": 0.15625798699011434
+      },
+      "metrics": {
+        "velocity": 5.9467,
+        "mass": 17854.11,
+        "alive_fraction": 0.2776,
+        "spatial_concentration": 0.4589,
+        "fitness": 2.729167,
+        "centroid": [
+          127.4,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.729167
+    },
+    {
+      "bin": [
+        11,
+        11
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8.0077678149806,
+        "kernel_peaks": 1.494478366891778,
+        "growth_mu": 0.20410329730517096,
+        "growth_sigma": 0.03973978201240662,
+        "dt": 0.06881149495355715
+      },
+      "metrics": {
+        "velocity": 5.9947,
+        "mass": 19005.28,
+        "alive_fraction": 0.2944,
+        "spatial_concentration": 0.459,
+        "fitness": 2.751344,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.751344
+    },
+    {
+      "bin": [
+        11,
+        12
+      ],
+      "genome": {
+        "kernel_type": "chirp",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8,
+        "kernel_peaks": 2.0136673512645986,
+        "growth_mu": 0.18758829031425012,
+        "growth_sigma": 0.11099506220874791,
+        "dt": 0.09413294728336154
+      },
+      "metrics": {
+        "velocity": 5.7489,
+        "mass": 20756.54,
+        "alive_fraction": 0.3262,
+        "spatial_concentration": 0.4592,
+        "fitness": 2.639993,
+        "centroid": [
+          127.4,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.639993
+    },
+    {
+      "bin": [
+        11,
+        14
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.532582753300645,
+        "kernel_peaks": 1.461149017594051,
+        "growth_mu": 0.3115828150153123,
+        "growth_sigma": 0.02876717767585644,
+        "dt": 0.0223844535064222
+      },
+      "metrics": {
+        "velocity": 5.9716,
+        "mass": 23870.0,
+        "alive_fraction": 0.9468,
+        "spatial_concentration": 0.4619,
+        "fitness": 2.758117,
+        "centroid": [
+          127.9,
+          127.9
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.758117
+    },
+    {
+      "bin": [
+        11,
+        15
+      ],
+      "genome": {
+        "kernel_type": "hann_ring",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.96606664551799,
+        "kernel_peaks": 0.5067668036708979,
+        "growth_mu": 0.2471277681336242,
+        "growth_sigma": 0.07047186246133944,
+        "dt": 0.17182055134146146
+      },
+      "metrics": {
+        "velocity": 5.6886,
+        "mass": 25902.49,
+        "alive_fraction": 0.3954,
+        "spatial_concentration": 0.4608,
+        "fitness": 2.621106,
+        "centroid": [
+          127.8,
+          127.8
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.621106
+    },
+    {
+      "bin": [
+        11,
+        17
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.700053517136872,
+        "kernel_peaks": 1.4843042254556145,
+        "growth_mu": 0.26805593644910775,
+        "growth_sigma": 0.11265845275577914,
+        "dt": 0.13979149129045237
+      },
+      "metrics": {
+        "velocity": 5.8757,
+        "mass": 29088.07,
+        "alive_fraction": 0.4442,
+        "spatial_concentration": 0.4628,
+        "fitness": 2.719108,
+        "centroid": [
+          127.7,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.719108
+    },
+    {
+      "bin": [
+        11,
+        19
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 10.780682779804625,
+        "kernel_peaks": 2.9395901881284425,
+        "growth_mu": 0.35,
+        "growth_sigma": 0.09559272874171071,
+        "dt": 0.18008839707650923
+      },
+      "metrics": {
+        "velocity": 5.8929,
+        "mass": 33613.81,
+        "alive_fraction": 0.5155,
+        "spatial_concentration": 0.4589,
+        "fitness": 2.704204,
+        "centroid": [
+          127.3,
+          127.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.704204
+    },
+    {
+      "bin": [
+        12,
+        3
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.232188379579537,
+        "kernel_peaks": 1.102029072896166,
+        "growth_mu": 0.20308061638934624,
+        "growth_sigma": 0.02940634762654652,
+        "dt": 0.12121183359507229
+      },
+      "metrics": {
+        "velocity": 6.0643,
+        "mass": 5492.56,
+        "alive_fraction": 0.1957,
+        "spatial_concentration": 0.4588,
+        "fitness": 2.782546,
+        "centroid": [
+          127.2,
+          127.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.782546
+    },
+    {
+      "bin": [
+        12,
+        5
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 0.5822660414553481,
+        "growth_mu": 0.17144293560209234,
+        "growth_sigma": 0.08970370961647373,
+        "dt": 0.04122514479436394
+      },
+      "metrics": {
+        "velocity": 6.139,
+        "mass": 9133.36,
+        "alive_fraction": 0.3167,
+        "spatial_concentration": 0.4618,
+        "fitness": 2.834885,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.834885
+    },
+    {
+      "bin": [
+        12,
+        6
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 10.659373459639546,
+        "kernel_peaks": 2.783876643685409,
+        "growth_mu": 0.20617291070805943,
+        "growth_sigma": 0.05851128827329721,
+        "dt": 0.030136330788235112
+      },
+      "metrics": {
+        "velocity": 6.2572,
+        "mass": 9887.29,
+        "alive_fraction": 0.2637,
+        "spatial_concentration": 0.4558,
+        "fitness": 2.851895,
+        "centroid": [
+          127.1,
+          127.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.851895
+    },
+    {
+      "bin": [
+        12,
+        7
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.858467542937827,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.21885220660730942,
+        "growth_sigma": 0.12,
+        "dt": 0.06328003688112761
+      },
+      "metrics": {
+        "velocity": 6.3481,
+        "mass": 12167.62,
+        "alive_fraction": 0.2166,
+        "spatial_concentration": 0.4583,
+        "fitness": 2.909313,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.909313
+    },
+    {
+      "bin": [
+        12,
+        8
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.858467542937827,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.2887012879738369,
+        "growth_sigma": 0.12,
+        "dt": 0.06328003688112761
+      },
+      "metrics": {
+        "velocity": 6.3457,
+        "mass": 13729.51,
+        "alive_fraction": 0.2293,
+        "spatial_concentration": 0.4594,
+        "fitness": 2.914947,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.914947
+    },
+    {
+      "bin": [
+        12,
+        9
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.371799914078714,
+        "kernel_peaks": 2.0257336773838635,
+        "growth_mu": 0.07949399586760872,
+        "growth_sigma": 0.09917009081213371,
+        "dt": 0.07427649905750354
+      },
+      "metrics": {
+        "velocity": 6.38,
+        "mass": 14906.67,
+        "alive_fraction": 0.244,
+        "spatial_concentration": 0.4581,
+        "fitness": 2.922931,
+        "centroid": [
+          127.0,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.922931
+    },
+    {
+      "bin": [
+        12,
+        10
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.368718861687416,
+        "kernel_peaks": 2.301234680692735,
+        "growth_mu": 0.06610980248404554,
+        "growth_sigma": 0.08806255762285099,
+        "dt": 0.05270755012444622
+      },
+      "metrics": {
+        "velocity": 6.1956,
+        "mass": 17183.82,
+        "alive_fraction": 0.2651,
+        "spatial_concentration": 0.4586,
+        "fitness": 2.841399,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.841399
+    },
+    {
+      "bin": [
+        12,
+        11
+      ],
+      "genome": {
+        "kernel_type": "chirp",
+        "growth_type": "sigmoid_pair",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.1209540110112,
+        "kernel_peaks": 2.70119640775051,
+        "growth_mu": 0.18855013775037893,
+        "growth_sigma": 0.08628511099695832,
+        "dt": 0.14548667574970242
+      },
+      "metrics": {
+        "velocity": 6.4197,
+        "mass": 19384.59,
+        "alive_fraction": 0.3031,
+        "spatial_concentration": 0.4611,
+        "fitness": 2.960114,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.960114
+    },
+    {
+      "bin": [
+        12,
+        14
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 9.385542804946974,
+        "kernel_peaks": 2.8657976176931355,
+        "growth_mu": 0.18758829031425012,
+        "growth_sigma": 0.11099506220874791,
+        "dt": 0.09413294728336154
+      },
+      "metrics": {
+        "velocity": 6.1704,
+        "mass": 24394.7,
+        "alive_fraction": 0.3787,
+        "spatial_concentration": 0.463,
+        "fitness": 2.856963,
+        "centroid": [
+          127.3,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.856963
+    },
+    {
+      "bin": [
+        12,
+        16
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.00305332896984,
+        "kernel_peaks": 1.647754402861549,
+        "growth_mu": 0.2286535384178492,
+        "growth_sigma": 0.0896320360476112,
+        "dt": 0.17523879909612528
+      },
+      "metrics": {
+        "velocity": 6.4439,
+        "mass": 27792.45,
+        "alive_fraction": 0.4252,
+        "spatial_concentration": 0.4587,
+        "fitness": 2.955861,
+        "centroid": [
+          127.7,
+          127.8
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 2.955861
+    },
+    {
+      "bin": [
+        13,
+        2
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.455537373527171,
+        "kernel_peaks": 2.2014177211378883,
+        "growth_mu": 0.25577799845036897,
+        "growth_sigma": 0.009407229838305184,
+        "dt": 0.030884003698411162
+      },
+      "metrics": {
+        "velocity": 6.6414,
+        "mass": 3910.61,
+        "alive_fraction": 0.2353,
+        "spatial_concentration": 0.4521,
+        "fitness": 3.002513,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.002513
+    },
+    {
+      "bin": [
+        13,
+        3
+      ],
+      "genome": {
+        "kernel_type": "dog",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.149788168843727,
+        "kernel_peaks": 2.388334377755442,
+        "growth_mu": 0.17056793323841501,
+        "growth_sigma": 0.01075722265706645,
+        "dt": 0.11528888307963368
+      },
+      "metrics": {
+        "velocity": 6.9769,
+        "mass": 5909.99,
+        "alive_fraction": 0.121,
+        "spatial_concentration": 0.4548,
+        "fitness": 3.173336,
+        "centroid": [
+          127.0,
+          127.0
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.173336
+    },
+    {
+      "bin": [
+        13,
+        4
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 20.110706321944658,
+        "kernel_peaks": 0.6447265485761495,
+        "growth_mu": 0.12136985690811089,
+        "growth_sigma": 0.10244525712119153,
+        "dt": 0.2999763110762018
+      },
+      "metrics": {
+        "velocity": 6.9162,
+        "mass": 8163.98,
+        "alive_fraction": 0.1444,
+        "spatial_concentration": 0.4591,
+        "fitness": 3.175173,
+        "centroid": [
+          127.2,
+          127.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.175173
+    },
+    {
+      "bin": [
+        13,
+        5
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.317899181047622,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.21993051013560985,
+        "growth_sigma": 0.08014727721410804,
+        "dt": 0.17307591432527666
+      },
+      "metrics": {
+        "velocity": 6.9061,
+        "mass": 9018.1,
+        "alive_fraction": 0.2332,
+        "spatial_concentration": 0.4584,
+        "fitness": 3.165832,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.165832
+    },
+    {
+      "bin": [
+        13,
+        6
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.646286947018673,
+        "kernel_peaks": 1.8997945989525125,
+        "growth_mu": 0.11550195482365169,
+        "growth_sigma": 0.10921639966928458,
+        "dt": 0.11203325843333549
+      },
+      "metrics": {
+        "velocity": 6.9957,
+        "mass": 11344.12,
+        "alive_fraction": 0.1877,
+        "spatial_concentration": 0.4563,
+        "fitness": 3.192372,
+        "centroid": [
+          127.2,
+          127.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.192372
+    },
+    {
+      "bin": [
+        13,
+        7
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.858467542937827,
+        "kernel_peaks": 0.6419510628082307,
+        "growth_mu": 0.21885220660730942,
+        "growth_sigma": 0.12,
+        "dt": 0.06328003688112761
+      },
+      "metrics": {
+        "velocity": 6.821,
+        "mass": 11999.19,
+        "alive_fraction": 0.2186,
+        "spatial_concentration": 0.4588,
+        "fitness": 3.129356,
+        "centroid": [
+          127.1,
+          127.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.129356
+    },
+    {
+      "bin": [
+        13,
+        8
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.28699377861454,
+        "kernel_peaks": 2.6137269247032324,
+        "growth_mu": 0.11233913485735537,
+        "growth_sigma": 0.11265013392423907,
+        "dt": 0.13502521038502788
+      },
+      "metrics": {
+        "velocity": 6.7887,
+        "mass": 14698.4,
+        "alive_fraction": 0.2283,
+        "spatial_concentration": 0.4579,
+        "fitness": 3.108643,
+        "centroid": [
+          127.2,
+          127.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.108643
+    },
+    {
+      "bin": [
+        13,
+        10
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.756463972749803,
+        "kernel_peaks": 1.7854266165868449,
+        "growth_mu": 0.06610980248404554,
+        "growth_sigma": 0.08806255762285099,
+        "dt": 0.04081570441339853
+      },
+      "metrics": {
+        "velocity": 6.8392,
+        "mass": 17235.61,
+        "alive_fraction": 0.2671,
+        "spatial_concentration": 0.4599,
+        "fitness": 3.1455,
+        "centroid": [
+          127.5,
+          127.8
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.1455
+    },
+    {
+      "bin": [
+        13,
+        12
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "asymmetric_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.582023599094207,
+        "kernel_peaks": 2.1578930640665366,
+        "growth_mu": 0.09929272109041476,
+        "growth_sigma": 0.1023753035292474,
+        "dt": 0.034767269084215124
+      },
+      "metrics": {
+        "velocity": 6.9837,
+        "mass": 20145.32,
+        "alive_fraction": 0.3107,
+        "spatial_concentration": 0.4616,
+        "fitness": 3.22383,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.22383
+    },
+    {
+      "bin": [
+        13,
+        13
+      ],
+      "genome": {
+        "kernel_type": "dog",
+        "growth_type": "cauchy_peak",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8.55146710311911,
+        "kernel_peaks": 0.9709289407826489,
+        "growth_mu": 0.25848447801696767,
+        "growth_sigma": 0.06157322158731163,
+        "dt": 0.2857085222898695
+      },
+      "metrics": {
+        "velocity": 6.5543,
+        "mass": 21668.29,
+        "alive_fraction": 0.355,
+        "spatial_concentration": 0.4589,
+        "fitness": 3.008013,
+        "centroid": [
+          127.7,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.008013
+    },
+    {
+      "bin": [
+        13,
+        14
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 9.035367378802816,
+        "kernel_peaks": 2.0803448520701604,
+        "growth_mu": 0.2877334425369683,
+        "growth_sigma": 0.04085541469080597,
+        "dt": 0.029447218192883186
+      },
+      "metrics": {
+        "velocity": 6.8755,
+        "mass": 23787.04,
+        "alive_fraction": 0.3713,
+        "spatial_concentration": 0.4599,
+        "fitness": 3.162024,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.162024
+    },
+    {
+      "bin": [
+        13,
+        16
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.708891238591903,
+        "kernel_peaks": 2.8449037721644745,
+        "growth_mu": 0.309379860778152,
+        "growth_sigma": 0.07691055453725879,
+        "dt": 0.041469859371943016
+      },
+      "metrics": {
+        "velocity": 6.8629,
+        "mass": 26218.81,
+        "alive_fraction": 0.587,
+        "spatial_concentration": 0.4587,
+        "fitness": 3.148311,
+        "centroid": [
+          127.0,
+          127.0
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.148311
+    },
+    {
+      "bin": [
+        13,
+        17
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.198974420433498,
+        "kernel_peaks": 2.6017590261744665,
+        "growth_mu": 0.29427286186174073,
+        "growth_sigma": 0.10623823185534424,
+        "dt": 0.12230886935971973
+      },
+      "metrics": {
+        "velocity": 6.665,
+        "mass": 28678.41,
+        "alive_fraction": 0.4451,
+        "spatial_concentration": 0.4592,
+        "fitness": 3.0607,
+        "centroid": [
+          127.3,
+          127.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.0607
+    },
+    {
+      "bin": [
+        13,
+        18
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.911190754541387,
+        "kernel_peaks": 2.0319433234045965,
+        "growth_mu": 0.2783528534112004,
+        "growth_sigma": 0.10144355755614168,
+        "dt": 0.08032311821255501
+      },
+      "metrics": {
+        "velocity": 6.5737,
+        "mass": 30294.43,
+        "alive_fraction": 0.475,
+        "spatial_concentration": 0.4589,
+        "fitness": 3.016722,
+        "centroid": [
+          127.0,
+          127.6
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.016722
+    },
+    {
+      "bin": [
+        14,
+        3
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.214640138338625,
+        "kernel_peaks": 2.3561792338334775,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.08556595277049729,
+        "dt": 0.123926361549408
+      },
+      "metrics": {
+        "velocity": 7.276,
+        "mass": 5659.84,
+        "alive_fraction": 0.2388,
+        "spatial_concentration": 0.4598,
+        "fitness": 3.345484,
+        "centroid": [
+          127.1,
+          127.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.345484
+    },
+    {
+      "bin": [
+        14,
+        4
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.765227005508173,
+        "kernel_peaks": 1.8679392731766575,
+        "growth_mu": 0.051894672718130086,
+        "growth_sigma": 0.08556595277049729,
+        "dt": 0.17961623278154726
+      },
+      "metrics": {
+        "velocity": 7.4808,
+        "mass": 6697.98,
+        "alive_fraction": 0.162,
+        "spatial_concentration": 0.4496,
+        "fitness": 3.363099,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.363099
+    },
+    {
+      "bin": [
+        14,
+        5
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.981604089038509,
+        "kernel_peaks": 1.4534112480938002,
+        "growth_mu": 0.13708834901367234,
+        "growth_sigma": 0.09647547150063854,
+        "dt": 0.2783180561021962
+      },
+      "metrics": {
+        "velocity": 7.1797,
+        "mass": 9365.64,
+        "alive_fraction": 0.1541,
+        "spatial_concentration": 0.4561,
+        "fitness": 3.274416,
+        "centroid": [
+          127.2,
+          127.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.274416
+    },
+    {
+      "bin": [
+        14,
+        6
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 10.659373459639546,
+        "kernel_peaks": 2.783876643685409,
+        "growth_mu": 0.1752668452923975,
+        "growth_sigma": 0.05851128827329721,
+        "dt": 0.06230409655373978
+      },
+      "metrics": {
+        "velocity": 7.2517,
+        "mass": 10125.31,
+        "alive_fraction": 0.1898,
+        "spatial_concentration": 0.4575,
+        "fitness": 3.317974,
+        "centroid": [
+          127.2,
+          127.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.317974
+    },
+    {
+      "bin": [
+        14,
+        8
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 10.444463579434574,
+        "kernel_peaks": 2.347311070598775,
+        "growth_mu": 0.05841696113118036,
+        "growth_sigma": 0.05365002237653293,
+        "dt": 0.13277162146062538
+      },
+      "metrics": {
+        "velocity": 7.4816,
+        "mass": 13556.04,
+        "alive_fraction": 0.2133,
+        "spatial_concentration": 0.4583,
+        "fitness": 3.428592,
+        "centroid": [
+          127.9,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.428592
+    },
+    {
+      "bin": [
+        14,
+        9
+      ],
+      "genome": {
+        "kernel_type": "dog",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.371799914078714,
+        "kernel_peaks": 2.0257336773838635,
+        "growth_mu": 0.07949399586760872,
+        "growth_sigma": 0.09917009081213371,
+        "dt": 0.12740550494174707
+      },
+      "metrics": {
+        "velocity": 7.1502,
+        "mass": 16134.76,
+        "alive_fraction": 0.2482,
+        "spatial_concentration": 0.4589,
+        "fitness": 3.280964,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.280964
+    },
+    {
+      "bin": [
+        14,
+        10
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.80158551674119,
+        "kernel_peaks": 1.936846156003206,
+        "growth_mu": 0.10332989451772517,
+        "growth_sigma": 0.12,
+        "dt": 0.13617082247496204
+      },
+      "metrics": {
+        "velocity": 7.2689,
+        "mass": 17555.97,
+        "alive_fraction": 0.2703,
+        "spatial_concentration": 0.4589,
+        "fitness": 3.335425,
+        "centroid": [
+          127.3,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.335425
+    },
+    {
+      "bin": [
+        14,
+        11
+      ],
+      "genome": {
+        "kernel_type": "chirp",
+        "growth_type": "sigmoid_pair",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.1209540110112,
+        "kernel_peaks": 2.70119640775051,
+        "growth_mu": 0.18855013775037893,
+        "growth_sigma": 0.0819155704476018,
+        "dt": 0.15625798699011434
+      },
+      "metrics": {
+        "velocity": 7.2731,
+        "mass": 18965.7,
+        "alive_fraction": 0.295,
+        "spatial_concentration": 0.4603,
+        "fitness": 3.347772,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.347772
+    },
+    {
+      "bin": [
+        14,
+        12
+      ],
+      "genome": {
+        "kernel_type": "blackman_harris",
+        "growth_type": "cauchy_peak",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.87045239833872,
+        "kernel_peaks": 2.0874542009182804,
+        "growth_mu": 0.20044488745671785,
+        "growth_sigma": 0.08134837673183372,
+        "dt": 0.06443665108277907
+      },
+      "metrics": {
+        "velocity": 7.1075,
+        "mass": 20626.14,
+        "alive_fraction": 0.3169,
+        "spatial_concentration": 0.46,
+        "fitness": 3.269153,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.269153
+    },
+    {
+      "bin": [
+        14,
+        17
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.41258537465633,
+        "kernel_peaks": 2.9222433401388597,
+        "growth_mu": 0.29116680109150017,
+        "growth_sigma": 0.08090602943018867,
+        "dt": 0.18008839707650923
+      },
+      "metrics": {
+        "velocity": 7.3497,
+        "mass": 28940.71,
+        "alive_fraction": 0.4437,
+        "spatial_concentration": 0.4587,
+        "fitness": 3.371481,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.371481
+    },
+    {
+      "bin": [
+        14,
+        18
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.475114213455793,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.3213766414939375,
+        "growth_sigma": 0.08587136935984531,
+        "dt": 0.0931854788145629
+      },
+      "metrics": {
+        "velocity": 7.279,
+        "mass": 31023.01,
+        "alive_fraction": 0.4746,
+        "spatial_concentration": 0.4589,
+        "fitness": 3.340021,
+        "centroid": [
+          127.0,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.340021
+    },
+    {
+      "bin": [
+        15,
+        3
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.504390377004084,
+        "kernel_peaks": 2.3561792338334775,
+        "growth_mu": 0.051894672718130086,
+        "growth_sigma": 0.08556595277049729,
+        "dt": 0.123926361549408
+      },
+      "metrics": {
+        "velocity": 7.5776,
+        "mass": 5837.33,
+        "alive_fraction": 0.2254,
+        "spatial_concentration": 0.4569,
+        "fitness": 3.462543,
+        "centroid": [
+          126.9,
+          126.9
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.462543
+    },
+    {
+      "bin": [
+        15,
+        4
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.96665383261533,
+        "kernel_peaks": 0.6447265485761495,
+        "growth_mu": 0.12136985690811089,
+        "growth_sigma": 0.10244525712119153,
+        "dt": 0.2999763110762018
+      },
+      "metrics": {
+        "velocity": 7.978,
+        "mass": 8149.63,
+        "alive_fraction": 0.1547,
+        "spatial_concentration": 0.4579,
+        "fitness": 3.653157,
+        "centroid": [
+          127.0,
+          127.0
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.653157
+    },
+    {
+      "bin": [
+        15,
+        5
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.96665383261533,
+        "kernel_peaks": 1.0233278712407041,
+        "growth_mu": 0.18900914140548664,
+        "growth_sigma": 0.10139431385648959,
+        "dt": 0.2999763110762018
+      },
+      "metrics": {
+        "velocity": 7.7894,
+        "mass": 9655.7,
+        "alive_fraction": 0.174,
+        "spatial_concentration": 0.4595,
+        "fitness": 3.579403,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.579403
+    },
+    {
+      "bin": [
+        15,
+        9
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.37398269698373,
+        "kernel_peaks": 2.9129839068972183,
+        "growth_mu": 0.13789652986167295,
+        "growth_sigma": 0.051069861863136855,
+        "dt": 0.23005553179815483
+      },
+      "metrics": {
+        "velocity": 7.6997,
+        "mass": 15385.94,
+        "alive_fraction": 0.2391,
+        "spatial_concentration": 0.4593,
+        "fitness": 3.536124,
+        "centroid": [
+          127.7,
+          127.8
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.536124
+    },
+    {
+      "bin": [
+        15,
+        10
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.54123812134138,
+        "kernel_peaks": 0.7239993225165995,
+        "growth_mu": 0.2529789630816663,
+        "growth_sigma": 0.10395169930633089,
+        "dt": 0.26575744828943726
+      },
+      "metrics": {
+        "velocity": 7.8214,
+        "mass": 17100.73,
+        "alive_fraction": 0.2628,
+        "spatial_concentration": 0.4527,
+        "fitness": 3.540618,
+        "centroid": [
+          127.3,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.540618
+    },
+    {
+      "bin": [
+        15,
+        12
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "asymmetric_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.353838140131652,
+        "kernel_peaks": 2.1578930640665366,
+        "growth_mu": 0.09929272109041476,
+        "growth_sigma": 0.1023753035292474,
+        "dt": 0.034767269084215124
+      },
+      "metrics": {
+        "velocity": 7.7195,
+        "mass": 19837.86,
+        "alive_fraction": 0.3095,
+        "spatial_concentration": 0.4619,
+        "fitness": 3.565276,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.565276
+    },
+    {
+      "bin": [
+        15,
+        15
+      ],
+      "genome": {
+        "kernel_type": "hann_ring",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.64057568701214,
+        "kernel_peaks": 0.5067668036708979,
+        "growth_mu": 0.28410234911505317,
+        "growth_sigma": 0.07921226393926944,
+        "dt": 0.12755659524983157
+      },
+      "metrics": {
+        "velocity": 7.8459,
+        "mass": 24651.15,
+        "alive_fraction": 0.3781,
+        "spatial_concentration": 0.4585,
+        "fitness": 3.597701,
+        "centroid": [
+          127.4,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.597701
+    },
+    {
+      "bin": [
+        16,
+        3
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.613486869263886,
+        "kernel_peaks": 1.4534112480938002,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.09647547150063854,
+        "dt": 0.2783180561021962
+      },
+      "metrics": {
+        "velocity": 8.2806,
+        "mass": 5781.36,
+        "alive_fraction": 0.1658,
+        "spatial_concentration": 0.4493,
+        "fitness": 3.720164,
+        "centroid": [
+          127.1,
+          127.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.720164
+    },
+    {
+      "bin": [
+        16,
+        4
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.96665383261533,
+        "kernel_peaks": 1.0233278712407041,
+        "growth_mu": 0.12136985690811089,
+        "growth_sigma": 0.10244525712119153,
+        "dt": 0.2999763110762018
+      },
+      "metrics": {
+        "velocity": 8.1726,
+        "mass": 7827.63,
+        "alive_fraction": 0.1661,
+        "spatial_concentration": 0.4593,
+        "fitness": 3.753581,
+        "centroid": [
+          127.5,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.753581
+    },
+    {
+      "bin": [
+        16,
+        5
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 0.9411350006316019,
+        "growth_mu": 0.17144293560209234,
+        "growth_sigma": 0.08970370961647373,
+        "dt": 0.06328003688112761
+      },
+      "metrics": {
+        "velocity": 8.1089,
+        "mass": 9198.38,
+        "alive_fraction": 0.2363,
+        "spatial_concentration": 0.458,
+        "fitness": 3.713465,
+        "centroid": [
+          126.9,
+          126.9
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.713465
+    },
+    {
+      "bin": [
+        16,
+        7
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.464307018649391,
+        "kernel_peaks": 0.6350547634139293,
+        "growth_mu": 0.18466235462817782,
+        "growth_sigma": 0.08105144723619555,
+        "dt": 0.1834961878138456
+      },
+      "metrics": {
+        "velocity": 8.0981,
+        "mass": 12515.84,
+        "alive_fraction": 0.263,
+        "spatial_concentration": 0.4588,
+        "fitness": 3.715287,
+        "centroid": [
+          127.0,
+          127.0
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.715287
+    },
+    {
+      "bin": [
+        16,
+        8
+      ],
+      "genome": {
+        "kernel_type": "hann_ring",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.96606664551799,
+        "kernel_peaks": 0.5067668036708979,
+        "growth_mu": 0.28410234911505317,
+        "growth_sigma": 0.07047186246133944,
+        "dt": 0.12755659524983157
+      },
+      "metrics": {
+        "velocity": 8.2892,
+        "mass": 13739.75,
+        "alive_fraction": 0.2105,
+        "spatial_concentration": 0.4591,
+        "fitness": 3.805636,
+        "centroid": [
+          127.2,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.805636
+    },
+    {
+      "bin": [
+        16,
+        10
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8.565838629093308,
+        "kernel_peaks": 2.3048272194234523,
+        "growth_mu": 0.10602304882132726,
+        "growth_sigma": 0.1102007937450425,
+        "dt": 0.13253860682322102
+      },
+      "metrics": {
+        "velocity": 8.1635,
+        "mass": 16705.77,
+        "alive_fraction": 0.2673,
+        "spatial_concentration": 0.4588,
+        "fitness": 3.745161,
+        "centroid": [
+          127.4,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.745161
+    },
+    {
+      "bin": [
+        16,
+        11
+      ],
+      "genome": {
+        "kernel_type": "chirp",
+        "growth_type": "sigmoid_pair",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.1209540110112,
+        "kernel_peaks": 2.70119640775051,
+        "growth_mu": 0.18855013775037893,
+        "growth_sigma": 0.0687736598020948,
+        "dt": 0.15625798699011434
+      },
+      "metrics": {
+        "velocity": 8.3173,
+        "mass": 18123.9,
+        "alive_fraction": 0.2809,
+        "spatial_concentration": 0.4592,
+        "fitness": 3.819118,
+        "centroid": [
+          127.5,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.819118
+    },
+    {
+      "bin": [
+        16,
+        15
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.124619025630988,
+        "kernel_peaks": 1.206484179969249,
+        "growth_mu": 0.25871405192155966,
+        "growth_sigma": 0.07673852795138465,
+        "dt": 0.18282523674919332
+      },
+      "metrics": {
+        "velocity": 8.149,
+        "mass": 25423.78,
+        "alive_fraction": 0.3911,
+        "spatial_concentration": 0.4585,
+        "fitness": 3.736449,
+        "centroid": [
+          127.6,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.736449
+    },
+    {
+      "bin": [
+        16,
+        17
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.700053517136872,
+        "kernel_peaks": 1.4119732725651266,
+        "growth_mu": 0.26805593644910775,
+        "growth_sigma": 0.11265845275577914,
+        "dt": 0.13979149129045237
+      },
+      "metrics": {
+        "velocity": 8.1728,
+        "mass": 28949.51,
+        "alive_fraction": 0.442,
+        "spatial_concentration": 0.4635,
+        "fitness": 3.788052,
+        "centroid": [
+          127.1,
+          127.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.788052
+    },
+    {
+      "bin": [
+        17,
+        3
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.504390377004084,
+        "kernel_peaks": 2.0474100049289063,
+        "growth_mu": 0.051894672718130086,
+        "growth_sigma": 0.08556595277049729,
+        "dt": 0.17961623278154726
+      },
+      "metrics": {
+        "velocity": 8.8165,
+        "mass": 6446.61,
+        "alive_fraction": 0.1784,
+        "spatial_concentration": 0.4495,
+        "fitness": 3.963131,
+        "centroid": [
+          126.9,
+          126.9
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.963131
+    },
+    {
+      "bin": [
+        17,
+        4
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.616282884810026,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.21993051013560985,
+        "growth_sigma": 0.06436572513894105,
+        "dt": 0.17307591432527666
+      },
+      "metrics": {
+        "velocity": 8.7468,
+        "mass": 8116.87,
+        "alive_fraction": 0.2024,
+        "spatial_concentration": 0.458,
+        "fitness": 4.00594,
+        "centroid": [
+          126.8,
+          126.8
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.00594
+    },
+    {
+      "bin": [
+        17,
+        5
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.006849173473856,
+        "kernel_peaks": 2.5643709024389585,
+        "growth_mu": 0.08669696206078153,
+        "growth_sigma": 0.0494571911303374,
+        "dt": 0.08207598223321083
+      },
+      "metrics": {
+        "velocity": 8.9689,
+        "mass": 9523.36,
+        "alive_fraction": 0.1757,
+        "spatial_concentration": 0.4588,
+        "fitness": 4.114482,
+        "centroid": [
+          127.0,
+          127.0
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.114482
+    },
+    {
+      "bin": [
+        17,
+        6
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8,
+        "kernel_peaks": 2.783876643685409,
+        "growth_mu": 0.1752668452923975,
+        "growth_sigma": 0.060337404903533925,
+        "dt": 0.06230409655373978
+      },
+      "metrics": {
+        "velocity": 8.8545,
+        "mass": 10259.71,
+        "alive_fraction": 0.1951,
+        "spatial_concentration": 0.4586,
+        "fitness": 4.060925,
+        "centroid": [
+          127.1,
+          127.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.060925
+    },
+    {
+      "bin": [
+        17,
+        8
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 9.813149695119668,
+        "kernel_peaks": 2.347311070598775,
+        "growth_mu": 0.05841696113118036,
+        "growth_sigma": 0.05365002237653293,
+        "dt": 0.13277162146062538
+      },
+      "metrics": {
+        "velocity": 8.7882,
+        "mass": 13564.29,
+        "alive_fraction": 0.2152,
+        "spatial_concentration": 0.4589,
+        "fitness": 4.032505,
+        "centroid": [
+          127.2,
+          127.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.032505
+    },
+    {
+      "bin": [
+        17,
+        9
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 10.000012375717986,
+        "kernel_peaks": 1.392195092766202,
+        "growth_mu": 0.13810114891228384,
+        "growth_sigma": 0.03854962377668271,
+        "dt": 0.2316676260041559
+      },
+      "metrics": {
+        "velocity": 8.5895,
+        "mass": 15108.31,
+        "alive_fraction": 0.2388,
+        "spatial_concentration": 0.4585,
+        "fitness": 3.938621,
+        "centroid": [
+          127.6,
+          127.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.938621
+    },
+    {
+      "bin": [
+        17,
+        10
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 9.888949595790027,
+        "kernel_peaks": 2.3048272194234523,
+        "growth_mu": 0.10602304882132726,
+        "growth_sigma": 0.1102007937450425,
+        "dt": 0.13253860682322102
+      },
+      "metrics": {
+        "velocity": 8.7597,
+        "mass": 16660.66,
+        "alive_fraction": 0.2649,
+        "spatial_concentration": 0.4587,
+        "fitness": 4.017899,
+        "centroid": [
+          127.6,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.017899
+    },
+    {
+      "bin": [
+        17,
+        11
+      ],
+      "genome": {
+        "kernel_type": "spiral",
+        "growth_type": "relu_like",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.649681718819227,
+        "kernel_peaks": 1.6671836079928102,
+        "growth_mu": 0.22785535948040458,
+        "growth_sigma": 0.07176649394740267,
+        "dt": 0.15158366556353317
+      },
+      "metrics": {
+        "velocity": 8.8341,
+        "mass": 18247.02,
+        "alive_fraction": 0.2797,
+        "spatial_concentration": 0.4589,
+        "fitness": 4.053557,
+        "centroid": [
+          127.4,
+          127.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.053557
+    },
+    {
+      "bin": [
+        17,
+        14
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.41258537465633,
+        "kernel_peaks": 2.9222433401388597,
+        "growth_mu": 0.194719832116221,
+        "growth_sigma": 0.09559272874171071,
+        "dt": 0.21737818506415957
+      },
+      "metrics": {
+        "velocity": 8.7609,
+        "mass": 24202.22,
+        "alive_fraction": 0.3715,
+        "spatial_concentration": 0.4586,
+        "fitness": 4.01806,
+        "centroid": [
+          127.4,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.01806
+    },
+    {
+      "bin": [
+        17,
+        17
+      ],
+      "genome": {
+        "kernel_type": "hann_ring",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.96606664551799,
+        "kernel_peaks": 0.6072459292150146,
+        "growth_mu": 0.28410234911505317,
+        "growth_sigma": 0.07047186246133944,
+        "dt": 0.12755659524983157
+      },
+      "metrics": {
+        "velocity": 8.5938,
+        "mass": 28035.93,
+        "alive_fraction": 0.4283,
+        "spatial_concentration": 0.4588,
+        "fitness": 3.942626,
+        "centroid": [
+          127.2,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 3.942626
+    },
+    {
+      "bin": [
+        18,
+        5
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.858467542937827,
+        "kernel_peaks": 0.9411350006316019,
+        "growth_mu": 0.17144293560209234,
+        "growth_sigma": 0.0991190935081289,
+        "dt": 0.06328003688112761
+      },
+      "metrics": {
+        "velocity": 9.1446,
+        "mass": 9627.29,
+        "alive_fraction": 0.2436,
+        "spatial_concentration": 0.4586,
+        "fitness": 4.193715,
+        "centroid": [
+          126.7,
+          126.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.193715
+    },
+    {
+      "bin": [
+        18,
+        6
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.37398269698373,
+        "kernel_peaks": 2.9129839068972183,
+        "growth_mu": 0.19228499870485216,
+        "growth_sigma": 0.051069861863136855,
+        "dt": 0.20836611365740462
+      },
+      "metrics": {
+        "velocity": 9.2975,
+        "mass": 9922.03,
+        "alive_fraction": 0.1577,
+        "spatial_concentration": 0.4562,
+        "fitness": 4.241274,
+        "centroid": [
+          127.1,
+          127.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.241274
+    },
+    {
+      "bin": [
+        18,
+        8
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 20.57739679131248,
+        "kernel_peaks": 0.5196381319629444,
+        "growth_mu": 0.1549849918278134,
+        "growth_sigma": 0.09002624067631454,
+        "dt": 0.11478621414070238
+      },
+      "metrics": {
+        "velocity": 9.1484,
+        "mass": 13521.38,
+        "alive_fraction": 0.2536,
+        "spatial_concentration": 0.4585,
+        "fitness": 4.194498,
+        "centroid": [
+          126.9,
+          126.9
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.194498
+    },
+    {
+      "bin": [
+        18,
+        9
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.661966580548619,
+        "kernel_peaks": 2.9369653163450207,
+        "growth_mu": 0.10996449221190419,
+        "growth_sigma": 0.09259705451993272,
+        "dt": 0.24556893786448225
+      },
+      "metrics": {
+        "velocity": 9.4525,
+        "mass": 15776.95,
+        "alive_fraction": 0.2471,
+        "spatial_concentration": 0.4587,
+        "fitness": 4.335789,
+        "centroid": [
+          127.4,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.335789
+    },
+    {
+      "bin": [
+        18,
+        12
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.793538350575009,
+        "kernel_peaks": 1.218937634938086,
+        "growth_mu": 0.15084648388914845,
+        "growth_sigma": 0.08407392069795265,
+        "dt": 0.18706797203171513
+      },
+      "metrics": {
+        "velocity": 9.1137,
+        "mass": 20364.93,
+        "alive_fraction": 0.3168,
+        "spatial_concentration": 0.4616,
+        "fitness": 4.206666,
+        "centroid": [
+          127.6,
+          127.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 4.206666
+    },
+    {
+      "bin": [
+        19,
+        0
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.334180776619927,
+        "kernel_peaks": 1.3893822068801338,
+        "growth_mu": 0.33997897239999775,
+        "growth_sigma": 0.0499378361219763,
+        "dt": 0.26882298206634747
+      },
+      "metrics": {
+        "velocity": 138.1288,
+        "mass": 776.16,
+        "alive_fraction": 0.022,
+        "spatial_concentration": 0.9093,
+        "fitness": 125.594174,
+        "centroid": [
+          129.4,
+          128.1
+        ],
+        "is_localized": "True"
+      },
+      "fitness": 125.594174
+    },
+    {
+      "bin": [
+        19,
+        3
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 14.648515608774934,
+        "kernel_peaks": 1.6943782140636747,
+        "growth_mu": 0.05384819137255051,
+        "growth_sigma": 0.049872797693661486,
+        "dt": 0.08684435435028975
+      },
+      "metrics": {
+        "velocity": 89.9885,
+        "mass": 6233.29,
+        "alive_fraction": 0.4155,
+        "spatial_concentration": 0.4594,
+        "fitness": 41.342241,
+        "centroid": [
+          127.5,
+          128.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 41.342241
+    },
+    {
+      "bin": [
+        19,
+        4
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 1.7197230645734825,
+        "growth_mu": 0.0707503647818686,
+        "growth_sigma": 0.03067259060949124,
+        "dt": 0.2869926131836225
+      },
+      "metrics": {
+        "velocity": 1383.8572,
+        "mass": 7299.8,
+        "alive_fraction": 0.3828,
+        "spatial_concentration": 0.463,
+        "fitness": 640.682174,
+        "centroid": [
+          131.5,
+          127.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 640.682174
+    },
+    {
+      "bin": [
+        19,
+        5
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 1.7197230645734825,
+        "growth_mu": 0.0707503647818686,
+        "growth_sigma": 0.05687273161500828,
+        "dt": 0.2869926131836225
+      },
+      "metrics": {
+        "velocity": 1157.5791,
+        "mass": 9352.17,
+        "alive_fraction": 0.4234,
+        "spatial_concentration": 0.4466,
+        "fitness": 516.95966,
+        "centroid": [
+          115.4,
+          130.8
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 516.95966
+    },
+    {
+      "bin": [
+        19,
+        6
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.89821832374855,
+        "kernel_peaks": 1.6060148070901552,
+        "growth_mu": 0.05783184398289152,
+        "growth_sigma": 0.04689050095834534,
+        "dt": 0.26430861841708597
+      },
+      "metrics": {
+        "velocity": 948.4411,
+        "mass": 10849.64,
+        "alive_fraction": 0.582,
+        "spatial_concentration": 0.4646,
+        "fitness": 440.618983,
+        "centroid": [
+          127.1,
+          122.2
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 440.618983
+    },
+    {
+      "bin": [
+        19,
+        7
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 2.0294306608877637,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.05687273161500828,
+        "dt": 0.2869926131836225
+      },
+      "metrics": {
+        "velocity": 1159.2772,
+        "mass": 11920.77,
+        "alive_fraction": 0.5841,
+        "spatial_concentration": 0.4921,
+        "fitness": 570.487793,
+        "centroid": [
+          137.6,
+          127.8
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 570.487793
+    },
+    {
+      "bin": [
+        19,
+        8
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.376144751188157,
+        "kernel_peaks": 1.054350552802726,
+        "growth_mu": 0.16512200065468058,
+        "growth_sigma": 0.06334379406491164,
+        "dt": 0.21706398344776293
+      },
+      "metrics": {
+        "velocity": 685.1774,
+        "mass": 13414.56,
+        "alive_fraction": 0.5965,
+        "spatial_concentration": 0.4494,
+        "fitness": 307.934761,
+        "centroid": [
+          124.9,
+          130.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 307.934761
+    },
+    {
+      "bin": [
+        19,
+        9
+      ],
+      "genome": {
+        "kernel_type": "gabor",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.889034096852756,
+        "kernel_peaks": 2.918616560107538,
+        "growth_mu": 0.0749167823736468,
+        "growth_sigma": 0.07586829196042738,
+        "dt": 0.27375947542890244
+      },
+      "metrics": {
+        "velocity": 910.6333,
+        "mass": 16275.91,
+        "alive_fraction": 0.7073,
+        "spatial_concentration": 0.4574,
+        "fitness": 416.493358,
+        "centroid": [
+          132.6,
+          126.3
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 416.493358
+    },
+    {
+      "bin": [
+        19,
+        10
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.96665383261533,
+        "kernel_peaks": 1.0637284819137995,
+        "growth_mu": 0.12136985690811089,
+        "growth_sigma": 0.0879702414528551,
+        "dt": 0.2999763110762018
+      },
+      "metrics": {
+        "velocity": 1010.7753,
+        "mass": 16683.58,
+        "alive_fraction": 0.7175,
+        "spatial_concentration": 0.4828,
+        "fitness": 488.045748,
+        "centroid": [
+          116.4,
+          125.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 488.045748
+    },
+    {
+      "bin": [
+        19,
+        11
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "laplace_peak",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.832333123200028,
+        "kernel_peaks": 1.164301781848112,
+        "growth_mu": 0.25939756661764274,
+        "growth_sigma": 0.06862003078202478,
+        "dt": 0.2990049355642587
+      },
+      "metrics": {
+        "velocity": 484.1126,
+        "mass": 19291.01,
+        "alive_fraction": 0.6982,
+        "spatial_concentration": 0.4661,
+        "fitness": 225.635468,
+        "centroid": [
+          125.6,
+          131.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 225.635468
+    },
+    {
+      "bin": [
+        19,
+        12
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.832333123200028,
+        "kernel_peaks": 1.164301781848112,
+        "growth_mu": 0.25939756661764274,
+        "growth_sigma": 0.08454576865501982,
+        "dt": 0.29849487170328204
+      },
+      "metrics": {
+        "velocity": 565.8702,
+        "mass": 20469.15,
+        "alive_fraction": 0.7419,
+        "spatial_concentration": 0.4718,
+        "fitness": 266.977979,
+        "centroid": [
+          127.8,
+          129.8
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 266.977979
+    },
+    {
+      "bin": [
+        19,
+        13
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.832333123200028,
+        "kernel_peaks": 1.124892212601903,
+        "growth_mu": 0.24316274424791065,
+        "growth_sigma": 0.08454576865501982,
+        "dt": 0.29849487170328204
+      },
+      "metrics": {
+        "velocity": 751.499,
+        "mass": 22020.03,
+        "alive_fraction": 0.8006,
+        "spatial_concentration": 0.4659,
+        "fitness": 350.104593,
+        "centroid": [
+          128.0,
+          125.4
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 350.104593
+    },
+    {
+      "bin": [
+        19,
+        14
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.334180776619927,
+        "kernel_peaks": 1.1353571409518097,
+        "growth_mu": 0.33997897239999775,
+        "growth_sigma": 0.0499378361219763,
+        "dt": 0.24569698239850102
+      },
+      "metrics": {
+        "velocity": 228.9696,
+        "mass": 23962.21,
+        "alive_fraction": 0.7385,
+        "spatial_concentration": 0.4581,
+        "fitness": 104.886343,
+        "centroid": [
+          128.0,
+          127.1
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 104.886343
+    },
+    {
+      "bin": [
+        19,
+        15
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.334180776619927,
+        "kernel_peaks": 1.308168130328658,
+        "growth_mu": 0.33997897239999775,
+        "growth_sigma": 0.0499378361219763,
+        "dt": 0.24569698239850102
+      },
+      "metrics": {
+        "velocity": 140.644,
+        "mass": 25439.72,
+        "alive_fraction": 0.7763,
+        "spatial_concentration": 0.4552,
+        "fitness": 64.020023,
+        "centroid": [
+          127.8,
+          128.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 64.020023
+    },
+    {
+      "bin": [
+        19,
+        16
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.517318297992833,
+        "kernel_peaks": 0.7847040972208734,
+        "growth_mu": 0.34918270246046185,
+        "growth_sigma": 0.07034253559863013,
+        "dt": 0.11085001811729703
+      },
+      "metrics": {
+        "velocity": 50.2479,
+        "mass": 26745.12,
+        "alive_fraction": 0.8605,
+        "spatial_concentration": 0.4584,
+        "fitness": 23.035763,
+        "centroid": [
+          127.2,
+          127.7
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 23.035763
+    },
+    {
+      "bin": [
+        19,
+        18
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.700053517136872,
+        "kernel_peaks": 1.4119732725651266,
+        "growth_mu": 0.2833264738019776,
+        "growth_sigma": 0.11265845275577914,
+        "dt": 0.13979149129045237
+      },
+      "metrics": {
+        "velocity": 12.5121,
+        "mass": 29589.35,
+        "alive_fraction": 0.452,
+        "spatial_concentration": 0.4619,
+        "fitness": 5.779501,
+        "centroid": [
+          126.5,
+          126.5
+        ],
+        "is_localized": "False"
+      },
+      "fitness": 5.779501
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "rank": 1,
+    "bin": [
+      19,
+      18
+    ],
+    "fitness": 0.9970703125,
+    "kernel_type": "sech",
+    "growth_type": "fitzhugh_nagumo",
+    "geometry": "flat_plane",
+    "alive_fraction": 0.9393,
+    "complexity": 0.9916,
+    "num_clusters": 17,
+    "time_s": 1.74
+  },
+  {
+    "rank": 2,
+    "bin": [
+      19,
+      17
+    ],
+    "fitness": 0.972412109375,
+    "kernel_type": "sech",
+    "growth_type": "fitzhugh_nagumo",
+    "geometry": "flat_plane",
+    "alive_fraction": 0.8851,
+    "complexity": 0.9634,
+    "num_clusters": 351,
+    "time_s": 1.78
+  },
+  {
+    "rank": 3,
+    "bin": [
+      19,
+      16
+    ],
+    "fitness": 0.95068359375,
+    "kernel_type": "riesz",
+    "growth_type": "gaussian_bell",
+    "geometry": "flat_plane",
+    "alive_fraction": 0.8455,
+    "complexity": 0.9432,
+    "num_clusters": 667,
+    "time_s": 1.83
+  },
+  {
+    "rank": 4,
+    "bin": [
+      18,
+      19
+    ],
+    "fitness": 0.949951171875,
+    "kernel_type": "yukawa",
+    "growth_type": "laplace_peak",
+    "geometry": "flat_plane",
+    "alive_fraction": 0.9855,
+    "complexity": 0.9552,
+    "num_clusters": 7,
+    "time_s": 1.73
+  },
+  {
+    "rank": 5,
+    "bin": [
+      18,
+      18
+    ],
+    "fitness": 0.94970703125,
+    "kernel_type": "power_law",
+    "growth_type": "bistable",
+    "geometry": "flat_plane",
+    "alive_fraction": 0.9381,
+    "complexity": 0.9484,
+    "num_clusters": 5,
+    "time_s": 2.52
+  }
+]

@@ -1,0 +1,32 @@
+Track C Random Baseline: 1000 expressions
+Resolution: 64, Steps: 2000, Device: mps
+Init: mixed
+============================================================
+  [   1/1000] compiled=1 alive=1 archive=1/400 (8.4s, 0.1/s)
+  [  50/1000] compiled=39 alive=39 archive=17/400 (121.8s, 0.4/s)
+  [ 150/1000] compiled=116 alive=116 archive=46/400 (388.0s, 0.4/s)
+  [ 200/1000] compiled=156 alive=156 archive=54/400 (472.1s, 0.4/s)
+  [ 250/1000] compiled=195 alive=195 archive=58/400 (564.4s, 0.4/s)
+  [ 400/1000] compiled=318 alive=318 archive=79/400 (848.8s, 0.5/s)
+  [ 550/1000] compiled=439 alive=439 archive=100/400 (1182.2s, 0.5/s)
+  [ 700/1000] compiled=562 alive=562 archive=115/400 (1462.7s, 0.5/s)
+  [ 800/1000] compiled=644 alive=644 archive=121/400 (1675.6s, 0.5/s)
+  [ 850/1000] compiled=685 alive=685 archive=125/400 (1777.1s, 0.5/s)
+  [ 900/1000] compiled=726 alive=726 archive=128/400 (1847.2s, 0.5/s)
+  [ 950/1000] compiled=766 alive=766 archive=133/400 (1945.4s, 0.5/s)
+  [1000/1000] compiled=809 alive=809 archive=136/400 (2070.2s, 0.5/s)
+
+============================================================
+  TRACK C RANDOM BASELINE SUMMARY
+============================================================
+  Total expressions generated: 1000
+  Compiled successfully:       809 (80.9%)
+  Runtime OK (not crashed):    809
+  Archive bins filled:         136/400
+  Insertions:                  192
+  Time:                        2070.2s (0.5 expr/s)
+
+  Fitness: mean=0.3673 max=0.9668 min=0.0459
+  Alive:   mean=0.5734
+
+Saved to results/track_c_baseline.json

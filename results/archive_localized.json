@@ -1,0 +1,89 @@
+{
+  "behavior_dims": [
+    "complexity",
+    "alive_fraction"
+  ],
+  "n_bins": [
+    20,
+    20
+  ],
+  "total_evaluated": 0,
+  "archive_size": 3,
+  "entries": [
+    {
+      "bin": [
+        2,
+        19
+      ],
+      "fitness": 0.0,
+      "genome": {
+        "expression_a": "clip(A + 0.1 * (2 * exp(-((conv(A) - 0.15) / 0.02)**2) - 1) - 0.05 * B, 0, 1)",
+        "expression_b": "clip(B + 0.05 * laplacian(B) + 0.1 * A * (1 - B), 0, 1)",
+        "expression": "DUAL(A=clip(A + 0.1 * (2 * exp(-((conv(A) - 0.15) / 0.02)**2) - 1) - 0.05 * B, 0, 1), B=clip(B + 0.05 * laplacian(B) + 0.1 * A * (1 - B), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 26,
+        "resolution": 128
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 1620.10205078125,
+        "complexity": 0.140625,
+        "spatial_entropy": 3.027518266288633,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        7,
+        19
+      ],
+      "fitness": 0.0,
+      "genome": {
+        "expression_a": "clip(A + 0.05 * (exp(-((conv(A) - 0.15) / 0.03)**2) - A) + 0.03 * (B - A), 0, 1)",
+        "expression_b": "clip(B + 0.1 * laplacian(B) + 0.05 * conv(A) * (1 - B) - 0.02 * B, 0, 1)",
+        "expression": "DUAL(A=clip(A + 0.05 * (exp(-((conv(A) - 0.15) / 0.03)**2) - A) + 0.03 * (B - A), 0, 1), B=clip(B + 0.1 * laplacian(B) + 0.05 * conv(A) * (1 - B) - 0.02 * B, 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 26,
+        "resolution": 128
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 7340.037109375,
+        "complexity": 0.392333984375,
+        "spatial_entropy": 2.8730275417558437,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        6,
+        19
+      ],
+      "fitness": 0.0,
+      "genome": {
+        "expression_a": "clip(A + 0.01 * laplacian(A) + 0.1 * (conv(A) * (1 - conv(A))) - 0.08 * B * A, 0, 1)",
+        "expression_b": "clip(B - 0.01 * laplacian(B) + 0.12 * A * (1 - A) * (1 - B) - 0.03 * B, 0, 1)",
+        "expression": "DUAL(A=clip(A + 0.01 * laplacian(A) + 0.1 * (conv(A) * (1 - conv(A))) - 0.08 * B * A, 0, 1), B=clip(B - 0.01 * laplacian(B) + 0.12 * A * (1 - A) * (1 - B) - 0.03 * B, 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 26,
+        "resolution": 128
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 16050.0244140625,
+        "complexity": 0.31396484375,
+        "spatial_entropy": 1.3426377236324374,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    }
+  ]
+}

@@ -1,0 +1,764 @@
+{
+  "behavior_dims": [
+    "complexity",
+    "alive_fraction"
+  ],
+  "n_bins": [
+    20,
+    20
+  ],
+  "total_evaluated": 0,
+  "archive_size": 30,
+  "entries": [
+    {
+      "bin": [
+        9,
+        19
+      ],
+      "fitness": 0.4873046875,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.13 * sin(2*pi*conv(A)) * B - 0.07 * A * conv(B), B)",
+        "expression_b": "conserve_b(A + 0.13 * sin(2*pi*conv(A)) * B - 0.07 * A * conv(B), B + 0.05 * laplacian(B) + 0.08 * A - 0.04 * B**2)",
+        "expression": "DUAL(A=conserve_a(A + 0.13 * sin(2*pi*conv(A)) * B - 0.07 * A * conv(B), B), B=conserve_b(A + 0.13 * sin(2*pi*conv(A)) * B - 0.07 * A * conv(B), B + 0.05 * laplacian(B) + 0.08 * A - 0.04 * B**2))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 2651.93017578125,
+        "complexity": 0.4873046875,
+        "spatial_entropy": 3.7623521588919653,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        2,
+        6
+      ],
+      "fitness": 0.109375,
+      "genome": {
+        "expression_a": "clip(A + 0.09 * sin(4*pi*conv(A)) + 0.06 * B * laplacian(A) - 0.04 * A * conv(A), 0, 1)",
+        "expression_b": "clip(B + 0.11 * (2*exp(-((conv(B)-0.19)/0.026)**2) - 1) * (1 - 0.4*A) + 0.03 * rotate_cw(B), 0, 1)",
+        "expression": "DUAL(A=clip(A + 0.09 * sin(4*pi*conv(A)) + 0.06 * B * laplacian(A) - 0.04 * A * conv(A), 0, 1), B=clip(B + 0.11 * (2*exp(-((conv(B)-0.19)/0.026)**2) - 1) * (1 - 0.4*A) + 0.03 * rotate_cw(B), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.3095703125,
+        "mass": 1245.324951171875,
+        "complexity": 0.109375,
+        "spatial_entropy": 4.777518266288633,
+        "num_clusters": 23,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        11,
+        19
+      ],
+      "fitness": 0.595703125,
+      "genome": {
+        "expression_a": "clip(A + 0.09 * rotate_cw(A) * compete(A, B) + 0.11 * sin(pi*conv(A)) * (1 - global_mean(B)) - 0.04 * curl(B) * threshold(A, 0.3), 0, 1)",
+        "expression_b": "conserve_b(B + 0.08 * rotate_ccw(B) * exp(-2*global_mean(A)) + 0.10 * cos(2*pi*conv(B)) * compete(B, A) - 0.06 * laplacian(A) * B, A + B)",
+        "expression": "DUAL(A=clip(A + 0.09 * rotate_cw(A) * compete(A, B) + 0.11 * sin(pi*conv(A)) * (1 - global_mean(B)) - 0.04 * curl(B) * threshold(A, 0.3), 0, 1), B=conserve_b(B + 0.08 * rotate_ccw(B) * exp(-2*global_mean(A)) + 0.10 * cos(2*pi*conv(B)) * compete(B, A) - 0.06 * laplacian(A) * B, A + B))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.95458984375,
+        "mass": 2665.304931640625,
+        "complexity": 0.595703125,
+        "spatial_entropy": 4.5367384298164914,
+        "num_clusters": 6,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        0,
+        19
+      ],
+      "fitness": 0.037109375,
+      "genome": {
+        "expression_a": "clip(A + 0.1 * A * conv(B) - 0.07 * A + 0.03 * laplacian(A) + 0.02 * sin(6*pi*global_mean(B)), 0, 1)",
+        "expression_b": "clip(B + 0.16 * B * (1 - B - 0.5*A) - 0.11 * A * B + 0.04 * gradient_x(B)**2, 0, 1)",
+        "expression": "DUAL(A=clip(A + 0.1 * A * conv(B) - 0.07 * A + 0.03 * laplacian(A) + 0.02 * sin(6*pi*global_mean(B)), 0, 1), B=clip(B + 0.16 * B * (1 - B - 0.5*A) - 0.11 * A * B + 0.04 * gradient_x(B)**2, 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 1360.230712890625,
+        "complexity": 0.037109375,
+        "spatial_entropy": 2.25,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        5,
+        19
+      ],
+      "fitness": 0.28125,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.08 * cos(pi*conv(B)) * exp(-3*global_mean(A)) - 0.06 * compete(A, B) * laplacian(B), B)",
+        "expression_b": "clip(B + 0.10 * curl(A) * threshold(global_mean(B), 0.3) + 0.04 * rotate_ccw(A) * compete(B, A) - 0.05 * gradient_x(A) * B, 0, 1)",
+        "expression": "DUAL(A=conserve_a(A + 0.08 * cos(pi*conv(B)) * exp(-3*global_mean(A)) - 0.06 * compete(A, B) * laplacian(B), B), B=clip(B + 0.10 * curl(A) * threshold(global_mean(B), 0.3) + 0.04 * rotate_ccw(A) * compete(B, A) - 0.05 * gradient_x(A) * B, 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 3770.8330078125,
+        "complexity": 0.28125,
+        "spatial_entropy": 1.3189378900165245,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        5,
+        12
+      ],
+      "fitness": 0.2548828125,
+      "genome": {
+        "expression_a": "compete(A + 0.09 * rotate_cw(B) * exp(-2*global_mean(A)), B + 0.06 * curl(A) - 0.03 * A**2)",
+        "expression_b": "compete(A + 0.09 * rotate_cw(B) * exp(-2*global_mean(A)), B + 0.11 * rotate_ccw(A) * threshold(B, 0.3) + 0.05 * laplacian(B))",
+        "expression": "DUAL(A=compete(A + 0.09 * rotate_cw(B) * exp(-2*global_mean(A)), B + 0.06 * curl(A) - 0.03 * A**2), B=compete(A + 0.09 * rotate_cw(B) * exp(-2*global_mean(A)), B + 0.11 * rotate_ccw(A) * threshold(B, 0.3) + 0.05 * laplacian(B)))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.642333984375,
+        "mass": 45.670040130615234,
+        "complexity": 0.2548828125,
+        "spatial_entropy": -0.0,
+        "num_clusters": 0,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        1,
+        1
+      ],
+      "fitness": 0.0986328125,
+      "genome": {
+        "expression_a": "clip(A + 0.12 * (2*exp(-((conv(B)-0.5)/0.3)**2) - 1) * compete(A, B) - 0.06 * rotate_cw(B) * exp(-2*A), 0, 1)",
+        "expression_b": "conserve_b(A, B + 0.09 * curl(A) * exp(-3*global_mean(B)) + 0.07 * compete(B, A) * laplacian(A) - 0.05 * gradient_y(B))",
+        "expression": "DUAL(A=clip(A + 0.12 * (2*exp(-((conv(B)-0.5)/0.3)**2) - 1) * compete(A, B) - 0.06 * rotate_cw(B) * exp(-2*A), 0, 1), B=conserve_b(A, B + 0.09 * curl(A) * exp(-3*global_mean(B)) + 0.07 * compete(B, A) * laplacian(A) - 0.05 * gradient_y(B)))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.06591796875,
+        "mass": 166.38983154296875,
+        "complexity": 0.0986328125,
+        "spatial_entropy": 0.773832331134527,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        2,
+        19
+      ],
+      "fitness": 0.14453125,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.12 * compete(A, B) + 0.08 * curl(B) - 0.05 * threshold(conv(A), 0.3) * B, B)",
+        "expression_b": "conserve_b(A, B + 0.1 * rotate_cw(gradient_x(A)) - 0.09 * compete(B, A) + 0.06 * tanh(3*global_mean(B)) * A)",
+        "expression": "DUAL(A=conserve_a(A + 0.12 * compete(A, B) + 0.08 * curl(B) - 0.05 * threshold(conv(A), 0.3) * B, B), B=conserve_b(A, B + 0.1 * rotate_cw(gradient_x(A)) - 0.09 * compete(B, A) + 0.06 * tanh(3*global_mean(B)) * A))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 3772.484375,
+        "complexity": 0.14453125,
+        "spatial_entropy": 1.4557330072378285,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        2,
+        5
+      ],
+      "fitness": 0.1064453125,
+      "genome": {
+        "expression_a": "clip(A + 0.08 * compete(A, B) + 0.06 * curl(A) * global_mean(B) - 0.03 * threshold(B, 0.3) * A, 0, 1)",
+        "expression_b": "clip(B + 0.09 * (2*exp(-((conv(A)-0.4)/0.08)**2) - 1) * rotate_ccw(B) + 0.05 * global_mean(A) * laplacian(B), 0, 1)",
+        "expression": "DUAL(A=clip(A + 0.08 * compete(A, B) + 0.06 * curl(A) * global_mean(B) - 0.03 * threshold(B, 0.3) * A, 0, 1), B=clip(B + 0.09 * (2*exp(-((conv(A)-0.4)/0.08)**2) - 1) * rotate_ccw(B) + 0.05 * global_mean(A) * laplacian(B), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.277587890625,
+        "mass": 1071.2333984375,
+        "complexity": 0.1064453125,
+        "spatial_entropy": 1.6471506866420627,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        10,
+        19
+      ],
+      "fitness": 0.5068359375,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.08 * sin(2*pi*conv(B)) * curl(A) + 0.07 * laplacian(A) * threshold(global_mean(B), 0.4) - 0.04 * compete(A, B), B)",
+        "expression_b": "conserve_b(A, B + 0.09 * cos(3*pi*conv(A)) * rotate_cw(B) + 0.06 * curl(B) * threshold(A, 0.2) - 0.05 * global_mean(A) * B)",
+        "expression": "DUAL(A=conserve_a(A + 0.08 * sin(2*pi*conv(B)) * curl(A) + 0.07 * laplacian(A) * threshold(global_mean(B), 0.4) - 0.04 * compete(A, B), B), B=conserve_b(A, B + 0.09 * cos(3*pi*conv(A)) * rotate_cw(B) + 0.06 * curl(B) * threshold(A, 0.2) - 0.05 * global_mean(A) * B))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 3746.57470703125,
+        "complexity": 0.5068359375,
+        "spatial_entropy": 3.498590199447132,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        3,
+        4
+      ],
+      "fitness": 0.181640625,
+      "genome": {
+        "expression_a": "clip(A + 0.08 * curl(B) * threshold(A, 0.4) + 0.05 * cos(pi*global_mean(B)) * laplacian(A) - 0.03 * A * B, 0, 1)",
+        "expression_b": "clip(B + 0.12 * rotate_ccw(A) * exp(-3*conv(A)) + 0.07 * sin(2*pi*conv(B)) - 0.04 * B * global_mean(A), 0, 1)",
+        "expression": "DUAL(A=clip(A + 0.08 * curl(B) * threshold(A, 0.4) + 0.05 * cos(pi*global_mean(B)) * laplacian(A) - 0.03 * A * B, 0, 1), B=clip(B + 0.12 * rotate_ccw(A) * exp(-3*conv(A)) + 0.07 * sin(2*pi*conv(B)) - 0.04 * B * global_mean(A), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.243408203125,
+        "mass": 85.43035888671875,
+        "complexity": 0.181640625,
+        "spatial_entropy": 1.1733854232033893,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        0,
+        1
+      ],
+      "fitness": 0.04296875,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.09 * compete(A, B) * curl(B) - 0.05 * A * global_mean(B), B)",
+        "expression_b": "conserve_b(A, B + 0.11 * (2*exp(-((conv(B)-0.3)/0.2)**2) - 1) * threshold(A, 0.2) - 0.06 * B * rotate_cw(A))",
+        "expression": "DUAL(A=conserve_a(A + 0.09 * compete(A, B) * curl(B) - 0.05 * A * global_mean(B), B), B=conserve_b(A, B + 0.11 * (2*exp(-((conv(B)-0.3)/0.2)**2) - 1) * threshold(A, 0.2) - 0.06 * B * rotate_cw(A)))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.060791015625,
+        "mass": 248.0868682861328,
+        "complexity": 0.04296875,
+        "spatial_entropy": 0.8560644431995964,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        5,
+        4
+      ],
+      "fitness": 0.294921875,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.08 * (2*exp(-((conv(A)-0.25)/0.03)**2) - 1) * global_mean(B) + 0.06 * curl(A) * threshold(global_mean(B), 0.3) - 0.05 * compete(A, B), B)",
+        "expression_b": "conserve_b(B + 0.10 * cos(2*pi*conv(B)) * rotate_ccw(B) + 0.07 * laplacian(B) * (1 - global_mean(A)) - 0.04 * A * B, A)",
+        "expression": "DUAL(A=conserve_a(A + 0.08 * (2*exp(-((conv(A)-0.25)/0.03)**2) - 1) * global_mean(B) + 0.06 * curl(A) * threshold(global_mean(B), 0.3) - 0.05 * compete(A, B), B), B=conserve_b(B + 0.10 * cos(2*pi*conv(B)) * rotate_ccw(B) + 0.07 * laplacian(B) * (1 - global_mean(A)) - 0.04 * A * B, A))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.249755859375,
+        "mass": 560.867431640625,
+        "complexity": 0.294921875,
+        "spatial_entropy": 1.3460525383526118,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 1,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        6,
+        5
+      ],
+      "fitness": 0.3154296875,
+      "genome": {
+        "expression_a": "clip(A + 0.12 * curl(B) * exp(-3*global_mean(A)) - 0.06 * gradient_x(A) * B, 0, 1)",
+        "expression_b": "clip(B + 0.10 * curl(A) * threshold(global_mean(B), 0.2) + 0.07 * cos(2*pi*A) * laplacian(B), 0, 1)",
+        "expression": "DUAL(A=clip(A + 0.12 * curl(B) * exp(-3*global_mean(A)) - 0.06 * gradient_x(A) * B, 0, 1), B=clip(B + 0.10 * curl(A) * threshold(global_mean(B), 0.2) + 0.07 * cos(2*pi*A) * laplacian(B), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.272705078125,
+        "mass": 562.0343627929688,
+        "complexity": 0.3154296875,
+        "spatial_entropy": 1.4557330072378285,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        5,
+        13
+      ],
+      "fitness": 0.2998046875,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.09 * compete(A, B) * rotate_cw(B) - 0.05 * cos(2*pi*global_mean(A)) * laplacian(A), B)",
+        "expression_b": "clip(B + 0.11 * rotate_ccw(A) * threshold(compete(B, A), 0.3) + 0.06 * gradient_y(B) * exp(-2*global_mean(B)), 0, 1)",
+        "expression": "DUAL(A=conserve_a(A + 0.09 * compete(A, B) * rotate_cw(B) - 0.05 * cos(2*pi*global_mean(A)) * laplacian(A), B), B=clip(B + 0.11 * rotate_ccw(A) * threshold(compete(B, A), 0.3) + 0.06 * gradient_y(B) * exp(-2*global_mean(B)), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.689453125,
+        "mass": 2577.060546875,
+        "complexity": 0.2998046875,
+        "spatial_entropy": 2.9123493675869248,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 3,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        6,
+        19
+      ],
+      "fitness": 0.3388671875,
+      "genome": {
+        "expression_a": "clip(A + 0.09 * curl(B) * threshold(A, 0.3) + 0.06 * global_mean(B) * cos(pi*conv(A)) - 0.05 * compete(A, B), 0, 1)",
+        "expression_b": "clip(B + 0.08 * laplacian(B) + 0.11 * sin(2*pi*conv(A)) * (1 - A) - 0.07 * global_mean(A) * B, 0, 1)",
+        "expression": "DUAL(A=clip(A + 0.09 * curl(B) * threshold(A, 0.3) + 0.06 * global_mean(B) * cos(pi*conv(A)) - 0.05 * compete(A, B), 0, 1), B=clip(B + 0.08 * laplacian(B) + 0.11 * sin(2*pi*conv(A)) * (1 - A) - 0.07 * global_mean(A) * B, 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 558.9547119140625,
+        "complexity": 0.3388671875,
+        "spatial_entropy": 2.6894640159230123,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        5,
+        5
+      ],
+      "fitness": 0.283203125,
+      "genome": {
+        "expression_a": "compete(A + 0.15 * rotate_cw(B) * exp(-2*global_mean(B)), B + 0.08 * sin(pi*conv(A)) * laplacian(A))",
+        "expression_b": "compete(B + 0.12 * rotate_ccw(A) * threshold(global_mean(A), 0.3), A + 0.09 * cos(2*pi*B) * gradient_x(B) * gradient_y(A))",
+        "expression": "DUAL(A=compete(A + 0.15 * rotate_cw(B) * exp(-2*global_mean(B)), B + 0.08 * sin(pi*conv(A)) * laplacian(A)), B=compete(B + 0.12 * rotate_ccw(A) * threshold(global_mean(A), 0.3), A + 0.09 * cos(2*pi*B) * gradient_x(B) * gradient_y(A)))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.269775390625,
+        "mass": 546.1002197265625,
+        "complexity": 0.283203125,
+        "spatial_entropy": 1.721490129773783,
+        "num_clusters": 19,
+        "is_dead": false,
+        "longevity": 3,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        3,
+        6
+      ],
+      "fitness": 0.1953125,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.11 * rotate_cw(B) * threshold(global_mean(A), 0.25) - 0.05 * compete(A, B) * gradient_x(B), B)",
+        "expression_b": "clip(B + 0.09 * sin(3*pi*conv(A)) * exp(-2*global_mean(B)) - 0.07 * compete(B, A) * laplacian(A), 0, 1)",
+        "expression": "DUAL(A=conserve_a(A + 0.11 * rotate_cw(B) * threshold(global_mean(A), 0.25) - 0.05 * compete(A, B) * gradient_x(B), B), B=clip(B + 0.09 * sin(3*pi*conv(A)) * exp(-2*global_mean(B)) - 0.07 * compete(B, A) * laplacian(A), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.31396484375,
+        "mass": 238.20016479492188,
+        "complexity": 0.1953125,
+        "spatial_entropy": 1.4751878900165245,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        1,
+        19
+      ],
+      "fitness": 0.0966796875,
+      "genome": {
+        "expression_a": "compete(A + 0.12 * cos(3*pi*conv(B)) * curl(A), B + 0.08 * rotate_cw(A) * threshold(global_mean(B), 0.4) - 0.05 * A**2)",
+        "expression_b": "conserve_b(A + 0.12 * cos(3*pi*conv(B)) * curl(A), B + 0.07 * rotate_ccw(A) * global_mean(A) + 0.06 * laplacian(B) - 0.03 * B * conv(A))",
+        "expression": "DUAL(A=compete(A + 0.12 * cos(3*pi*conv(B)) * curl(A), B + 0.08 * rotate_cw(A) * threshold(global_mean(B), 0.4) - 0.05 * A**2), B=conserve_b(A + 0.12 * cos(3*pi*conv(B)) * curl(A), B + 0.07 * rotate_ccw(A) * global_mean(A) + 0.06 * laplacian(B) - 0.03 * B * conv(A)))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 3911.8916015625,
+        "complexity": 0.0966796875,
+        "spatial_entropy": 0.7817693259782922,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        0,
+        5
+      ],
+      "fitness": 0.02734375,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.09 * rotate_cw(B) * threshold(global_mean(A), 0.3) - 0.05 * compete(A, B), B * cos(pi * A))",
+        "expression_b": "clip(B + 0.11 * rotate_ccw(A) * exp(-2 * global_mean(B)) + 0.08 * laplacian(A) * sin(2 * pi * B) - 0.06 * compete(B, A), 0, 1)",
+        "expression": "DUAL(A=conserve_a(A + 0.09 * rotate_cw(B) * threshold(global_mean(A), 0.3) - 0.05 * compete(A, B), B * cos(pi * A)), B=clip(B + 0.11 * rotate_ccw(A) * exp(-2 * global_mean(B)) + 0.08 * laplacian(A) * sin(2 * pi * B) - 0.06 * compete(B, A), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.28125,
+        "mass": 1091.7034912109375,
+        "complexity": 0.02734375,
+        "spatial_entropy": 1.5,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 145,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        1,
+        0
+      ],
+      "fitness": 0.0810546875,
+      "genome": {
+        "expression_a": "clip(A + 0.11 * (2*exp(-(conv(B)-0.6)**2/0.3**2) - 1) * tanh(2*global_mean(A)), 0, 1)",
+        "expression_b": "clip(B + 0.09 * laplacian(A) * threshold(global_mean(B), 0.4) - 0.04 * compete(B, A), 0, 1)",
+        "expression": "DUAL(A=clip(A + 0.11 * (2*exp(-(conv(B)-0.6)**2/0.3**2) - 1) * tanh(2*global_mean(A)), 0, 1), B=clip(B + 0.09 * laplacian(A) * threshold(global_mean(B), 0.4) - 0.04 * compete(B, A), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.036376953125,
+        "mass": 21.952354431152344,
+        "complexity": 0.0810546875,
+        "spatial_entropy": 0.3997900666170139,
+        "num_clusters": 27,
+        "is_dead": false,
+        "longevity": 12,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        1,
+        2
+      ],
+      "fitness": 0.07421875,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.11 * laplacian(A) * tanh(2*global_mean(B) - 0.4) - 0.07 * curl(B) * exp(-3*A), B)",
+        "expression_b": "compete(B + 0.09 * rotate_cw(A) * threshold(global_mean(A), 0.35), A + 0.13 * laplacian(B) * cos(pi*conv(A)) - 0.04 * B**2)",
+        "expression": "DUAL(A=conserve_a(A + 0.11 * laplacian(A) * tanh(2*global_mean(B) - 0.4) - 0.07 * curl(B) * exp(-3*A), B), B=compete(B + 0.09 * rotate_cw(A) * threshold(global_mean(A), 0.35), A + 0.13 * laplacian(B) * cos(pi*conv(A)) - 0.04 * B**2))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.101806640625,
+        "mass": 400.59051513671875,
+        "complexity": 0.07421875,
+        "spatial_entropy": 1.2121427290103626,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        7,
+        7
+      ],
+      "fitness": 0.3974609375,
+      "genome": {
+        "expression_a": "clip(A + 0.09 * sin(pi*conv(A)) * rotate_cw(B) + 0.08 * laplacian(A) * (1 - global_mean(B)) - 0.05 * compete(A, B), 0, 1)",
+        "expression_b": "conserve_b(B + 0.11 * curl(A) * threshold(conv(B), 0.3) + 0.07 * cos(2*pi*B) * gradient_x(A) - 0.04 * exp(-2*global_mean(A)) * B, A)",
+        "expression": "DUAL(A=clip(A + 0.09 * sin(pi*conv(A)) * rotate_cw(B) + 0.08 * laplacian(A) * (1 - global_mean(B)) - 0.05 * compete(A, B), 0, 1), B=conserve_b(B + 0.11 * curl(A) * threshold(conv(B), 0.3) + 0.07 * cos(2*pi*B) * gradient_x(A) - 0.04 * exp(-2*global_mean(A)) * B, A))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.356201171875,
+        "mass": 752.5203857421875,
+        "complexity": 0.3974609375,
+        "spatial_entropy": 3.707468151477989,
+        "num_clusters": 54,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        2,
+        1
+      ],
+      "fitness": 0.1025390625,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.13 * curl(B) * threshold(A, 0.3) - 0.06 * compete(A, B) * exp(-global_mean(A)), B)",
+        "expression_b": "clip(B + 0.08 * sin(2*pi*conv(A)) * compete(B, A) + 0.05 * rotate_ccw(A) * exp(-3*global_mean(B)) - 0.04 * laplacian(B), 0, 1)",
+        "expression": "DUAL(A=conserve_a(A + 0.13 * curl(B) * threshold(A, 0.3) - 0.06 * compete(A, B) * exp(-global_mean(A)), B), B=clip(B + 0.08 * sin(2*pi*conv(A)) * compete(B, A) + 0.05 * rotate_ccw(A) * exp(-3*global_mean(B)) - 0.04 * laplacian(B), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.073486328125,
+        "mass": 222.62265014648438,
+        "complexity": 0.1025390625,
+        "spatial_entropy": 0.8248144431995964,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        8,
+        19
+      ],
+      "fitness": 0.4443359375,
+      "genome": {
+        "expression_a": "clip(A + 0.10 * curl(B) * compete(A, B) + 0.06 * cos(pi*conv(A)) * (1 - global_mean(B)) - 0.03 * rotate_ccw(A) * threshold(B, 0.4), 0, 1)",
+        "expression_b": "conserve_b(B + 0.08 * rotate_cw(A) * exp(-3*global_mean(A)) + 0.09 * sin(2*pi*conv(B)) * compete(B, A) - 0.05 * curl(A) * B, A)",
+        "expression": "DUAL(A=clip(A + 0.10 * curl(B) * compete(A, B) + 0.06 * cos(pi*conv(A)) * (1 - global_mean(B)) - 0.03 * rotate_ccw(A) * threshold(B, 0.4), 0, 1), B=conserve_b(B + 0.08 * rotate_cw(A) * exp(-3*global_mean(A)) + 0.09 * sin(2*pi*conv(B)) * compete(B, A) - 0.05 * curl(A) * B, A))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 1893.074951171875,
+        "complexity": 0.4443359375,
+        "spatial_entropy": 2.484836471965419,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        6,
+        15
+      ],
+      "fitness": 0.302734375,
+      "genome": {
+        "expression_a": "clip(A + 0.07 * sin(pi*conv(B)) * (1 - compete(A, B)) + 0.05 * rotate_cw(B) * threshold(A, 0.2) - 0.04 * global_mean(A) * A, 0, 1)",
+        "expression_b": "conserve_b(B + 0.09 * curl(A) * exp(-2*global_mean(B)) + 0.06 * cos(2*pi*conv(A)) * compete(B, A) - 0.03 * rotate_ccw(B), A)",
+        "expression": "DUAL(A=clip(A + 0.07 * sin(pi*conv(B)) * (1 - compete(A, B)) + 0.05 * rotate_cw(B) * threshold(A, 0.2) - 0.04 * global_mean(A) * A, 0, 1), B=conserve_b(B + 0.09 * curl(A) * exp(-2*global_mean(B)) + 0.06 * cos(2*pi*conv(A)) * compete(B, A) - 0.03 * rotate_ccw(B), A))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.7724609375,
+        "mass": 2762.24462890625,
+        "complexity": 0.302734375,
+        "spatial_entropy": 2.521615196836365,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        3,
+        19
+      ],
+      "fitness": 0.1875,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.12 * curl(B) * threshold(A, 0.2) + 0.08 * gradient_x(B) * cos(pi*A) - 0.05 * rotate_cw(A) * global_mean(B), A + B)",
+        "expression_b": "conserve_b(B + 0.10 * gradient_y(A) * exp(-3*B) + 0.07 * curl(A) * sin(2*pi*B) - 0.06 * rotate_ccw(B) * threshold(global_mean(A), 0.4), A + B)",
+        "expression": "DUAL(A=conserve_a(A + 0.12 * curl(B) * threshold(A, 0.2) + 0.08 * gradient_x(B) * cos(pi*A) - 0.05 * rotate_cw(A) * global_mean(B), A + B), B=conserve_b(B + 0.10 * gradient_y(A) * exp(-3*B) + 0.07 * curl(A) * sin(2*pi*B) - 0.06 * rotate_ccw(B) * threshold(global_mean(A), 0.4), A + B))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 3685.62158203125,
+        "complexity": 0.1875,
+        "spatial_entropy": 0.8112781244591328,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        15,
+        19
+      ],
+      "fitness": 0.7529296875,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.08 * laplacian(B) * A * threshold(global_mean(B), 0.3) + 0.06 * compete(A, B) * rotate_cw(A) - 0.04 * curl(B) * exp(-2*global_mean(A)), B)",
+        "expression_b": "clip(B + 0.07 * laplacian(A) * compete(B, A) + 0.09 * sin(pi*conv(A)) * (1 - global_mean(A)) - 0.05 * rotate_ccw(B) * threshold(A, 0.5), 0, 1)",
+        "expression": "DUAL(A=conserve_a(A + 0.08 * laplacian(B) * A * threshold(global_mean(B), 0.3) + 0.06 * compete(A, B) * rotate_cw(A) - 0.04 * curl(B) * exp(-2*global_mean(A)), B), B=clip(B + 0.07 * laplacian(A) * compete(B, A) + 0.09 * sin(pi*conv(A)) * (1 - global_mean(A)) - 0.05 * rotate_ccw(B) * threshold(A, 0.5), 0, 1))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.97119140625,
+        "mass": 855.6956787109375,
+        "complexity": 0.7529296875,
+        "spatial_entropy": 4.439867633875558,
+        "num_clusters": 122,
+        "is_dead": false,
+        "longevity": 2,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        4,
+        4
+      ],
+      "fitness": 0.2490234375,
+      "genome": {
+        "expression_a": "clip(A + 0.08 * curl(B) * global_mean(A) + 0.06 * (2*exp(-((conv(B)-0.5)/0.3)**2) - 1) * compete(A, B) - 0.03 * A, 0, 1)",
+        "expression_b": "conserve_b(B + 0.10 * sin(2*pi*conv(A)) * rotate_cw(A) + 0.07 * compete(B, A) * exp(-3*global_mean(A)) - 0.04 * laplacian(B), A)",
+        "expression": "DUAL(A=clip(A + 0.08 * curl(B) * global_mean(A) + 0.06 * (2*exp(-((conv(B)-0.5)/0.3)**2) - 1) * compete(A, B) - 0.03 * A, 0, 1), B=conserve_b(B + 0.10 * sin(2*pi*conv(A)) * rotate_cw(A) + 0.07 * compete(B, A) * exp(-3*global_mean(A)) - 0.04 * laplacian(B), A))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.227783203125,
+        "mass": 201.60704040527344,
+        "complexity": 0.2490234375,
+        "spatial_entropy": 1.5182330072378285,
+        "num_clusters": 4,
+        "is_dead": false,
+        "longevity": 7,
+        "source_track": "llm_dual"
+      }
+    },
+    {
+      "bin": [
+        0,
+        4
+      ],
+      "fitness": 0.0400390625,
+      "genome": {
+        "expression_a": "conserve_a(A + 0.10 * curl(B) * (2*exp(-((conv(A)-0.5)/0.3)**2) - 1) + 0.06 * compete(A, B) * (1 - global_mean(A)) - 0.05 * rotate_ccw(A) * threshold(global_mean(B), 0.4), B)",
+        "expression_b": "conserve_b(B + 0.09 * curl(A) * (2*exp(-((conv(B)-0.6)/0.25)**2) - 1) + 0.07 * compete(B, A) * (1 - global_mean(B)) - 0.04 * rotate_cw(B) * threshold(global_mean(A), 0.35), A)",
+        "expression": "DUAL(A=conserve_a(A + 0.10 * curl(B) * (2*exp(-((conv(A)-0.5)/0.3)**2) - 1) + 0.06 * compete(A, B) * (1 - global_mean(A)) - 0.05 * rotate_ccw(A) * threshold(global_mean(B), 0.4), B), B=conserve_b(B + 0.09 * curl(A) * (2*exp(-((conv(B)-0.6)/0.25)**2) - 1) + 0.07 * compete(B, A) * (1 - global_mean(B)) - 0.04 * rotate_cw(B) * threshold(global_mean(A), 0.35), A))",
+        "source_track": "llm_dual",
+        "kernel_radius": 13,
+        "resolution": 64
+      },
+      "metrics": {
+        "alive_fraction": 0.25,
+        "mass": 525.590576171875,
+        "complexity": 0.0400390625,
+        "spatial_entropy": 0.8112781244591328,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 201,
+        "source_track": "llm_dual"
+      }
+    }
+  ]
+}

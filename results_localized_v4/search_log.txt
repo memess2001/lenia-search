@@ -1,0 +1,54 @@
+Locomotion Search v4: 1000 genomes
+  Resolution: 256, Steps: 10000, Device: mps
+  Anisotropic kernel + off-center ellipse init
+  Fitness: concentration × net_displacement
+============================================================
+  [   1/1000] eval=1 archive=1 moving(>5px)=0 localized=0 (3s)
+  [  50/1000] eval=50 archive=15 moving(>5px)=1 localized=5 (83s)
+  [ 100/1000] eval=100 archive=28 moving(>5px)=6 localized=5 (159s)
+  [ 150/1000] eval=150 archive=38 moving(>5px)=15 localized=5 (251s)
+  [ 200/1000] eval=200 archive=44 moving(>5px)=20 localized=6 (334s)
+  [ 250/1000] eval=250 archive=48 moving(>5px)=29 localized=8 (409s)
+  [ 300/1000] eval=300 archive=58 moving(>5px)=37 localized=8 (492s)
+  [ 350/1000] eval=350 archive=61 moving(>5px)=44 localized=9 (572s)
+  [ 400/1000] eval=400 archive=67 moving(>5px)=53 localized=9 (654s)
+  [ 450/1000] eval=450 archive=71 moving(>5px)=56 localized=10 (737s)
+  [ 500/1000] eval=500 archive=73 moving(>5px)=58 localized=11 (807s)
+  [ 550/1000] eval=550 archive=76 moving(>5px)=63 localized=13 (887s)
+  [ 600/1000] eval=600 archive=83 moving(>5px)=76 localized=13 (971s)
+  [ 650/1000] eval=650 archive=85 moving(>5px)=87 localized=15 (1048s)
+  [ 700/1000] eval=700 archive=89 moving(>5px)=96 localized=17 (1133s)
+  [ 750/1000] eval=750 archive=93 moving(>5px)=106 localized=19 (1221s)
+  [ 800/1000] eval=800 archive=99 moving(>5px)=118 localized=19 (1326s)
+  [ 850/1000] eval=850 archive=100 moving(>5px)=128 localized=19 (1440s)
+  [ 900/1000] eval=900 archive=105 moving(>5px)=137 localized=21 (1569s)
+  [ 950/1000] eval=950 archive=110 moving(>5px)=147 localized=25 (1649s)
+  [1000/1000] eval=1000 archive=116 moving(>5px)=154 localized=26 (1731s)
+
+============================================================
+  LOCOMOTION SEARCH v4 SUMMARY
+============================================================
+  Evaluated:         1000
+  Archive bins:      116/400
+  Moving (>5px net): 154 (15.4%)
+  Localized:         26
+  Time:              1731s
+
+  Top 10 by fitness (concentration × net_displacement):
+    1. bessel/gaussian_bell fitness=130.99 nd=139.6px conc=0.938 alive=0.009 aniso=0.21
+    2. sech/bistable fitness=39.39 nd=73.8px conc=0.534 alive=0.438 aniso=0.35
+    3. power_law/gaussian_bell fitness=38.30 nd=65.8px conc=0.582 alive=0.213 aniso=0.35
+    4. power_law/bistable fitness=31.21 nd=68.2px conc=0.458 alive=0.478 aniso=0.25
+    5. sech/bistable fitness=30.60 nd=40.0px conc=0.765 alive=0.161 aniso=0.35
+    6. sech/bistable fitness=30.47 nd=41.4px conc=0.736 alive=0.199 aniso=0.35
+    7. power_law/bistable fitness=30.41 nd=69.7px conc=0.436 alive=0.321 aniso=0.25
+    8. sech/bistable fitness=29.87 nd=38.1px conc=0.784 alive=0.132 aniso=0.35
+    9. sech/bistable fitness=23.81 nd=32.3px conc=0.737 alive=0.179 aniso=0.35
+    10. power_law/gaussian_bell fitness=22.60 nd=56.0px conc=0.403 alive=0.401 aniso=0.35
+
+  *** LOCOMOTION CANDIDATES (nd>20, conc>0.7, alive<0.15): 3 ***
+    bessel/gaussian_bell nd=139.6px conc=0.938 alive=0.009
+    sech/bistable nd=38.1px conc=0.784 alive=0.132
+    sech/bistable nd=22.7px conc=0.844 alive=0.045
+
+Saved to results_localized_v4/

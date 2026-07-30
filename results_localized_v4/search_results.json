@@ -1,0 +1,3265 @@
+{
+  "total_evaluated": 1000,
+  "archive_size": 116,
+  "moving_count": 154,
+  "localized_count": 26,
+  "time_s": 1731.08,
+  "config": {
+    "resolution": 256,
+    "steps": 10000,
+    "n_genomes": 1000,
+    "anisotropic": true,
+    "asymmetric_init": true
+  },
+  "archive": [
+    {
+      "bin": [
+        0,
+        0
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.043397673149535,
+        "kernel_peaks": 1.8497061163281718,
+        "growth_mu": 0.2422991267674109,
+        "growth_sigma": 0.06835043530876218,
+        "dt": 0.29005718647003603,
+        "aniso_strength": 0.3839807542776663,
+        "aniso_angle": 6.013448548952076
+      },
+      "metrics": {
+        "net_displacement": 0.61,
+        "mass": 139.89,
+        "alive_fraction": 0.006,
+        "spatial_concentration": 0.9453,
+        "fitness": 0.5769,
+        "is_localized": true
+      },
+      "fitness": 0.5769
+    },
+    {
+      "bin": [
+        0,
+        1
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.992203740490563,
+        "kernel_peaks": 0.883916273155477,
+        "growth_mu": 0.15517529067978036,
+        "growth_sigma": 0.0204733412795304,
+        "dt": 0.04223796142852048,
+        "aniso_strength": 0.36561956842878096,
+        "aniso_angle": 0.7205626251278545
+      },
+      "metrics": {
+        "velocity": 0.0,
+        "mass": 1857.34033203125,
+        "alive_fraction": 9.1552734375e-05,
+        "spatial_concentration": 0.0,
+        "fitness": 0.0,
+        "is_localized": false,
+        "net_displacement": 0.0
+      },
+      "fitness": 0.0
+    },
+    {
+      "bin": [
+        0,
+        2
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.37735699875969,
+        "kernel_peaks": 1.645150844005069,
+        "growth_mu": 0.07356747824892118,
+        "growth_sigma": 0.010281518046910744,
+        "dt": 0.15543681550831567,
+        "aniso_strength": 0.5986081263016403,
+        "aniso_angle": 3.20595239398355
+      },
+      "metrics": {
+        "net_displacement": 2.26,
+        "mass": 2465.27,
+        "alive_fraction": 0.1273,
+        "spatial_concentration": 0.4598,
+        "fitness": 1.0399,
+        "is_localized": "False"
+      },
+      "fitness": 1.0399
+    },
+    {
+      "bin": [
+        0,
+        3
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.027195204025045,
+        "kernel_peaks": 1.8751588369247467,
+        "growth_mu": 0.12223972216821805,
+        "growth_sigma": 0.005,
+        "dt": 0.15615345746596163,
+        "aniso_strength": 0.17928309429945818,
+        "aniso_angle": 3.434612633320514
+      },
+      "metrics": {
+        "net_displacement": 2.37,
+        "mass": 3016.67,
+        "alive_fraction": 0.1398,
+        "spatial_concentration": 0.4612,
+        "fitness": 1.0917,
+        "is_localized": "False"
+      },
+      "fitness": 1.0917
+    },
+    {
+      "bin": [
+        0,
+        4
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.342899406765843,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.009643721316992083,
+        "dt": 0.18591068511297426,
+        "aniso_strength": 0.43309215778120447,
+        "aniso_angle": 3.7896335404003394
+      },
+      "metrics": {
+        "net_displacement": 2.19,
+        "mass": 4623.78,
+        "alive_fraction": 0.3167,
+        "spatial_concentration": 0.4692,
+        "fitness": 1.0267,
+        "is_localized": "False"
+      },
+      "fitness": 1.0267
+    },
+    {
+      "bin": [
+        0,
+        5
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.876567791178196,
+        "kernel_peaks": 1.6108353980294496,
+        "growth_mu": 0.06305022205416293,
+        "growth_sigma": 0.020135204919078626,
+        "dt": 0.09425686181465268,
+        "aniso_strength": 0.11780174292194953,
+        "aniso_angle": 0.977497463258844
+      },
+      "metrics": {
+        "net_displacement": 2.2,
+        "mass": 5739.19,
+        "alive_fraction": 0.3524,
+        "spatial_concentration": 0.4585,
+        "fitness": 1.007,
+        "is_localized": "False"
+      },
+      "fitness": 1.007
+    },
+    {
+      "bin": [
+        0,
+        6
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 10.375038822611344,
+        "kernel_peaks": 1.9385645991344012,
+        "growth_mu": 0.07629965308954693,
+        "growth_sigma": 0.07409273655753147,
+        "dt": 0.18773596568802303,
+        "aniso_strength": 0.3112341775173595,
+        "aniso_angle": 4.6455814337867745
+      },
+      "metrics": {
+        "net_displacement": 2.44,
+        "mass": 6126.75,
+        "alive_fraction": 0.2285,
+        "spatial_concentration": 0.4588,
+        "fitness": 1.121,
+        "is_localized": "False"
+      },
+      "fitness": 1.121
+    },
+    {
+      "bin": [
+        0,
+        7
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.105284998409235,
+        "kernel_peaks": 1.432453887220011,
+        "growth_mu": 0.15230419621171637,
+        "growth_sigma": 0.039635101980840866,
+        "dt": 0.2719806767761006,
+        "aniso_strength": 0.2527891686359841,
+        "aniso_angle": 4.33158470927559
+      },
+      "metrics": {
+        "net_displacement": 2.23,
+        "mass": 7433.64,
+        "alive_fraction": 0.193,
+        "spatial_concentration": 0.4612,
+        "fitness": 1.0295,
+        "is_localized": "False"
+      },
+      "fitness": 1.0295
+    },
+    {
+      "bin": [
+        0,
+        8
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.342899406765843,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.13738468791396535,
+        "growth_sigma": 0.01795622632994205,
+        "dt": 0.18591068511297426,
+        "aniso_strength": 0.2674337584869598,
+        "aniso_angle": 4.10582878281714
+      },
+      "metrics": {
+        "net_displacement": 1.94,
+        "mass": 8051.91,
+        "alive_fraction": 0.388,
+        "spatial_concentration": 0.4564,
+        "fitness": 0.8859,
+        "is_localized": "False"
+      },
+      "fitness": 0.8859
+    },
+    {
+      "bin": [
+        0,
+        9
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.010557696912347,
+        "kernel_peaks": 1.520105461821983,
+        "growth_mu": 0.10077928091742673,
+        "growth_sigma": 0.03366940621182298,
+        "dt": 0.15604859680557845,
+        "aniso_strength": 0.1382581140266863,
+        "aniso_angle": 5.883600642607927
+      },
+      "metrics": {
+        "net_displacement": 2.3,
+        "mass": 9372.36,
+        "alive_fraction": 0.6372,
+        "spatial_concentration": 0.4755,
+        "fitness": 1.096,
+        "is_localized": "False"
+      },
+      "fitness": 1.096
+    },
+    {
+      "bin": [
+        0,
+        10
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 20.278621617014245,
+        "kernel_peaks": 1.6535044228810771,
+        "growth_mu": 0.17600113211925555,
+        "growth_sigma": 0.09765110104903328,
+        "dt": 0.11193405891820636,
+        "aniso_strength": 0.24294658276642936,
+        "aniso_angle": 3.099420058638734
+      },
+      "metrics": {
+        "net_displacement": 2.39,
+        "mass": 10346.9,
+        "alive_fraction": 0.2372,
+        "spatial_concentration": 0.4591,
+        "fitness": 1.0986,
+        "is_localized": "False"
+      },
+      "fitness": 1.0986
+    },
+    {
+      "bin": [
+        0,
+        11
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.75421100220456,
+        "kernel_peaks": 1.8533204751063843,
+        "growth_mu": 0.08529476023072564,
+        "growth_sigma": 0.05384953228561974,
+        "dt": 0.2166362737185967,
+        "aniso_strength": 0.3543446919066481,
+        "aniso_angle": 1.4603180125320767
+      },
+      "metrics": {
+        "net_displacement": 2.06,
+        "mass": 11058.34,
+        "alive_fraction": 0.1758,
+        "spatial_concentration": 0.4571,
+        "fitness": 0.9398,
+        "is_localized": "False"
+      },
+      "fitness": 0.9398
+    },
+    {
+      "bin": [
+        0,
+        12
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.32821106163669,
+        "kernel_peaks": 2.754489332243913,
+        "growth_mu": 0.23202831077821423,
+        "growth_sigma": 0.104224013352194,
+        "dt": 0.24354415985960254,
+        "aniso_strength": 0.47429124302310866,
+        "aniso_angle": 5.638590065660009
+      },
+      "metrics": {
+        "net_displacement": 2.49,
+        "mass": 12424.69,
+        "alive_fraction": 0.2386,
+        "spatial_concentration": 0.4593,
+        "fitness": 1.1453,
+        "is_localized": "False"
+      },
+      "fitness": 1.1453
+    },
+    {
+      "bin": [
+        0,
+        13
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.027975885288686,
+        "kernel_peaks": 2.2667803388462064,
+        "growth_mu": 0.24313031592777407,
+        "growth_sigma": 0.11613676872412584,
+        "dt": 0.09934444016305027,
+        "aniso_strength": 0.40863920324663006,
+        "aniso_angle": 2.4324871634461465
+      },
+      "metrics": {
+        "net_displacement": 1.98,
+        "mass": 13135.22,
+        "alive_fraction": 0.2401,
+        "spatial_concentration": 0.4586,
+        "fitness": 0.9101,
+        "is_localized": "False"
+      },
+      "fitness": 0.9101
+    },
+    {
+      "bin": [
+        0,
+        14
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.121214837308436,
+        "kernel_peaks": 0.8327195430884891,
+        "growth_mu": 0.13952884979555674,
+        "growth_sigma": 0.06396302812708171,
+        "dt": 0.2754503480861762,
+        "aniso_strength": 0.4489965011493684,
+        "aniso_angle": 2.1648636620903714
+      },
+      "metrics": {
+        "net_displacement": 2.04,
+        "mass": 13883.29,
+        "alive_fraction": 0.6536,
+        "spatial_concentration": 0.454,
+        "fitness": 0.9277,
+        "is_localized": "False"
+      },
+      "fitness": 0.9277
+    },
+    {
+      "bin": [
+        0,
+        15
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8,
+        "kernel_peaks": 1.1185281213466578,
+        "growth_mu": 0.20220499207786577,
+        "growth_sigma": 0.03580619428965849,
+        "dt": 0.24075548285398904,
+        "aniso_strength": 0.5696586772935048,
+        "aniso_angle": 1.4171473474484895
+      },
+      "metrics": {
+        "net_displacement": 2.39,
+        "mass": 15306.07,
+        "alive_fraction": 0.6105,
+        "spatial_concentration": 0.461,
+        "fitness": 1.101,
+        "is_localized": "False"
+      },
+      "fitness": 1.101
+    },
+    {
+      "bin": [
+        0,
+        16
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "allee",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.866696439940803,
+        "kernel_peaks": 2.5267653697712467,
+        "growth_mu": 0.09076679344327859,
+        "growth_sigma": 0.07835134870251123,
+        "dt": 0.11326975049601977,
+        "aniso_strength": 0.39480731541456643,
+        "aniso_angle": 1.523668564196622
+      },
+      "metrics": {
+        "net_displacement": 2.28,
+        "mass": 15734.54,
+        "alive_fraction": 0.2783,
+        "spatial_concentration": 0.4583,
+        "fitness": 1.0445,
+        "is_localized": "False"
+      },
+      "fitness": 1.0445
+    },
+    {
+      "bin": [
+        0,
+        17
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.25100061581263,
+        "kernel_peaks": 1.3378306422038202,
+        "growth_mu": 0.060724442448762905,
+        "growth_sigma": 0.08860260100587719,
+        "dt": 0.09942382825692302,
+        "aniso_strength": 0.16871174818330373,
+        "aniso_angle": 4.359916137219657
+      },
+      "metrics": {
+        "net_displacement": 2.24,
+        "mass": 16864.17,
+        "alive_fraction": 0.2589,
+        "spatial_concentration": 0.4593,
+        "fitness": 1.0291,
+        "is_localized": "False"
+      },
+      "fitness": 1.0291
+    },
+    {
+      "bin": [
+        0,
+        18
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.091207725386113,
+        "kernel_peaks": 0.7418097903174427,
+        "growth_mu": 0.23025608117003238,
+        "growth_sigma": 0.03909897588444619,
+        "dt": 0.14741804602205585,
+        "aniso_strength": 0.2235522242633311,
+        "aniso_angle": 3.719779853374665
+      },
+      "metrics": {
+        "net_displacement": 2.09,
+        "mass": 18365.82,
+        "alive_fraction": 0.6971,
+        "spatial_concentration": 0.4523,
+        "fitness": 0.947,
+        "is_localized": "False"
+      },
+      "fitness": 0.947
+    },
+    {
+      "bin": [
+        0,
+        19
+      ],
+      "genome": {
+        "kernel_type": "gaussian",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.75421100220456,
+        "kernel_peaks": 1.8533204751063843,
+        "growth_mu": 0.1803283804459806,
+        "growth_sigma": 0.05384953228561974,
+        "dt": 0.2024527809305057,
+        "aniso_strength": 0.3543446919066481,
+        "aniso_angle": 1.2038682855713163
+      },
+      "metrics": {
+        "net_displacement": 2.43,
+        "mass": 23264.2,
+        "alive_fraction": 0.3715,
+        "spatial_concentration": 0.4635,
+        "fitness": 1.1263,
+        "is_localized": "False"
+      },
+      "fitness": 1.1263
+    },
+    {
+      "bin": [
+        1,
+        2
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.873504916997845,
+        "kernel_peaks": 1.8751588369247467,
+        "growth_mu": 0.12223972216821805,
+        "growth_sigma": 0.005,
+        "dt": 0.15615345746596163,
+        "aniso_strength": 0.22260653806009284,
+        "aniso_angle": 3.3189193188760364
+      },
+      "metrics": {
+        "net_displacement": 3.24,
+        "mass": 2072.25,
+        "alive_fraction": 0.1476,
+        "spatial_concentration": 0.4591,
+        "fitness": 1.4894,
+        "is_localized": "False"
+      },
+      "fitness": 1.4894
+    },
+    {
+      "bin": [
+        1,
+        3
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.678713485719909,
+        "kernel_peaks": 1.76186522077582,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.009643721316992083,
+        "dt": 0.18591068511297426,
+        "aniso_strength": 0.43309215778120447,
+        "aniso_angle": 3.7896335404003394
+      },
+      "metrics": {
+        "net_displacement": 4.22,
+        "mass": 3707.38,
+        "alive_fraction": 0.2585,
+        "spatial_concentration": 0.4611,
+        "fitness": 1.9437,
+        "is_localized": "False"
+      },
+      "fitness": 1.9437
+    },
+    {
+      "bin": [
+        1,
+        4
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.342899406765843,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.009643721316992083,
+        "dt": 0.1530445100778317,
+        "aniso_strength": 0.43309215778120447,
+        "aniso_angle": 3.61737714384638
+      },
+      "metrics": {
+        "net_displacement": 4.67,
+        "mass": 4637.71,
+        "alive_fraction": 0.368,
+        "spatial_concentration": 0.4488,
+        "fitness": 2.0961,
+        "is_localized": "False"
+      },
+      "fitness": 2.0961
+    },
+    {
+      "bin": [
+        1,
+        5
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 1.9366132657874626,
+        "growth_mu": 0.24313031592777407,
+        "growth_sigma": 0.12,
+        "dt": 0.09934444016305027,
+        "aniso_strength": 0.34605792661279045,
+        "aniso_angle": 1.733503384353691
+      },
+      "metrics": {
+        "net_displacement": 4.83,
+        "mass": 5265.12,
+        "alive_fraction": 0.0945,
+        "spatial_concentration": 0.4625,
+        "fitness": 2.2324,
+        "is_localized": "False"
+      },
+      "fitness": 2.2324
+    },
+    {
+      "bin": [
+        1,
+        6
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.38742652460913,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.0367677077370584,
+        "dt": 0.1362979361797692,
+        "aniso_strength": 0.187506274729398,
+        "aniso_angle": 3.7000807484360214
+      },
+      "metrics": {
+        "net_displacement": 4.58,
+        "mass": 6561.58,
+        "alive_fraction": 0.506,
+        "spatial_concentration": 0.4611,
+        "fitness": 2.1097,
+        "is_localized": "False"
+      },
+      "fitness": 2.1097
+    },
+    {
+      "bin": [
+        1,
+        7
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.342899406765843,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.12357356899286674,
+        "growth_sigma": 0.01795622632994205,
+        "dt": 0.18591068511297426,
+        "aniso_strength": 0.33339697037573823,
+        "aniso_angle": 4.10582878281714
+      },
+      "metrics": {
+        "net_displacement": 4.83,
+        "mass": 7606.7,
+        "alive_fraction": 0.3949,
+        "spatial_concentration": 0.4614,
+        "fitness": 2.2288,
+        "is_localized": "False"
+      },
+      "fitness": 2.2288
+    },
+    {
+      "bin": [
+        1,
+        8
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.967834230820028,
+        "kernel_peaks": 1.7747655131412414,
+        "growth_mu": 0.1234366647580048,
+        "growth_sigma": 0.039635101980840866,
+        "dt": 0.2719806767761006,
+        "aniso_strength": 0.2527891686359841,
+        "aniso_angle": 3.2905137419433004
+      },
+      "metrics": {
+        "net_displacement": 4.81,
+        "mass": 8000.06,
+        "alive_fraction": 0.1746,
+        "spatial_concentration": 0.4581,
+        "fitness": 2.2035,
+        "is_localized": "False"
+      },
+      "fitness": 2.2035
+    },
+    {
+      "bin": [
+        1,
+        9
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.271504249603336,
+        "kernel_peaks": 1.520105461821983,
+        "growth_mu": 0.10077928091742673,
+        "growth_sigma": 0.03366940621182298,
+        "dt": 0.1773973239872369,
+        "aniso_strength": 0.2429408420131048,
+        "aniso_angle": 3.7901478566315685
+      },
+      "metrics": {
+        "net_displacement": 4.98,
+        "mass": 8949.66,
+        "alive_fraction": 0.5866,
+        "spatial_concentration": 0.4646,
+        "fitness": 2.315,
+        "is_localized": "False"
+      },
+      "fitness": 2.315
+    },
+    {
+      "bin": [
+        1,
+        10
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.712657407633433,
+        "kernel_peaks": 1.6169582786263739,
+        "growth_mu": 0.1327822172147039,
+        "growth_sigma": 0.05037940054691795,
+        "dt": 0.29588351982363076,
+        "aniso_strength": 0.1862183014782646,
+        "aniso_angle": 5.321898188923346
+      },
+      "metrics": {
+        "net_displacement": 4.97,
+        "mass": 10213.03,
+        "alive_fraction": 0.5306,
+        "spatial_concentration": 0.4578,
+        "fitness": 2.2767,
+        "is_localized": "False"
+      },
+      "fitness": 2.2767
+    },
+    {
+      "bin": [
+        1,
+        11
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.482224275277996,
+        "kernel_peaks": 2.5603928603445776,
+        "growth_mu": 0.2742270173686444,
+        "growth_sigma": 0.05309653492830757,
+        "dt": 0.1947222715055188,
+        "aniso_strength": 0.3478641857992788,
+        "aniso_angle": 2.4048920086143353
+      },
+      "metrics": {
+        "net_displacement": 4.14,
+        "mass": 11550.87,
+        "alive_fraction": 0.2005,
+        "spatial_concentration": 0.4596,
+        "fitness": 1.9042,
+        "is_localized": "False"
+      },
+      "fitness": 1.9042
+    },
+    {
+      "bin": [
+        1,
+        12
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.794520592151478,
+        "kernel_peaks": 1.07034804349049,
+        "growth_mu": 0.13203919624324362,
+        "growth_sigma": 0.04720336060719086,
+        "dt": 0.24131913864853757,
+        "aniso_strength": 0.1599379722507797,
+        "aniso_angle": 0.7447259917851702
+      },
+      "metrics": {
+        "net_displacement": 4.94,
+        "mass": 12762.23,
+        "alive_fraction": 0.645,
+        "spatial_concentration": 0.4488,
+        "fitness": 2.2177,
+        "is_localized": "False"
+      },
+      "fitness": 2.2177
+    },
+    {
+      "bin": [
+        1,
+        13
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "allee",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.86432256445446,
+        "kernel_peaks": 0.8975094553336835,
+        "growth_mu": 0.0989184359435068,
+        "growth_sigma": 0.08947515275068676,
+        "dt": 0.2761320275077597,
+        "aniso_strength": 0.3671068410219219,
+        "aniso_angle": 2.692370849216423
+      },
+      "metrics": {
+        "net_displacement": 4.69,
+        "mass": 13346.17,
+        "alive_fraction": 0.6746,
+        "spatial_concentration": 0.4661,
+        "fitness": 2.1837,
+        "is_localized": "False"
+      },
+      "fitness": 2.1837
+    },
+    {
+      "bin": [
+        1,
+        14
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.321983403123802,
+        "kernel_peaks": 0.6430746401972414,
+        "growth_mu": 0.10724781899804685,
+        "growth_sigma": 0.10180614993088496,
+        "dt": 0.1796170871894754,
+        "aniso_strength": 0.31478521189434616,
+        "aniso_angle": 5.495718276638614
+      },
+      "metrics": {
+        "net_displacement": 4.67,
+        "mass": 14156.43,
+        "alive_fraction": 0.7598,
+        "spatial_concentration": 0.4577,
+        "fitness": 2.1374,
+        "is_localized": "False"
+      },
+      "fitness": 2.1374
+    },
+    {
+      "bin": [
+        1,
+        15
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.781727907414716,
+        "kernel_peaks": 2.3706531180187023,
+        "growth_mu": 0.20070798643942994,
+        "growth_sigma": 0.02896182105922773,
+        "dt": 0.024333502944813973,
+        "aniso_strength": 0.21452527791620304,
+        "aniso_angle": 1.7911590897613312
+      },
+      "metrics": {
+        "net_displacement": 4.92,
+        "mass": 15399.53,
+        "alive_fraction": 0.6975,
+        "spatial_concentration": 0.4589,
+        "fitness": 2.2571,
+        "is_localized": "False"
+      },
+      "fitness": 2.2571
+    },
+    {
+      "bin": [
+        1,
+        16
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "allee",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.274471366037776,
+        "kernel_peaks": 2.078994791775261,
+        "growth_mu": 0.08916659668175021,
+        "growth_sigma": 0.07835134870251123,
+        "dt": 0.06385709855818258,
+        "aniso_strength": 0.4242536910928838,
+        "aniso_angle": 1.523668564196622
+      },
+      "metrics": {
+        "net_displacement": 4.62,
+        "mass": 16009.41,
+        "alive_fraction": 0.2668,
+        "spatial_concentration": 0.4593,
+        "fitness": 2.1215,
+        "is_localized": "False"
+      },
+      "fitness": 2.1215
+    },
+    {
+      "bin": [
+        1,
+        17
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.482224275277996,
+        "kernel_peaks": 2.5603928603445776,
+        "growth_mu": 0.25727231596691286,
+        "growth_sigma": 0.05309653492830757,
+        "dt": 0.21145219427632933,
+        "aniso_strength": 0.3478641857992788,
+        "aniso_angle": 1.6630820548368999
+      },
+      "metrics": {
+        "net_displacement": 3.78,
+        "mass": 17601.12,
+        "alive_fraction": 0.7173,
+        "spatial_concentration": 0.456,
+        "fitness": 1.7249,
+        "is_localized": "False"
+      },
+      "fitness": 1.7249
+    },
+    {
+      "bin": [
+        1,
+        18
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.757414139696643,
+        "kernel_peaks": 2.5603928603445776,
+        "growth_mu": 0.25727231596691286,
+        "growth_sigma": 0.05309653492830757,
+        "dt": 0.21145219427632933,
+        "aniso_strength": 0.3478641857992788,
+        "aniso_angle": 0
+      },
+      "metrics": {
+        "net_displacement": 4.68,
+        "mass": 18376.04,
+        "alive_fraction": 0.7113,
+        "spatial_concentration": 0.4679,
+        "fitness": 2.1918,
+        "is_localized": "False"
+      },
+      "fitness": 2.1918
+    },
+    {
+      "bin": [
+        1,
+        19
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 20.87882829238947,
+        "kernel_peaks": 1.770316336505028,
+        "growth_mu": 0.239438253493248,
+        "growth_sigma": 0.07224511520143366,
+        "dt": 0.09113887786761807,
+        "aniso_strength": 0.18201077168573823,
+        "aniso_angle": 5.312571228946394
+      },
+      "metrics": {
+        "net_displacement": 4.81,
+        "mass": 21166.84,
+        "alive_fraction": 0.344,
+        "spatial_concentration": 0.4591,
+        "fitness": 2.208,
+        "is_localized": "False"
+      },
+      "fitness": 2.208
+    },
+    {
+      "bin": [
+        2,
+        4
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.26038833797349,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.021651752491561177,
+        "dt": 0.18591068511297426,
+        "aniso_strength": 0.5478808634312513,
+        "aniso_angle": 3.7896335404003394
+      },
+      "metrics": {
+        "net_displacement": 7.09,
+        "mass": 4759.69,
+        "alive_fraction": 0.339,
+        "spatial_concentration": 0.4675,
+        "fitness": 3.3123,
+        "is_localized": "False"
+      },
+      "fitness": 3.3123
+    },
+    {
+      "bin": [
+        2,
+        5
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.342899406765843,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.01795622632994205,
+        "dt": 0.18591068511297426,
+        "aniso_strength": 0.3593255320915815,
+        "aniso_angle": 3.7896335404003394
+      },
+      "metrics": {
+        "net_displacement": 6.78,
+        "mass": 5023.48,
+        "alive_fraction": 0.3573,
+        "spatial_concentration": 0.4681,
+        "fitness": 3.1741,
+        "is_localized": "False"
+      },
+      "fitness": 3.1741
+    },
+    {
+      "bin": [
+        2,
+        6
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.38742652460913,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.0306467271374745,
+        "dt": 0.1362979361797692,
+        "aniso_strength": 0.16961541592337798,
+        "aniso_angle": 4.166585364168086
+      },
+      "metrics": {
+        "net_displacement": 7.44,
+        "mass": 6481.77,
+        "alive_fraction": 0.455,
+        "spatial_concentration": 0.4676,
+        "fitness": 3.4806,
+        "is_localized": "False"
+      },
+      "fitness": 3.4806
+    },
+    {
+      "bin": [
+        2,
+        7
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.105284998409235,
+        "kernel_peaks": 1.432453887220011,
+        "growth_mu": 0.15230419621171637,
+        "growth_sigma": 0.039635101980840866,
+        "dt": 0.2719806767761006,
+        "aniso_strength": 0.2527891686359841,
+        "aniso_angle": 3.2905137419433004
+      },
+      "metrics": {
+        "net_displacement": 6.92,
+        "mass": 7422.86,
+        "alive_fraction": 0.1803,
+        "spatial_concentration": 0.4597,
+        "fitness": 3.181,
+        "is_localized": "False"
+      },
+      "fitness": 3.181
+    },
+    {
+      "bin": [
+        2,
+        8
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.670077931481426,
+        "kernel_peaks": 1.520105461821983,
+        "growth_mu": 0.09009273221800146,
+        "growth_sigma": 0.03366940621182298,
+        "dt": 0.15604859680557845,
+        "aniso_strength": 0.1382581140266863,
+        "aniso_angle": 5.883600642607927
+      },
+      "metrics": {
+        "net_displacement": 7.16,
+        "mass": 8556.26,
+        "alive_fraction": 0.5671,
+        "spatial_concentration": 0.4584,
+        "fitness": 3.283,
+        "is_localized": "False"
+      },
+      "fitness": 3.283
+    },
+    {
+      "bin": [
+        2,
+        9
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.105284998409235,
+        "kernel_peaks": 1.432453887220011,
+        "growth_mu": 0.20759547691993385,
+        "growth_sigma": 0.044995071722777426,
+        "dt": 0.2719806767761006,
+        "aniso_strength": 0.2527891686359841,
+        "aniso_angle": 4.33158470927559
+      },
+      "metrics": {
+        "net_displacement": 7.34,
+        "mass": 9203.3,
+        "alive_fraction": 0.2077,
+        "spatial_concentration": 0.4622,
+        "fitness": 3.3932,
+        "is_localized": "False"
+      },
+      "fitness": 3.3932
+    },
+    {
+      "bin": [
+        2,
+        10
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "allee",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.42974490130026,
+        "kernel_peaks": 1.3558517106089993,
+        "growth_mu": 0.06991234316634833,
+        "growth_sigma": 0.054527838728780996,
+        "dt": 0.14766980108021338,
+        "aniso_strength": 0.4520099699116431,
+        "aniso_angle": 3.6303189196675048
+      },
+      "metrics": {
+        "net_displacement": 7.44,
+        "mass": 10561.66,
+        "alive_fraction": 0.647,
+        "spatial_concentration": 0.4623,
+        "fitness": 3.441,
+        "is_localized": "False"
+      },
+      "fitness": 3.441
+    },
+    {
+      "bin": [
+        2,
+        11
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.121214837308436,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.13952884979555674,
+        "growth_sigma": 0.06396302812708171,
+        "dt": 0.2754503480861762,
+        "aniso_strength": 0.4489965011493684,
+        "aniso_angle": 2.7150358784050392
+      },
+      "metrics": {
+        "net_displacement": 6.98,
+        "mass": 11368.33,
+        "alive_fraction": 0.5806,
+        "spatial_concentration": 0.4802,
+        "fitness": 3.3508,
+        "is_localized": "False"
+      },
+      "fitness": 3.3508
+    },
+    {
+      "bin": [
+        2,
+        12
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.121214837308436,
+        "kernel_peaks": 1.3275579498107353,
+        "growth_mu": 0.13766987655204393,
+        "growth_sigma": 0.027894262731413315,
+        "dt": 0.2754503480861762,
+        "aniso_strength": 0.4489965011493684,
+        "aniso_angle": 1.8160330097115378
+      },
+      "metrics": {
+        "net_displacement": 7.41,
+        "mass": 12513.27,
+        "alive_fraction": 0.4899,
+        "spatial_concentration": 0.4677,
+        "fitness": 3.4663,
+        "is_localized": "False"
+      },
+      "fitness": 3.4663
+    },
+    {
+      "bin": [
+        2,
+        13
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.321983403123802,
+        "kernel_peaks": 0.8411952935757798,
+        "growth_mu": 0.10724781899804685,
+        "growth_sigma": 0.10180614993088496,
+        "dt": 0.1796170871894754,
+        "aniso_strength": 0.2908007515426021,
+        "aniso_angle": 5.495718276638614
+      },
+      "metrics": {
+        "net_displacement": 7.49,
+        "mass": 13649.52,
+        "alive_fraction": 0.7269,
+        "spatial_concentration": 0.4749,
+        "fitness": 3.5567,
+        "is_localized": "False"
+      },
+      "fitness": 3.5567
+    },
+    {
+      "bin": [
+        2,
+        14
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.86432256445446,
+        "kernel_peaks": 0.9786950436492899,
+        "growth_mu": 0.07369054494459351,
+        "growth_sigma": 0.08947515275068676,
+        "dt": 0.2761320275077597,
+        "aniso_strength": 0.2315675056646598,
+        "aniso_angle": 2.692370849216423
+      },
+      "metrics": {
+        "net_displacement": 7.0,
+        "mass": 14410.1,
+        "alive_fraction": 0.7109,
+        "spatial_concentration": 0.4635,
+        "fitness": 3.2466,
+        "is_localized": "False"
+      },
+      "fitness": 3.2466
+    },
+    {
+      "bin": [
+        2,
+        15
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.121214837308436,
+        "kernel_peaks": 0.6623541387469626,
+        "growth_mu": 0.19219482118823475,
+        "growth_sigma": 0.07171724416934194,
+        "dt": 0.2754503480861762,
+        "aniso_strength": 0.4489965011493684,
+        "aniso_angle": 2.1648636620903714
+      },
+      "metrics": {
+        "net_displacement": 7.13,
+        "mass": 15608.74,
+        "alive_fraction": 0.6443,
+        "spatial_concentration": 0.4728,
+        "fitness": 3.3711,
+        "is_localized": "False"
+      },
+      "fitness": 3.3711
+    },
+    {
+      "bin": [
+        2,
+        16
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "allee",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.86432256445446,
+        "kernel_peaks": 0.9343823742590298,
+        "growth_mu": 0.0989184359435068,
+        "growth_sigma": 0.08947515275068676,
+        "dt": 0.2761320275077597,
+        "aniso_strength": 0.3671068410219219,
+        "aniso_angle": 2.692370849216423
+      },
+      "metrics": {
+        "net_displacement": 6.77,
+        "mass": 15863.2,
+        "alive_fraction": 0.734,
+        "spatial_concentration": 0.4407,
+        "fitness": 2.9859,
+        "is_localized": "False"
+      },
+      "fitness": 2.9859
+    },
+    {
+      "bin": [
+        2,
+        18
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 9.69509819898836,
+        "kernel_peaks": 0.7576123137675759,
+        "growth_mu": 0.1966289024113026,
+        "growth_sigma": 0.04510619174773933,
+        "dt": 0.02,
+        "aniso_strength": 0.34893709648332716,
+        "aniso_angle": 1.8719028523801389
+      },
+      "metrics": {
+        "net_displacement": 7.16,
+        "mass": 18048.21,
+        "alive_fraction": 0.618,
+        "spatial_concentration": 0.4589,
+        "fitness": 3.288,
+        "is_localized": "False"
+      },
+      "fitness": 3.288
+    },
+    {
+      "bin": [
+        2,
+        19
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 10.337691646508725,
+        "kernel_peaks": 0.7076957815488645,
+        "growth_mu": 0.2983421822000843,
+        "growth_sigma": 0.06433914978926189,
+        "dt": 0.28971610059679287,
+        "aniso_strength": 0.17518742910854487,
+        "aniso_angle": 3.325701536145182
+      },
+      "metrics": {
+        "net_displacement": 7.12,
+        "mass": 20704.82,
+        "alive_fraction": 0.6703,
+        "spatial_concentration": 0.4803,
+        "fitness": 3.4184,
+        "is_localized": "False"
+      },
+      "fitness": 3.4184
+    },
+    {
+      "bin": [
+        3,
+        5
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.217347020429152,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.051992611423474756,
+        "growth_sigma": 0.03366940621182298,
+        "dt": 0.15604859680557845,
+        "aniso_strength": 0.2681509376124811,
+        "aniso_angle": 3.339262579500165
+      },
+      "metrics": {
+        "net_displacement": 8.21,
+        "mass": 5560.71,
+        "alive_fraction": 0.4144,
+        "spatial_concentration": 0.4779,
+        "fitness": 3.9224,
+        "is_localized": "False"
+      },
+      "fitness": 3.9224
+    },
+    {
+      "bin": [
+        3,
+        6
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.557024190704652,
+        "kernel_peaks": 0.8261630200378309,
+        "growth_mu": 0.06635699752451686,
+        "growth_sigma": 0.0306467271374745,
+        "dt": 0.11938848974648696,
+        "aniso_strength": 0.16961541592337798,
+        "aniso_angle": 4.166585364168086
+      },
+      "metrics": {
+        "net_displacement": 8.78,
+        "mass": 6434.31,
+        "alive_fraction": 0.4638,
+        "spatial_concentration": 0.4515,
+        "fitness": 3.9646,
+        "is_localized": "False"
+      },
+      "fitness": 3.9646
+    },
+    {
+      "bin": [
+        3,
+        7
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.509685965185767,
+        "kernel_peaks": 2.9887876181535478,
+        "growth_mu": 0.06910266679171315,
+        "growth_sigma": 0.061555617589376325,
+        "dt": 0.28552068164042865,
+        "aniso_strength": 0.4818240628118774,
+        "aniso_angle": 2.9841464807489912
+      },
+      "metrics": {
+        "net_displacement": 7.8,
+        "mass": 7373.29,
+        "alive_fraction": 0.3777,
+        "spatial_concentration": 0.479,
+        "fitness": 3.7356,
+        "is_localized": "False"
+      },
+      "fitness": 3.7356
+    },
+    {
+      "bin": [
+        3,
+        8
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.271504249603336,
+        "kernel_peaks": 1.520105461821983,
+        "growth_mu": 0.10077928091742673,
+        "growth_sigma": 0.03366940621182298,
+        "dt": 0.15604859680557845,
+        "aniso_strength": 0.20696222076674603,
+        "aniso_angle": 4.166585364168086
+      },
+      "metrics": {
+        "net_displacement": 8.4,
+        "mass": 8838.54,
+        "alive_fraction": 0.6065,
+        "spatial_concentration": 0.4702,
+        "fitness": 3.9506,
+        "is_localized": "False"
+      },
+      "fitness": 3.9506
+    },
+    {
+      "bin": [
+        3,
+        9
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.091967406619393,
+        "kernel_peaks": 2.036155668014695,
+        "growth_mu": 0.054346607625321425,
+        "growth_sigma": 0.11519250551404546,
+        "dt": 0.24826864487609973,
+        "aniso_strength": 0.5693405530681782,
+        "aniso_angle": 4.195337578437188
+      },
+      "metrics": {
+        "net_displacement": 8.21,
+        "mass": 9493.98,
+        "alive_fraction": 0.4748,
+        "spatial_concentration": 0.4701,
+        "fitness": 3.8582,
+        "is_localized": "False"
+      },
+      "fitness": 3.8582
+    },
+    {
+      "bin": [
+        3,
+        10
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.56980967919873,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.09073842664173329,
+        "growth_sigma": 0.10180614993088496,
+        "dt": 0.1796170871894754,
+        "aniso_strength": 0.31478521189434616,
+        "aniso_angle": 5.495718276638614
+      },
+      "metrics": {
+        "net_displacement": 9.35,
+        "mass": 10802.11,
+        "alive_fraction": 0.6321,
+        "spatial_concentration": 0.477,
+        "fitness": 4.4594,
+        "is_localized": "False"
+      },
+      "fitness": 4.4594
+    },
+    {
+      "bin": [
+        3,
+        11
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.454696639578447,
+        "kernel_peaks": 0.6430746401972414,
+        "growth_mu": 0.08713247070467714,
+        "growth_sigma": 0.09871184658909117,
+        "dt": 0.17727356603616445,
+        "aniso_strength": 0.20653560394118434,
+        "aniso_angle": 5.450326937761831
+      },
+      "metrics": {
+        "net_displacement": 8.05,
+        "mass": 11517.95,
+        "alive_fraction": 0.74,
+        "spatial_concentration": 0.4469,
+        "fitness": 3.5957,
+        "is_localized": "False"
+      },
+      "fitness": 3.5957
+    },
+    {
+      "bin": [
+        3,
+        12
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.883832285922196,
+        "kernel_peaks": 1.1875111621962644,
+        "growth_mu": 0.06635699752451686,
+        "growth_sigma": 0.04107750903445652,
+        "dt": 0.12714712335876782,
+        "aniso_strength": 0.3257817277489117,
+        "aniso_angle": 4.166585364168086
+      },
+      "metrics": {
+        "net_displacement": 7.88,
+        "mass": 12557.25,
+        "alive_fraction": 0.2041,
+        "spatial_concentration": 0.4595,
+        "fitness": 3.6203,
+        "is_localized": "False"
+      },
+      "fitness": 3.6203
+    },
+    {
+      "bin": [
+        3,
+        13
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.529964950463985,
+        "kernel_peaks": 1.215707126441208,
+        "growth_mu": 0.15982238263124288,
+        "growth_sigma": 0.027894262731413315,
+        "dt": 0.2754503480861762,
+        "aniso_strength": 0.4489965011493684,
+        "aniso_angle": 2.1247613422793252
+      },
+      "metrics": {
+        "net_displacement": 9.16,
+        "mass": 12899.27,
+        "alive_fraction": 0.4696,
+        "spatial_concentration": 0.4485,
+        "fitness": 4.1083,
+        "is_localized": "False"
+      },
+      "fitness": 4.1083
+    },
+    {
+      "bin": [
+        3,
+        14
+      ],
+      "genome": {
+        "kernel_type": "polynomial",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.121214837308436,
+        "kernel_peaks": 0.8327195430884891,
+        "growth_mu": 0.13952884979555674,
+        "growth_sigma": 0.06396302812708171,
+        "dt": 0.2754503480861762,
+        "aniso_strength": 0.4489965011493684,
+        "aniso_angle": 2.7150358784050392
+      },
+      "metrics": {
+        "net_displacement": 9.48,
+        "mass": 13982.29,
+        "alive_fraction": 0.6569,
+        "spatial_concentration": 0.4671,
+        "fitness": 4.4298,
+        "is_localized": "False"
+      },
+      "fitness": 4.4298
+    },
+    {
+      "bin": [
+        3,
+        15
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.41546066588444,
+        "kernel_peaks": 2.3706531180187023,
+        "growth_mu": 0.20070798643942994,
+        "growth_sigma": 0.02896182105922773,
+        "dt": 0.024333502944813973,
+        "aniso_strength": 0.2626754847330161,
+        "aniso_angle": 2.796061416997655
+      },
+      "metrics": {
+        "net_displacement": 9.58,
+        "mass": 15685.73,
+        "alive_fraction": 0.277,
+        "spatial_concentration": 0.4589,
+        "fitness": 4.3961,
+        "is_localized": "False"
+      },
+      "fitness": 4.3961
+    },
+    {
+      "bin": [
+        3,
+        16
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.49129735685651,
+        "kernel_peaks": 2.2372585870378976,
+        "growth_mu": 0.263122371401651,
+        "growth_sigma": 0.06092776180229411,
+        "dt": 0.23025424057462357,
+        "aniso_strength": 0.20528992030894463,
+        "aniso_angle": 1.69883698266491
+      },
+      "metrics": {
+        "net_displacement": 7.5,
+        "mass": 16630.54,
+        "alive_fraction": 0.6538,
+        "spatial_concentration": 0.4528,
+        "fitness": 3.3958,
+        "is_localized": "False"
+      },
+      "fitness": 3.3958
+    },
+    {
+      "bin": [
+        3,
+        19
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 2.284136430175341,
+        "growth_mu": 0.263122371401651,
+        "growth_sigma": 0.06092776180229411,
+        "dt": 0.25863511586314625,
+        "aniso_strength": 0.20528992030894463,
+        "aniso_angle": 1.69883698266491
+      },
+      "metrics": {
+        "net_displacement": 7.85,
+        "mass": 20211.75,
+        "alive_fraction": 0.703,
+        "spatial_concentration": 0.4608,
+        "fitness": 3.6164,
+        "is_localized": "False"
+      },
+      "fitness": 3.6164
+    },
+    {
+      "bin": [
+        4,
+        0
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.018898423866588,
+        "kernel_peaks": 2.2985119934145786,
+        "growth_mu": 0.16547472256233825,
+        "growth_sigma": 0.034572649996078064,
+        "dt": 0.09211307748685962,
+        "aniso_strength": 0.25030636293956154,
+        "aniso_angle": 6.283185307179586
+      },
+      "metrics": {
+        "net_displacement": 12.46,
+        "mass": 359.49,
+        "alive_fraction": 0.0096,
+        "spatial_concentration": 0.8447,
+        "fitness": 10.5271,
+        "is_localized": true
+      },
+      "fitness": 10.5271
+    },
+    {
+      "bin": [
+        4,
+        1
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 23.75524423160654,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.09073842664173329,
+        "growth_sigma": 0.10340939990829719,
+        "dt": 0.2743488546205406,
+        "aniso_strength": 0.31478521189434616,
+        "aniso_angle": 5.495718276638614
+      },
+      "metrics": {
+        "net_displacement": 12.31,
+        "mass": 1766.59,
+        "alive_fraction": 0.0795,
+        "spatial_concentration": 0.4238,
+        "fitness": 5.2173,
+        "is_localized": "False"
+      },
+      "fitness": 5.2173
+    },
+    {
+      "bin": [
+        4,
+        2
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8.843442970079622,
+        "kernel_peaks": 0.7576123137675759,
+        "growth_mu": 0.2465727455023527,
+        "growth_sigma": 0.029473352135800476,
+        "dt": 0.04123390948871149,
+        "aniso_strength": 0.34893709648332716,
+        "aniso_angle": 1.8719028523801389
+      },
+      "metrics": {
+        "net_displacement": 12.06,
+        "mass": 2510.7,
+        "alive_fraction": 0.1172,
+        "spatial_concentration": 0.6391,
+        "fitness": 7.7044,
+        "is_localized": "False"
+      },
+      "fitness": 7.7044
+    },
+    {
+      "bin": [
+        4,
+        3
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 17.808603271385433,
+        "kernel_peaks": 1.7851398928463655,
+        "growth_mu": 0.11630779374367842,
+        "growth_sigma": 0.013978076822557261,
+        "dt": 0.2608744836654705,
+        "aniso_strength": 0.3840328967618992,
+        "aniso_angle": 2.7315759574700627
+      },
+      "metrics": {
+        "net_displacement": 12.44,
+        "mass": 3240.38,
+        "alive_fraction": 0.1191,
+        "spatial_concentration": 0.4515,
+        "fitness": 5.6166,
+        "is_localized": "False"
+      },
+      "fitness": 5.6166
+    },
+    {
+      "bin": [
+        4,
+        4
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.342899406765843,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.01795622632994205,
+        "dt": 0.18591068511297426,
+        "aniso_strength": 0.33339697037573823,
+        "aniso_angle": 4.10582878281714
+      },
+      "metrics": {
+        "net_displacement": 12.18,
+        "mass": 4732.62,
+        "alive_fraction": 0.3416,
+        "spatial_concentration": 0.4467,
+        "fitness": 5.4425,
+        "is_localized": "False"
+      },
+      "fitness": 5.4425
+    },
+    {
+      "bin": [
+        4,
+        5
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.001299291212568,
+        "kernel_peaks": 1.985802194363347,
+        "growth_mu": 0.09818137004040528,
+        "growth_sigma": 0.01875454962378264,
+        "dt": 0.029677388407600425,
+        "aniso_strength": 0.22934639878323562,
+        "aniso_angle": 0.15213888193862857
+      },
+      "metrics": {
+        "net_displacement": 10.21,
+        "mass": 5551.63,
+        "alive_fraction": 0.6391,
+        "spatial_concentration": 0.4884,
+        "fitness": 4.9866,
+        "is_localized": "False"
+      },
+      "fitness": 4.9866
+    },
+    {
+      "bin": [
+        4,
+        11
+      ],
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "growth_type": "swift_hohenberg",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 24.105284998409235,
+        "kernel_peaks": 1.6724819216962148,
+        "growth_mu": 0.15230419621171637,
+        "growth_sigma": 0.07443994190284133,
+        "dt": 0.2719806767761006,
+        "aniso_strength": 0.35434240952380136,
+        "aniso_angle": 3.2905137419433004
+      },
+      "metrics": {
+        "net_displacement": 10.88,
+        "mass": 10971.22,
+        "alive_fraction": 0.2055,
+        "spatial_concentration": 0.4608,
+        "fitness": 5.0135,
+        "is_localized": "False"
+      },
+      "fitness": 5.0135
+    },
+    {
+      "bin": [
+        4,
+        12
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.56980967919873,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.09073842664173329,
+        "growth_sigma": 0.10180614993088496,
+        "dt": 0.1796170871894754,
+        "aniso_strength": 0.31478521189434616,
+        "aniso_angle": 6.283185307179586
+      },
+      "metrics": {
+        "net_displacement": 10.2,
+        "mass": 12149.94,
+        "alive_fraction": 0.7065,
+        "spatial_concentration": 0.4648,
+        "fitness": 4.7425,
+        "is_localized": "False"
+      },
+      "fitness": 4.7425
+    },
+    {
+      "bin": [
+        4,
+        15
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.86432256445446,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.0989184359435068,
+        "growth_sigma": 0.08947515275068676,
+        "dt": 0.2761320275077597,
+        "aniso_strength": 0.3671068410219219,
+        "aniso_angle": 2.692370849216423
+      },
+      "metrics": {
+        "net_displacement": 12.3,
+        "mass": 15589.72,
+        "alive_fraction": 0.6927,
+        "spatial_concentration": 0.4698,
+        "fitness": 5.7781,
+        "is_localized": "False"
+      },
+      "fitness": 5.7781
+    },
+    {
+      "bin": [
+        4,
+        16
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 20.398388699896564,
+        "kernel_peaks": 2.1080577616205316,
+        "growth_mu": 0.16547472256233825,
+        "growth_sigma": 0.03275277485457227,
+        "dt": 0.11350290463566623,
+        "aniso_strength": 0.25491972102174815,
+        "aniso_angle": 5.605956361931425
+      },
+      "metrics": {
+        "net_displacement": 12.42,
+        "mass": 16250.68,
+        "alive_fraction": 0.5006,
+        "spatial_concentration": 0.4586,
+        "fitness": 5.6938,
+        "is_localized": "False"
+      },
+      "fitness": 5.6938
+    },
+    {
+      "bin": [
+        4,
+        17
+      ],
+      "genome": {
+        "kernel_type": "bump",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 25,
+        "kernel_peaks": 2.284136430175341,
+        "growth_mu": 0.263122371401651,
+        "growth_sigma": 0.06092776180229411,
+        "dt": 0.2731941845786663,
+        "aniso_strength": 0.20528992030894463,
+        "aniso_angle": 1.7308477833641267
+      },
+      "metrics": {
+        "net_displacement": 12.44,
+        "mass": 17512.76,
+        "alive_fraction": 0.6486,
+        "spatial_concentration": 0.4509,
+        "fitness": 5.6109,
+        "is_localized": "False"
+      },
+      "fitness": 5.6109
+    },
+    {
+      "bin": [
+        5,
+        3
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.38742652460913,
+        "kernel_peaks": 0.7517483241240063,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.0306467271374745,
+        "dt": 0.1362979361797692,
+        "aniso_strength": 0.187506274729398,
+        "aniso_angle": 3.7000807484360214
+      },
+      "metrics": {
+        "net_displacement": 13.67,
+        "mass": 3698.91,
+        "alive_fraction": 0.2677,
+        "spatial_concentration": 0.4522,
+        "fitness": 6.181,
+        "is_localized": "False"
+      },
+      "fitness": 6.181
+    },
+    {
+      "bin": [
+        5,
+        5
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.027195204025045,
+        "kernel_peaks": 1.8751588369247467,
+        "growth_mu": 0.08614579720638377,
+        "growth_sigma": 0.012226182467757779,
+        "dt": 0.15615345746596163,
+        "aniso_strength": 0.12913670306071542,
+        "aniso_angle": 3.432766159745408
+      },
+      "metrics": {
+        "net_displacement": 13.45,
+        "mass": 5801.79,
+        "alive_fraction": 0.3912,
+        "spatial_concentration": 0.4851,
+        "fitness": 6.5266,
+        "is_localized": "False"
+      },
+      "fitness": 6.5266
+    },
+    {
+      "bin": [
+        5,
+        6
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.027195204025045,
+        "kernel_peaks": 1.8751588369247467,
+        "growth_mu": 0.08614579720638377,
+        "growth_sigma": 0.012226182467757779,
+        "dt": 0.15615345746596163,
+        "aniso_strength": 0.19687360155251676,
+        "aniso_angle": 3.3189193188760364
+      },
+      "metrics": {
+        "net_displacement": 14.91,
+        "mass": 6277.53,
+        "alive_fraction": 0.4149,
+        "spatial_concentration": 0.4784,
+        "fitness": 7.1332,
+        "is_localized": "False"
+      },
+      "fitness": 7.1332
+    },
+    {
+      "bin": [
+        5,
+        7
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.622231623241493,
+        "kernel_peaks": 1.0255079857780507,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.0306467271374745,
+        "dt": 0.1362979361797692,
+        "aniso_strength": 0.16961541592337798,
+        "aniso_angle": 3.6267833148712336
+      },
+      "metrics": {
+        "net_displacement": 14.33,
+        "mass": 7357.65,
+        "alive_fraction": 0.5271,
+        "spatial_concentration": 0.4553,
+        "fitness": 6.5252,
+        "is_localized": "False"
+      },
+      "fitness": 6.5252
+    },
+    {
+      "bin": [
+        5,
+        11
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.56980967919873,
+        "kernel_peaks": 0.5,
+        "growth_mu": 0.09073842664173329,
+        "growth_sigma": 0.09831058595323394,
+        "dt": 0.1796170871894754,
+        "aniso_strength": 0.31478521189434616,
+        "aniso_angle": 6.283185307179586
+      },
+      "metrics": {
+        "net_displacement": 12.65,
+        "mass": 10997.18,
+        "alive_fraction": 0.64,
+        "spatial_concentration": 0.4538,
+        "fitness": 5.7383,
+        "is_localized": "False"
+      },
+      "fitness": 5.7383
+    },
+    {
+      "bin": [
+        5,
+        16
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 20.398388699896564,
+        "kernel_peaks": 2.1080577616205316,
+        "growth_mu": 0.16547472256233825,
+        "growth_sigma": 0.03275277485457227,
+        "dt": 0.11350290463566623,
+        "aniso_strength": 0.25030636293956154,
+        "aniso_angle": 5.605956361931425
+      },
+      "metrics": {
+        "net_displacement": 13.32,
+        "mass": 16206.16,
+        "alive_fraction": 0.5002,
+        "spatial_concentration": 0.4579,
+        "fitness": 6.0993,
+        "is_localized": "False"
+      },
+      "fitness": 6.0993
+    },
+    {
+      "bin": [
+        6,
+        1
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.342899406765843,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.005,
+        "dt": 0.15604859680557845,
+        "aniso_strength": 0.3593255320915815,
+        "aniso_angle": 4.166585364168086
+      },
+      "metrics": {
+        "net_displacement": 17.03,
+        "mass": 1000.23,
+        "alive_fraction": 0.0628,
+        "spatial_concentration": 0.4459,
+        "fitness": 7.5945,
+        "is_localized": "False"
+      },
+      "fitness": 7.5945
+    },
+    {
+      "bin": [
+        6,
+        4
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 16.38742652460913,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.0306467271374745,
+        "dt": 0.1362979361797692,
+        "aniso_strength": 0.187506274729398,
+        "aniso_angle": 3.7000807484360214
+      },
+      "metrics": {
+        "net_displacement": 15.55,
+        "mass": 3968.93,
+        "alive_fraction": 0.2855,
+        "spatial_concentration": 0.4863,
+        "fitness": 7.563,
+        "is_localized": "False"
+      },
+      "fitness": 7.563
+    },
+    {
+      "bin": [
+        6,
+        5
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.85500529233568,
+        "kernel_peaks": 1.6367921803113827,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.0306467271374745,
+        "dt": 0.14677622760553516,
+        "aniso_strength": 0.19775367146932826,
+        "aniso_angle": 4.013607943521083
+      },
+      "metrics": {
+        "net_displacement": 16.64,
+        "mass": 5106.91,
+        "alive_fraction": 0.3866,
+        "spatial_concentration": 0.4919,
+        "fitness": 8.1856,
+        "is_localized": "False"
+      },
+      "fitness": 8.1856
+    },
+    {
+      "bin": [
+        6,
+        9
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "step_function",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.22567549945713,
+        "kernel_peaks": 0.5024383011347606,
+        "growth_mu": 0.09324616571030872,
+        "growth_sigma": 0.07690086552946207,
+        "dt": 0.19360363020071078,
+        "aniso_strength": 0.38869667983003475,
+        "aniso_angle": 4.11137228863873
+      },
+      "metrics": {
+        "net_displacement": 15.19,
+        "mass": 9261.89,
+        "alive_fraction": 0.5409,
+        "spatial_concentration": 0.5153,
+        "fitness": 7.8291,
+        "is_localized": "False"
+      },
+      "fitness": 7.8291
+    },
+    {
+      "bin": [
+        6,
+        12
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 21.37133741620105,
+        "kernel_peaks": 2.9887876181535478,
+        "growth_mu": 0.06910266679171315,
+        "growth_sigma": 0.061555617589376325,
+        "dt": 0.28552068164042865,
+        "aniso_strength": 0.4818240628118774,
+        "aniso_angle": 3.1159748371179044
+      },
+      "metrics": {
+        "net_displacement": 15.35,
+        "mass": 11858.51,
+        "alive_fraction": 0.5587,
+        "spatial_concentration": 0.4874,
+        "fitness": 7.4845,
+        "is_localized": "False"
+      },
+      "fitness": 7.4845
+    },
+    {
+      "bin": [
+        6,
+        13
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 20.398388699896564,
+        "kernel_peaks": 2.1080577616205316,
+        "growth_mu": 0.16547472256233825,
+        "growth_sigma": 0.03275277485457227,
+        "dt": 0.11350290463566623,
+        "aniso_strength": 0.25030636293956154,
+        "aniso_angle": 5.772401289461215
+      },
+      "metrics": {
+        "net_displacement": 16.05,
+        "mass": 13657.13,
+        "alive_fraction": 0.4963,
+        "spatial_concentration": 0.4586,
+        "fitness": 7.3592,
+        "is_localized": "False"
+      },
+      "fitness": 7.3592
+    },
+    {
+      "bin": [
+        6,
+        19
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.086951716868533,
+        "kernel_peaks": 1.744335005104395,
+        "growth_mu": 0.34553036447379715,
+        "growth_sigma": 0.07217042825947798,
+        "dt": 0.05404088022503083,
+        "aniso_strength": 0.3484465288607361,
+        "aniso_angle": 1.0209204419030065
+      },
+      "metrics": {
+        "net_displacement": 16.57,
+        "mass": 24717.32,
+        "alive_fraction": 0.9329,
+        "spatial_concentration": 0.4751,
+        "fitness": 7.8731,
+        "is_localized": "False"
+      },
+      "fitness": 7.8731
+    },
+    {
+      "bin": [
+        7,
+        3
+      ],
+      "genome": {
+        "kernel_type": "cosine",
+        "growth_type": "ricker",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.85500529233568,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.05,
+        "growth_sigma": 0.0306467271374745,
+        "dt": 0.22288559840366756,
+        "aniso_strength": 0.187506274729398,
+        "aniso_angle": 3.7000807484360214
+      },
+      "metrics": {
+        "net_displacement": 18.54,
+        "mass": 3908.37,
+        "alive_fraction": 0.2724,
+        "spatial_concentration": 0.4525,
+        "fitness": 8.3897,
+        "is_localized": "False"
+      },
+      "fitness": 8.3897
+    },
+    {
+      "bin": [
+        8,
+        8
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.774187830213178,
+        "kernel_peaks": 1.8497061163281718,
+        "growth_mu": 0.2422991267674109,
+        "growth_sigma": 0.0859451726426976,
+        "dt": 0.29005718647003603,
+        "aniso_strength": 0.3839807542776663,
+        "aniso_angle": 6.013448548952076
+      },
+      "metrics": {
+        "net_displacement": 21.31,
+        "mass": 8746.57,
+        "alive_fraction": 0.3358,
+        "spatial_concentration": 0.5985,
+        "fitness": 12.7565,
+        "is_localized": "False"
+      },
+      "fitness": 12.7565
+    },
+    {
+      "bin": [
+        9,
+        1
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 10.546243430748323,
+        "kernel_peaks": 1.744335005104395,
+        "growth_mu": 0.34553036447379715,
+        "growth_sigma": 0.07217042825947798,
+        "dt": 0.02,
+        "aniso_strength": 0.24523554270649994,
+        "aniso_angle": 1.2342901139862952
+      },
+      "metrics": {
+        "net_displacement": 22.73,
+        "mass": 1361.01,
+        "alive_fraction": 0.0452,
+        "spatial_concentration": 0.8444,
+        "fitness": 19.1928,
+        "is_localized": true
+      },
+      "fitness": 19.1928
+    },
+    {
+      "bin": [
+        9,
+        2
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 8.843442970079622,
+        "kernel_peaks": 0.7576123137675759,
+        "growth_mu": 0.2465727455023527,
+        "growth_sigma": 0.029473352135800476,
+        "dt": 0.04123390948871149,
+        "aniso_strength": 0.34893709648332716,
+        "aniso_angle": 4.7768848123165135
+      },
+      "metrics": {
+        "net_displacement": 22.56,
+        "mass": 2510.02,
+        "alive_fraction": 0.1172,
+        "spatial_concentration": 0.6391,
+        "fitness": 14.4177,
+        "is_localized": "False"
+      },
+      "fitness": 14.4177
+    },
+    {
+      "bin": [
+        9,
+        5
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.086951716868533,
+        "kernel_peaks": 1.744335005104395,
+        "growth_mu": 0.34553036447379715,
+        "growth_sigma": 0.07217042825947798,
+        "dt": 0.02413928718260209,
+        "aniso_strength": 0.3213026191041051,
+        "aniso_angle": 1.0209204419030065
+      },
+      "metrics": {
+        "net_displacement": 24.52,
+        "mass": 5773.42,
+        "alive_fraction": 0.201,
+        "spatial_concentration": 0.6776,
+        "fitness": 16.6144,
+        "is_localized": "False"
+      },
+      "fitness": 16.6144
+    },
+    {
+      "bin": [
+        9,
+        6
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.086951716868533,
+        "kernel_peaks": 1.744335005104395,
+        "growth_mu": 0.34553036447379715,
+        "growth_sigma": 0.07217042825947798,
+        "dt": 0.02413928718260209,
+        "aniso_strength": 0.3484465288607361,
+        "aniso_angle": 1.0209204419030065
+      },
+      "metrics": {
+        "net_displacement": 23.56,
+        "mass": 6119.99,
+        "alive_fraction": 0.2134,
+        "spatial_concentration": 0.6424,
+        "fitness": 15.1383,
+        "is_localized": "False"
+      },
+      "fitness": 15.1383
+    },
+    {
+      "bin": [
+        9,
+        12
+      ],
+      "genome": {
+        "kernel_type": "sinc",
+        "growth_type": "fitzhugh_nagumo",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 22.509685965185767,
+        "kernel_peaks": 2.9628695478498632,
+        "growth_mu": 0.06910266679171315,
+        "growth_sigma": 0.061555617589376325,
+        "dt": 0.28552068164042865,
+        "aniso_strength": 0.4818240628118774,
+        "aniso_angle": 0.2415382193308373
+      },
+      "metrics": {
+        "net_displacement": 22.53,
+        "mass": 11936.78,
+        "alive_fraction": 0.5556,
+        "spatial_concentration": 0.4584,
+        "fitness": 10.329,
+        "is_localized": "False"
+      },
+      "fitness": 10.329
+    },
+    {
+      "bin": [
+        12,
+        5
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.98738017166692,
+        "kernel_peaks": 1.744335005104395,
+        "growth_mu": 0.34553036447379715,
+        "growth_sigma": 0.07217042825947798,
+        "dt": 0.02,
+        "aniso_strength": 0.3484465288607361,
+        "aniso_angle": 1.0608744392276497
+      },
+      "metrics": {
+        "net_displacement": 32.34,
+        "mass": 5167.34,
+        "alive_fraction": 0.179,
+        "spatial_concentration": 0.7365,
+        "fitness": 23.8147,
+        "is_localized": false
+      },
+      "fitness": 23.8147
+    },
+    {
+      "bin": [
+        12,
+        15
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.427602951556473,
+        "kernel_peaks": 1.784547040058694,
+        "growth_mu": 0.16547472256233825,
+        "growth_sigma": 0.03275277485457227,
+        "dt": 0.10756565975740755,
+        "aniso_strength": 0.25030636293956154,
+        "aniso_angle": 5.605956361931425
+      },
+      "metrics": {
+        "net_displacement": 32.34,
+        "mass": 15150.83,
+        "alive_fraction": 0.6177,
+        "spatial_concentration": 0.459,
+        "fitness": 14.8438,
+        "is_localized": "False"
+      },
+      "fitness": 14.8438
+    },
+    {
+      "bin": [
+        12,
+        19
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 15.937712930158451,
+        "kernel_peaks": 2.2928310817873894,
+        "growth_mu": 0.2949597460497291,
+        "growth_sigma": 0.11619045696716084,
+        "dt": 0.02864400000801294,
+        "aniso_strength": 0.23585259537842293,
+        "aniso_angle": 4.272870344485957
+      },
+      "metrics": {
+        "net_displacement": 32.36,
+        "mass": 31133.74,
+        "alive_fraction": 0.5075,
+        "spatial_concentration": 0.4589,
+        "fitness": 14.8498,
+        "is_localized": "False"
+      },
+      "fitness": 14.8498
+    },
+    {
+      "bin": [
+        13,
+        6
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 18.699955784246427,
+        "kernel_peaks": 1.397300341099768,
+        "growth_mu": 0.06635699752451686,
+        "growth_sigma": 0.03366940621182298,
+        "dt": 0.12714712335876782,
+        "aniso_strength": 0.3257817277489117,
+        "aniso_angle": 3.1909555588751184
+      },
+      "metrics": {
+        "net_displacement": 32.81,
+        "mass": 6520.24,
+        "alive_fraction": 0.447,
+        "spatial_concentration": 0.4444,
+        "fitness": 14.5797,
+        "is_localized": "False"
+      },
+      "fitness": 14.5797
+    },
+    {
+      "bin": [
+        13,
+        8
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.98738017166692,
+        "kernel_peaks": 1.510991289022713,
+        "growth_mu": 0.34553036447379715,
+        "growth_sigma": 0.07217042825947798,
+        "dt": 0.02,
+        "aniso_strength": 0.3484465288607361,
+        "aniso_angle": 1.0608744392276497
+      },
+      "metrics": {
+        "net_displacement": 33.3,
+        "mass": 8505.9,
+        "alive_fraction": 0.2962,
+        "spatial_concentration": 0.5571,
+        "fitness": 18.5529,
+        "is_localized": "False"
+      },
+      "fitness": 18.5529
+    },
+    {
+      "bin": [
+        15,
+        3
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.086951716868533,
+        "kernel_peaks": 1.744335005104395,
+        "growth_mu": 0.34553036447379715,
+        "growth_sigma": 0.0644132792660079,
+        "dt": 0.02413928718260209,
+        "aniso_strength": 0.3484465288607361,
+        "aniso_angle": 0.5144582004810087
+      },
+      "metrics": {
+        "net_displacement": 38.12,
+        "mass": 3726.82,
+        "alive_fraction": 0.1319,
+        "spatial_concentration": 0.7837,
+        "fitness": 29.8744,
+        "is_localized": true
+      },
+      "fitness": 29.8744
+    },
+    {
+      "bin": [
+        15,
+        4
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 11.628659651350574,
+        "kernel_peaks": 1.744335005104395,
+        "growth_mu": 0.34553036447379715,
+        "growth_sigma": 0.07217042825947798,
+        "dt": 0.02,
+        "aniso_strength": 0.3484465288607361,
+        "aniso_angle": 1.2342901139862952
+      },
+      "metrics": {
+        "net_displacement": 39.98,
+        "mass": 4620.67,
+        "alive_fraction": 0.1607,
+        "spatial_concentration": 0.7653,
+        "fitness": 30.5971,
+        "is_localized": false
+      },
+      "fitness": 30.5971
+    },
+    {
+      "bin": [
+        15,
+        15
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.774187830213178,
+        "kernel_peaks": 1.8497061163281718,
+        "growth_mu": 0.2422991267674109,
+        "growth_sigma": 0.08791490872328389,
+        "dt": 0.29005718647003603,
+        "aniso_strength": 0.3839807542776663,
+        "aniso_angle": 6.013448548952076
+      },
+      "metrics": {
+        "net_displacement": 39.13,
+        "mass": 15272.84,
+        "alive_fraction": 0.6699,
+        "spatial_concentration": 0.4165,
+        "fitness": 16.2997,
+        "is_localized": "False"
+      },
+      "fitness": 16.2997
+    },
+    {
+      "bin": [
+        16,
+        5
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.905685384203359,
+        "kernel_peaks": 1.744335005104395,
+        "growth_mu": 0.34553036447379715,
+        "growth_sigma": 0.07217042825947798,
+        "dt": 0.02,
+        "aniso_strength": 0.3484465288607361,
+        "aniso_angle": 0.7933840958330212
+      },
+      "metrics": {
+        "net_displacement": 41.38,
+        "mass": 5727.85,
+        "alive_fraction": 0.1988,
+        "spatial_concentration": 0.7362,
+        "fitness": 30.4654,
+        "is_localized": false
+      },
+      "fitness": 30.4654
+    },
+    {
+      "bin": [
+        16,
+        7
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 13.759092481012566,
+        "kernel_peaks": 1.744335005104395,
+        "growth_mu": 0.34553036447379715,
+        "growth_sigma": 0.07217042825947798,
+        "dt": 0.02413928718260209,
+        "aniso_strength": 0.3484465288607361,
+        "aniso_angle": 1.0209204419030065
+      },
+      "metrics": {
+        "net_displacement": 41.15,
+        "mass": 7586.94,
+        "alive_fraction": 0.2625,
+        "spatial_concentration": 0.4952,
+        "fitness": 20.3767,
+        "is_localized": "False"
+      },
+      "fitness": 20.3767
+    },
+    {
+      "bin": [
+        18,
+        14
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.427602951556473,
+        "kernel_peaks": 2.1080577616205316,
+        "growth_mu": 0.16547472256233825,
+        "growth_sigma": 0.03275277485457227,
+        "dt": 0.10756565975740755,
+        "aniso_strength": 0.25030636293956154,
+        "aniso_angle": 5.605956361931425
+      },
+      "metrics": {
+        "net_displacement": 45.25,
+        "mass": 13838.62,
+        "alive_fraction": 0.4983,
+        "spatial_concentration": 0.459,
+        "fitness": 20.7678,
+        "is_localized": "False"
+      },
+      "fitness": 20.7678
+    },
+    {
+      "bin": [
+        18,
+        16
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.427602951556473,
+        "kernel_peaks": 1.9705369618172652,
+        "growth_mu": 0.16536129377442976,
+        "growth_sigma": 0.03275277485457227,
+        "dt": 0.10756565975740755,
+        "aniso_strength": 0.25030636293956154,
+        "aniso_angle": 5.827448690031169
+      },
+      "metrics": {
+        "net_displacement": 47.07,
+        "mass": 16380.55,
+        "alive_fraction": 0.5022,
+        "spatial_concentration": 0.4591,
+        "fitness": 21.6074,
+        "is_localized": "False"
+      },
+      "fitness": 21.6074
+    },
+    {
+      "bin": [
+        18,
+        18
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.427602951556473,
+        "kernel_peaks": 2.4104823906808908,
+        "growth_mu": 0.16547472256233825,
+        "growth_sigma": 0.03275277485457227,
+        "dt": 0.10756565975740755,
+        "aniso_strength": 0.25030636293956154,
+        "aniso_angle": 5.605956361931425
+      },
+      "metrics": {
+        "net_displacement": 45.0,
+        "mass": 17787.39,
+        "alive_fraction": 0.4913,
+        "spatial_concentration": 0.4618,
+        "fitness": 20.7835,
+        "is_localized": "False"
+      },
+      "fitness": 20.7835
+    },
+    {
+      "bin": [
+        19,
+        0
+      ],
+      "genome": {
+        "kernel_type": "bessel",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.781727907414716,
+        "kernel_peaks": 2.3706531180187023,
+        "growth_mu": 0.20070798643942994,
+        "growth_sigma": 0.02896182105922773,
+        "dt": 0.02857361828857563,
+        "aniso_strength": 0.21452527791620304,
+        "aniso_angle": 1.7911590897613312
+      },
+      "metrics": {
+        "net_displacement": 139.61,
+        "mass": 334.34,
+        "alive_fraction": 0.0087,
+        "spatial_concentration": 0.9382,
+        "fitness": 130.991,
+        "is_localized": true
+      },
+      "fitness": 130.991
+    },
+    {
+      "bin": [
+        19,
+        5
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 9.69509819898836,
+        "kernel_peaks": 0.7576123137675759,
+        "growth_mu": 0.19757713416684422,
+        "growth_sigma": 0.02181821607070259,
+        "dt": 0.02,
+        "aniso_strength": 0.34893709648332716,
+        "aniso_angle": 1.8719028523801389
+      },
+      "metrics": {
+        "net_displacement": 65.81,
+        "mass": 5010.27,
+        "alive_fraction": 0.213,
+        "spatial_concentration": 0.582,
+        "fitness": 38.3006,
+        "is_localized": "False"
+      },
+      "fitness": 38.3006
+    },
+    {
+      "bin": [
+        19,
+        9
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "gaussian_bell",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 9.69509819898836,
+        "kernel_peaks": 0.7576123137675759,
+        "growth_mu": 0.19757713416684422,
+        "growth_sigma": 0.02181821607070259,
+        "dt": 0.04123390948871149,
+        "aniso_strength": 0.34893709648332716,
+        "aniso_angle": 1.8719028523801389
+      },
+      "metrics": {
+        "net_displacement": 56.04,
+        "mass": 9650.67,
+        "alive_fraction": 0.401,
+        "spatial_concentration": 0.4032,
+        "fitness": 22.5966,
+        "is_localized": "False"
+      },
+      "fitness": 22.5966
+    },
+    {
+      "bin": [
+        19,
+        11
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.018898423866588,
+        "kernel_peaks": 2.256570216857745,
+        "growth_mu": 0.16547472256233825,
+        "growth_sigma": 0.034572649996078064,
+        "dt": 0.09211307748685962,
+        "aniso_strength": 0.25030636293956154,
+        "aniso_angle": 5.605956361931425
+      },
+      "metrics": {
+        "net_displacement": 69.7,
+        "mass": 11155.52,
+        "alive_fraction": 0.3211,
+        "spatial_concentration": 0.4363,
+        "fitness": 30.4125,
+        "is_localized": "False"
+      },
+      "fitness": 30.4125
+    },
+    {
+      "bin": [
+        19,
+        12
+      ],
+      "genome": {
+        "kernel_type": "sech",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 12.98738017166692,
+        "kernel_peaks": 1.2661639206406643,
+        "growth_mu": 0.35,
+        "growth_sigma": 0.07217042825947798,
+        "dt": 0.02,
+        "aniso_strength": 0.3484465288607361,
+        "aniso_angle": 1.0608744392276497
+      },
+      "metrics": {
+        "net_displacement": 73.77,
+        "mass": 12596.07,
+        "alive_fraction": 0.4382,
+        "spatial_concentration": 0.534,
+        "fitness": 39.3906,
+        "is_localized": "False"
+      },
+      "fitness": 39.3906
+    },
+    {
+      "bin": [
+        19,
+        16
+      ],
+      "genome": {
+        "kernel_type": "power_law",
+        "growth_type": "bistable",
+        "geometry": "flat_plane",
+        "resolution": 256,
+        "kernel_radius": 19.018898423866588,
+        "kernel_peaks": 2.1080577616205316,
+        "growth_mu": 0.16547472256233825,
+        "growth_sigma": 0.034572649996078064,
+        "dt": 0.09211307748685962,
+        "aniso_strength": 0.25030636293956154,
+        "aniso_angle": 5.605956361931425
+      },
+      "metrics": {
+        "net_displacement": 68.18,
+        "mass": 16257.15,
+        "alive_fraction": 0.478,
+        "spatial_concentration": 0.4578,
+        "fitness": 31.2133,
+        "is_localized": "False"
+      },
+      "fitness": 31.2133
+    }
+  ]
+}

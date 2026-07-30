@@ -1,0 +1,46 @@
+
+============================================================
+  Resolution: 128×128
+============================================================
+  Seed 0: alive=0.977 compl=0.940 clusters=8 entropy=3.366 (50.4s)
+  Seed 1: alive=0.978 compl=0.940 clusters=6 entropy=3.488 (50.3s)
+  Seed 2: alive=0.981 compl=0.939 clusters=8 entropy=3.558 (38.4s)
+  Seed 3: alive=0.978 compl=0.942 clusters=5 entropy=3.450 (45.1s)
+  Seed 4: alive=0.976 compl=0.938 clusters=3 entropy=3.273 (45.7s)
+  Seed 5: alive=0.978 compl=0.936 clusters=4 entropy=3.539 (35.1s)
+  Seed 6: alive=0.978 compl=0.940 clusters=7 entropy=3.625 (29.4s)
+  Seed 7: alive=0.976 compl=0.941 clusters=7 entropy=3.386 (49.2s)
+  Seed 8: alive=0.976 compl=0.938 clusters=7 entropy=3.634 (48.5s)
+  Seed 9: alive=0.976 compl=0.937 clusters=6 entropy=3.595 (51.2s)
+
+============================================================
+  Resolution: 256×256
+============================================================
+  Seed 0: alive=0.983 compl=0.899 clusters=29 entropy=3.168 (55.4s)
+  Seed 1: alive=0.983 compl=0.897 clusters=27 entropy=3.090 (50.2s)
+  Seed 2: alive=0.983 compl=0.901 clusters=29 entropy=3.074 (48.0s)
+  Seed 3: alive=0.982 compl=0.899 clusters=30 entropy=3.024 (57.7s)
+  Seed 4: alive=0.983 compl=0.896 clusters=31 entropy=2.873 (53.6s)
+  Seed 5: alive=0.984 compl=0.900 clusters=27 entropy=3.055 (56.0s)
+  Seed 6: alive=0.984 compl=0.901 clusters=30 entropy=2.978 (53.6s)
+  Seed 7: alive=0.984 compl=0.899 clusters=32 entropy=3.006 (51.6s)
+  Seed 8: alive=0.983 compl=0.902 clusters=34 entropy=3.155 (56.5s)
+  Seed 9: alive=0.983 compl=0.898 clusters=24 entropy=2.975 (56.0s)
+
+============================================================
+  ROBUSTNESS SUMMARY
+============================================================
+
+  128×128 (n=10):
+    alive_fraction: 0.9773 ± 0.0014 [0.976 - 0.981]
+    complexity:     0.9390 ± 0.0017 [0.936 - 0.942]
+    num_clusters:   6.1 ± 1.6 [3 - 8]
+    entropy:        3.4915 ± 0.1149
+
+  256×256 (n=10):
+    alive_fraction: 0.9831 ± 0.0005 [0.982 - 0.984]
+    complexity:     0.8993 ± 0.0019 [0.896 - 0.902]
+    num_clusters:   29.3 ± 2.7 [24 - 34]
+    entropy:        3.0399 ± 0.0841
+
+Saved to results/robustness_hero/

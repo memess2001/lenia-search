@@ -1,0 +1,89 @@
+{
+  "genome": {
+    "kernel_type": "bessel",
+    "growth_type": "gaussian_bell",
+    "geometry": "flat_plane",
+    "resolution": 256,
+    "kernel_radius": 16.23129231401403,
+    "kernel_peaks": 2.1017351305047023,
+    "growth_mu": 0.3114231354958413,
+    "growth_sigma": 0.059725031834391214,
+    "dt": 0.1594991747000343,
+    "aniso_strength": 0.5818840700707387,
+    "aniso_angle": 2.96441452310977
+  },
+  "results": [
+    {
+      "pos": "top_left",
+      "seed": 42,
+      "nd": 124.45,
+      "conc": 0.9329,
+      "alive": 0.0067,
+      "direction_deg": -111.0
+    },
+    {
+      "pos": "top_left",
+      "seed": 123,
+      "nd": 124.45,
+      "conc": 0.9329,
+      "alive": 0.0067,
+      "direction_deg": -111.0
+    },
+    {
+      "pos": "top_left",
+      "seed": 777,
+      "nd": 124.45,
+      "conc": 0.9329,
+      "alive": 0.0067,
+      "direction_deg": -111.0
+    },
+    {
+      "pos": "center",
+      "seed": 42,
+      "nd": 121.18,
+      "conc": 0.9554,
+      "alive": 0.0067,
+      "direction_deg": -106.5
+    },
+    {
+      "pos": "center",
+      "seed": 123,
+      "nd": 121.18,
+      "conc": 0.9554,
+      "alive": 0.0067,
+      "direction_deg": -106.5
+    },
+    {
+      "pos": "center",
+      "seed": 777,
+      "nd": 121.18,
+      "conc": 0.9554,
+      "alive": 0.0067,
+      "direction_deg": -106.5
+    },
+    {
+      "pos": "bottom_right",
+      "seed": 42,
+      "nd": 121.18,
+      "conc": 0.9554,
+      "alive": 0.0067,
+      "direction_deg": -106.5
+    },
+    {
+      "pos": "bottom_right",
+      "seed": 123,
+      "nd": 121.18,
+      "conc": 0.9554,
+      "alive": 0.0067,
+      "direction_deg": -106.5
+    },
+    {
+      "pos": "bottom_right",
+      "seed": 777,
+      "nd": 121.18,
+      "conc": 0.9554,
+      "alive": 0.0067,
+      "direction_deg": -106.5
+    }
+  ]
+}

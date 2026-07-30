@@ -1,0 +1,3740 @@
+{
+  "behavior_dims": [
+    "complexity",
+    "alive_fraction"
+  ],
+  "n_bins": [
+    20,
+    20
+  ],
+  "total_evaluated": 480,
+  "archive_size": 138,
+  "entries": [
+    {
+      "bin": [
+        2,
+        11
+      ],
+      "fitness": 0.1299901306629181,
+      "genome": {
+        "kernel_type": "spiral",
+        "kernel_radius": 9.98727777813342,
+        "kernel_peaks": 1.31695755932616,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.3114992068234301,
+        "growth_sigma": 0.1446917276365765,
+        "dt": 0.22648341143264894,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.56640625,
+        "mass": 9210.3095703125,
+        "complexity": 0.13232421875,
+        "spatial_entropy": 3.340943981596756,
+        "num_clusters": 9,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        6
+      ],
+      "fitness": 0.13300244997662958,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 12.843319649557518,
+        "kernel_peaks": 3.31357431929064,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.24855522624821447,
+        "growth_sigma": 0.07382347555593234,
+        "dt": 0.2809326224593623,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.33428955078125,
+        "mass": 5237.7587890625,
+        "complexity": 0.1494140625,
+        "spatial_entropy": 3.638912556862432,
+        "num_clusters": 62,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        0,
+        0
+      ],
+      "fitness": 0.008600447261414956,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 7.350005358599386,
+        "kernel_peaks": 1.105657386989058,
+        "growth_type": "step_function",
+        "growth_mu": 0.34027802238469257,
+        "growth_sigma": 0.08198726258611422,
+        "dt": 0.3368563334207546,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.04766845703125,
+        "mass": 296.86016845703125,
+        "complexity": 0.04736328125,
+        "spatial_entropy": 0.5456884388695526,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        14,
+        13
+      ],
+      "fitness": 0.6492180225905031,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 5.841283609016369,
+        "kernel_peaks": 2.036367685225825,
+        "growth_type": "relu_like",
+        "growth_mu": 0.06699646104723837,
+        "growth_sigma": 0.13667260781363622,
+        "dt": 0.4097369595027551,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.65576171875,
+        "mass": 2162.00634765625,
+        "complexity": 0.718994140625,
+        "spatial_entropy": 2.0497952054134316,
+        "num_clusters": 2911,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        6,
+        10
+      ],
+      "fitness": 0.31571400712709874,
+      "genome": {
+        "kernel_type": "rbf_mixture",
+        "kernel_radius": 8.70661156962416,
+        "kernel_peaks": 3.234605854781603,
+        "growth_type": "step_function",
+        "growth_mu": 0.4768466124870019,
+        "growth_sigma": 0.10725931269539529,
+        "dt": 0.28788378696137384,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.530517578125,
+        "mass": 4546.36181640625,
+        "complexity": 0.31689453125,
+        "spatial_entropy": 3.3547268596329824,
+        "num_clusters": 8,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        14,
+        19
+      ],
+      "fitness": 0.09215248608961701,
+      "genome": {
+        "kernel_type": "sinc",
+        "kernel_radius": 5.0,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "relu_like",
+        "growth_mu": 0.05,
+        "growth_sigma": 0.13988939839674594,
+        "dt": 0.24078449560899326,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.96728515625,
+        "mass": 2533.78564453125,
+        "complexity": 0.72802734375,
+        "spatial_entropy": 2.649548067765298,
+        "num_clusters": 37,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        6,
+        5
+      ],
+      "fitness": 0.2706765301991254,
+      "genome": {
+        "kernel_type": "bump",
+        "kernel_radius": 15.484333514963279,
+        "kernel_peaks": 3.7732043552324646,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.2140524135551088,
+        "growth_sigma": 0.025714403874220533,
+        "dt": 0.33661586944516353,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.27099609375,
+        "mass": 2211.08203125,
+        "complexity": 0.342529296875,
+        "spatial_entropy": 4.160178031846025,
+        "num_clusters": 56,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        5,
+        4
+      ],
+      "fitness": 0.1983430046675494,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 5.123990017237096,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.05,
+        "growth_sigma": 0.13988939839674594,
+        "dt": 0.24078449560899326,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.2352294921875,
+        "mass": 3206.40380859375,
+        "complexity": 0.275634765625,
+        "spatial_entropy": 0.8683927290103626,
+        "num_clusters": 932,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        9
+      ],
+      "fitness": 0.14894907209964003,
+      "genome": {
+        "kernel_type": "elliptical",
+        "kernel_radius": 5.123990017237096,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.34839291263725863,
+        "growth_sigma": 0.14961674418875176,
+        "dt": 0.24078449560899326,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.47210693359375,
+        "mass": 7623.88671875,
+        "complexity": 0.1494140625,
+        "spatial_entropy": 1.700356440313984,
+        "num_clusters": 62,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        8
+      ],
+      "fitness": 0.2339476625493262,
+      "genome": {
+        "kernel_type": "gaussian",
+        "kernel_radius": 6.626057193159994,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.22732347084658866,
+        "growth_sigma": 0.09454875433558937,
+        "dt": 0.2138854453005517,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.4222412109375,
+        "mass": 6027.39404296875,
+        "complexity": 0.23974609375,
+        "spatial_entropy": 3.809717726488666,
+        "num_clusters": 301,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        6,
+        7
+      ],
+      "fitness": 0.32774262224847917,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 25.247794967731625,
+        "kernel_peaks": 1.4011730041911419,
+        "growth_type": "bistable",
+        "growth_mu": 0.18287180910983952,
+        "growth_sigma": 0.12069037915797101,
+        "dt": 0.35561804535477876,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.3756103515625,
+        "mass": 3244.716552734375,
+        "complexity": 0.349365234375,
+        "spatial_entropy": 4.308768266288633,
+        "num_clusters": 37,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        5
+      ],
+      "fitness": 0.15744271036237478,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 28.325498106820636,
+        "kernel_peaks": 3.5164336722883256,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.1620110466120691,
+        "growth_sigma": 0.02656050490825611,
+        "dt": 0.26231294342850897,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.2705078125,
+        "mass": 3962.32470703125,
+        "complexity": 0.199462890625,
+        "spatial_entropy": 1.173718823489222,
+        "num_clusters": 3715,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        7
+      ],
+      "fitness": 0.14240142492417363,
+      "genome": {
+        "kernel_type": "elliptical",
+        "kernel_radius": 20.565761402988503,
+        "kernel_peaks": 1.815573303966538,
+        "growth_type": "step_function",
+        "growth_mu": 0.20594880363034074,
+        "growth_sigma": 0.03733635289742897,
+        "dt": 0.43909724466864275,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.39349365234375,
+        "mass": 3530.81884765625,
+        "complexity": 0.149169921875,
+        "spatial_entropy": 4.491729296672175,
+        "num_clusters": 46,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        17,
+        17
+      ],
+      "fitness": 0.4408674195292406,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 6.435737098434564,
+        "kernel_peaks": 2.024743248888287,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.34536159062511296,
+        "growth_sigma": 0.09562601189890779,
+        "dt": 0.3824182643809812,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.850830078125,
+        "mass": 7312.2841796875,
+        "complexity": 0.868408203125,
+        "spatial_entropy": 4.152268072054203,
+        "num_clusters": 4,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        7
+      ],
+      "fitness": 0.09552417710074224,
+      "genome": {
+        "kernel_type": "sinc",
+        "kernel_radius": 29.653777494285073,
+        "kernel_peaks": 3.7892729566957617,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.2373010550605642,
+        "growth_sigma": 0.0748688490581701,
+        "dt": 0.2510929582879917,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.39874267578125,
+        "mass": 6266.7568359375,
+        "complexity": 0.099609375,
+        "spatial_entropy": 4.327819531114783,
+        "num_clusters": 27,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        8,
+        11
+      ],
+      "fitness": 0.43095779765280895,
+      "genome": {
+        "kernel_type": "rbf_mixture",
+        "kernel_radius": 24.944833482300986,
+        "kernel_peaks": 2.175991942899767,
+        "growth_type": "relu_like",
+        "growth_mu": 0.05624190910310622,
+        "growth_sigma": 0.14786202222351427,
+        "dt": 0.44115814611043025,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.56951904296875,
+        "mass": 2534.85546875,
+        "complexity": 0.439453125,
+        "spatial_entropy": 4.039221963732994,
+        "num_clusters": 38,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        6
+      ],
+      "fitness": 0.17303390281449538,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 5.123990017237096,
+        "kernel_peaks": 1.1671129930404263,
+        "growth_type": "bistable",
+        "growth_mu": 0.1717375254363428,
+        "growth_sigma": 0.1234952496152759,
+        "dt": 0.26472484879748226,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.3336181640625,
+        "mass": 5202.888671875,
+        "complexity": 0.194580078125,
+        "spatial_entropy": 2.193588345903694,
+        "num_clusters": 398,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        11,
+        11
+      ],
+      "fitness": 0.5725209193769842,
+      "genome": {
+        "kernel_type": "bump",
+        "kernel_radius": 5.65339570216093,
+        "kernel_peaks": 2.035734564172887,
+        "growth_type": "bistable",
+        "growth_mu": 0.3767457412463542,
+        "growth_sigma": 0.11159039433978002,
+        "dt": 0.17128952721636556,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.55615234375,
+        "mass": 5185.3349609375,
+        "complexity": 0.579833984375,
+        "spatial_entropy": 3.96088291462472,
+        "num_clusters": 133,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        7,
+        8
+      ],
+      "fitness": 0.3815843072370626,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 5.0,
+        "kernel_peaks": 1.4227285294146017,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.1717375254363428,
+        "growth_sigma": 0.1234952496152759,
+        "dt": 0.24078449560899326,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.417236328125,
+        "mass": 4850.82177734375,
+        "complexity": 0.392333984375,
+        "spatial_entropy": 1.67440153892186,
+        "num_clusters": 1528,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        3
+      ],
+      "fitness": 0.10843516996101243,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 13.632850526780715,
+        "kernel_peaks": 1.3175808711924444,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.06607414513922048,
+        "growth_sigma": 0.09422110166018666,
+        "dt": 0.390684716626284,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.19549560546875,
+        "mass": 2694.599609375,
+        "complexity": 0.17236328125,
+        "spatial_entropy": 2.715784308584442,
+        "num_clusters": 285,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        4
+      ],
+      "fitness": 0.14194173098076135,
+      "genome": {
+        "kernel_type": "rbf_mixture",
+        "kernel_radius": 7.694778229840727,
+        "kernel_peaks": 1.5733089356264924,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.34771940018967384,
+        "growth_sigma": 0.08325285237773632,
+        "dt": 0.01,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.239501953125,
+        "mass": 3482.75439453125,
+        "complexity": 0.19482421875,
+        "spatial_entropy": 3.318249823474094,
+        "num_clusters": 639,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        8
+      ],
+      "fitness": 0.14364271744852886,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 10.639758081749482,
+        "kernel_peaks": 3.38836973396306,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.2011181339402146,
+        "growth_sigma": 0.10816127767953755,
+        "dt": 0.040236109260074704,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.427490234375,
+        "mass": 6692.318359375,
+        "complexity": 0.146728515625,
+        "spatial_entropy": 3.7014554312789736,
+        "num_clusters": 35,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        3
+      ],
+      "fitness": 0.0529927754541859,
+      "genome": {
+        "kernel_type": "elliptical",
+        "kernel_radius": 16.6186465895603,
+        "kernel_peaks": 3.872887112441158,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.06303952040965072,
+        "growth_sigma": 0.12712524735510558,
+        "dt": 0.275349254161533,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.1849365234375,
+        "mass": 3028.93115234375,
+        "complexity": 0.087890625,
+        "spatial_entropy": 3.786848979118065,
+        "num_clusters": 284,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        0
+      ],
+      "fitness": 0.009615372691769153,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 8.562365520318078,
+        "kernel_peaks": 3.1085111711552145,
+        "growth_type": "bistable",
+        "growth_mu": 0.059245590435747064,
+        "growth_sigma": 0.11694106680417098,
+        "dt": 0.33284756307779817,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.049072265625,
+        "mass": 258.84124755859375,
+        "complexity": 0.051513671875,
+        "spatial_entropy": 0.8189933637766704,
+        "num_clusters": 18,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        8,
+        8
+      ],
+      "fitness": 0.41524247848428786,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 5.0,
+        "kernel_peaks": 1.3175808711924444,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.05518722542758624,
+        "growth_sigma": 0.09724308886433794,
+        "dt": 0.39310781714629334,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.411376953125,
+        "mass": 2665.128173828125,
+        "complexity": 0.4287109375,
+        "spatial_entropy": 2.3314973687263776,
+        "num_clusters": 1160,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        14,
+        15
+      ],
+      "fitness": 0.5220508093771059,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 11.766166932060042,
+        "kernel_peaks": 0.5,
+        "growth_type": "bistable",
+        "growth_mu": 0.17507750034307157,
+        "growth_sigma": 0.1234952496152759,
+        "dt": 0.24078449560899326,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.7720947265625,
+        "mass": 5276.322265625,
+        "complexity": 0.74169921875,
+        "spatial_entropy": 3.9755486335525285,
+        "num_clusters": 138,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        17,
+        16
+      ],
+      "fitness": 0.490864148712717,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 6.435737098434564,
+        "kernel_peaks": 2.024743248888287,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.34536159062511296,
+        "growth_sigma": 0.07402635456959607,
+        "dt": 0.3824182643809812,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.8336181640625,
+        "mass": 6600.59814453125,
+        "complexity": 0.884765625,
+        "spatial_entropy": 3.9644073285181993,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        10
+      ],
+      "fitness": 0.07716111838817596,
+      "genome": {
+        "kernel_type": "spiral",
+        "kernel_radius": 13.93407568335679,
+        "kernel_peaks": 0.5311683870609838,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.37516638228707755,
+        "growth_sigma": 0.14652476748010695,
+        "dt": 0.3779338005346019,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.52734375,
+        "mass": 8521.908203125,
+        "complexity": 0.077392578125,
+        "spatial_entropy": 3.8116817424116785,
+        "num_clusters": 25,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        4
+      ],
+      "fitness": 0.06704632101173047,
+      "genome": {
+        "kernel_type": "step_ring",
+        "kernel_radius": 28.325498106820636,
+        "kernel_peaks": 3.5164336722883256,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.1620110466120691,
+        "growth_sigma": 0.02656050490825611,
+        "dt": 0.26231294342850897,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.2491455078125,
+        "mass": 3954.829833984375,
+        "complexity": 0.089599609375,
+        "spatial_entropy": 4.732258938909887,
+        "num_clusters": 29,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        9,
+        9
+      ],
+      "fitness": 0.47059256517968606,
+      "genome": {
+        "kernel_type": "gaussian",
+        "kernel_radius": 5.123990017237096,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.34839291263725863,
+        "growth_sigma": 0.1234952496152759,
+        "dt": 0.24078449560899326,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.4583740234375,
+        "mass": 5624.7509765625,
+        "complexity": 0.473876953125,
+        "spatial_entropy": 3.290033972027118,
+        "num_clusters": 363,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        12,
+        10
+      ],
+      "fitness": 0.6080207727500238,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 5.841283609016369,
+        "kernel_peaks": 2.036367685225825,
+        "growth_type": "relu_like",
+        "growth_mu": 0.06699646104723837,
+        "growth_sigma": 0.13667260781363622,
+        "dt": 0.3808737713597701,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.535400390625,
+        "mass": 1496.7506103515625,
+        "complexity": 0.611083984375,
+        "spatial_entropy": 2.688560009501607,
+        "num_clusters": 1725,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        14
+      ],
+      "fitness": 0.07107959907443728,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 23.681924619945743,
+        "kernel_peaks": 3.7137356654360687,
+        "growth_type": "step_function",
+        "growth_mu": 0.11320330488168234,
+        "growth_sigma": 0.1339745088451349,
+        "dt": 0.19916950021541419,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.74981689453125,
+        "mass": 4823.3154296875,
+        "complexity": 0.0947265625,
+        "spatial_entropy": 2.5703560636920484,
+        "num_clusters": 32,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        14
+      ],
+      "fitness": 0.1664537661599752,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 7.350005358599386,
+        "kernel_peaks": 0.9579956820440063,
+        "growth_type": "step_function",
+        "growth_mu": 0.34027802238469257,
+        "growth_sigma": 0.08198726258611422,
+        "dt": 0.43931885677895965,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.70465087890625,
+        "mass": 9528.599609375,
+        "complexity": 0.199951171875,
+        "spatial_entropy": 2.42192744835027,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        7,
+        11
+      ],
+      "fitness": 0.38903612017747946,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 19.556818399965337,
+        "kernel_peaks": 3.47552261407607,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.11405433456770617,
+        "growth_sigma": 0.13424971703685296,
+        "dt": 0.48595961528127934,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.5748291015625,
+        "mass": 900.14697265625,
+        "complexity": 0.39794921875,
+        "spatial_entropy": 2.992603308907472,
+        "num_clusters": 110,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        1
+      ],
+      "fitness": 0.024831946939229965,
+      "genome": {
+        "kernel_type": "gaussian",
+        "kernel_radius": 6.550984228376773,
+        "kernel_peaks": 3.4088328396531837,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.4478920780565173,
+        "growth_sigma": 0.09867907014443501,
+        "dt": 0.3513297051344424,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.091796875,
+        "mass": 1327.58447265625,
+        "complexity": 0.074462890625,
+        "spatial_entropy": 1.748778124459133,
+        "num_clusters": 11,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        7
+      ],
+      "fitness": 0.17701392016533646,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 5.0,
+        "kernel_peaks": 1.4227285294146017,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.1717375254363428,
+        "growth_sigma": 0.1234952496152759,
+        "dt": 0.24078449560899326,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.39727783203125,
+        "mass": 5497.109375,
+        "complexity": 0.184814453125,
+        "spatial_entropy": 2.9770977805263787,
+        "num_clusters": 263,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        5
+      ],
+      "fitness": 0.07830963353990228,
+      "genome": {
+        "kernel_type": "fourier_series",
+        "kernel_radius": 17.724744160978357,
+        "kernel_peaks": 1.0710516379630972,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.13040985227430543,
+        "growth_sigma": 0.1497442468690425,
+        "dt": 0.2993265668261805,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.26983642578125,
+        "mass": 4375.080078125,
+        "complexity": 0.099365234375,
+        "spatial_entropy": 3.6313195676352463,
+        "num_clusters": 325,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        17,
+        19
+      ],
+      "fitness": 0.09389535523951054,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 25.128752391018065,
+        "kernel_peaks": 0.8189877412481212,
+        "growth_type": "bistable",
+        "growth_mu": 0.39589718931340323,
+        "growth_sigma": 0.1294041701543726,
+        "dt": 0.27024000017478816,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.9716796875,
+        "mass": 8110.3564453125,
+        "complexity": 0.85302734375,
+        "spatial_entropy": 3.9302893061737816,
+        "num_clusters": 185,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        4
+      ],
+      "fitness": 0.09281090905278688,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 6.411652119315182,
+        "kernel_peaks": 2.020564332080888,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.06607414513922048,
+        "growth_sigma": 0.1120538600970551,
+        "dt": 0.390684716626284,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.21990966796875,
+        "mass": 3226.0166015625,
+        "complexity": 0.13525390625,
+        "spatial_entropy": 2.722174817076648,
+        "num_clusters": 888,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        18,
+        17
+      ],
+      "fitness": 0.35475285188658745,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 6.435737098434564,
+        "kernel_peaks": 0.849112260100642,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.34536159062511296,
+        "growth_sigma": 0.07402635456959607,
+        "dt": 0.3824182643809812,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.89239501953125,
+        "mass": 7006.5693359375,
+        "complexity": 0.923583984375,
+        "spatial_entropy": 4.208668704467279,
+        "num_clusters": 3,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        4
+      ],
+      "fitness": 0.168346099108021,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 16.24874593313197,
+        "kernel_peaks": 3.776144370617273,
+        "growth_type": "step_function",
+        "growth_mu": 0.3847789975439609,
+        "growth_sigma": 0.12158988387708225,
+        "dt": 0.4807351153472724,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.23638916015625,
+        "mass": 2262.971923828125,
+        "complexity": 0.233154296875,
+        "spatial_entropy": 1.4439378900165243,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        0,
+        8
+      ],
+      "fitness": 0.04909338273864705,
+      "genome": {
+        "kernel_type": "elliptical",
+        "kernel_radius": 24.848422231447994,
+        "kernel_peaks": 2.3072114590705803,
+        "growth_type": "bistable",
+        "growth_mu": 0.2815139789862386,
+        "growth_sigma": 0.1432954746330099,
+        "dt": 0.02275396580595139,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.44024658203125,
+        "mass": 7188.1015625,
+        "complexity": 0.0498046875,
+        "spatial_entropy": 4.325648195373883,
+        "num_clusters": 8,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        5
+      ],
+      "fitness": 0.11651865567546338,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 6.651240461369643,
+        "kernel_peaks": 3.219858800660901,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.17865662594390536,
+        "growth_sigma": 0.04643040275109865,
+        "dt": 0.08460105827872619,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.291259765625,
+        "mass": 4683.2978515625,
+        "complexity": 0.14111328125,
+        "spatial_entropy": 2.656671848922351,
+        "num_clusters": 371,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        6
+      ],
+      "fitness": 0.22230748972287984,
+      "genome": {
+        "kernel_type": "spiral",
+        "kernel_radius": 8.063282594127287,
+        "kernel_peaks": 1.8130100995865468,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.19737617931357626,
+        "growth_sigma": 0.13434535910643372,
+        "dt": 0.17802771105860246,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.34527587890625,
+        "mass": 4668.8427734375,
+        "complexity": 0.245849609375,
+        "spatial_entropy": 2.875062003941173,
+        "num_clusters": 1198,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        13
+      ],
+      "fitness": 0.12865542630606797,
+      "genome": {
+        "kernel_type": "spiral",
+        "kernel_radius": 9.98727777813342,
+        "kernel_peaks": 1.31695755932616,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.39986019513638194,
+        "growth_sigma": 0.1446917276365765,
+        "dt": 0.22648341143264894,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.65118408203125,
+        "mass": 10579.8515625,
+        "complexity": 0.1416015625,
+        "spatial_entropy": 2.762690681321565,
+        "num_clusters": 4,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        9,
+        12
+      ],
+      "fitness": 0.4558940383431036,
+      "genome": {
+        "kernel_type": "sinc",
+        "kernel_radius": 26.867162982185167,
+        "kernel_peaks": 0.9590462244481102,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.10858275516525631,
+        "growth_sigma": 0.07329032652377886,
+        "dt": 0.31506806950962807,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.61724853515625,
+        "mass": 3271.523193359375,
+        "complexity": 0.482421875,
+        "spatial_entropy": 4.090488660571385,
+        "num_clusters": 14,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        13,
+        14
+      ],
+      "fitness": 0.5421272474632133,
+      "genome": {
+        "kernel_type": "spiral",
+        "kernel_radius": 29.271762905939323,
+        "kernel_peaks": 3.3702147216264864,
+        "growth_type": "bistable",
+        "growth_mu": 0.2871294355916138,
+        "growth_sigma": 0.10607319874184205,
+        "dt": 0.4390731622476665,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.7296142578125,
+        "mass": 6206.7421875,
+        "complexity": 0.68701171875,
+        "spatial_entropy": 4.825648195373883,
+        "num_clusters": 26,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        14
+      ],
+      "fitness": 0.11326637225647573,
+      "genome": {
+        "kernel_type": "step_ring",
+        "kernel_radius": 22.334720270177193,
+        "kernel_peaks": 0.9393392796652413,
+        "growth_type": "step_function",
+        "growth_mu": 0.33362698787693656,
+        "growth_sigma": 0.10558042079298625,
+        "dt": 0.4664784010390873,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.74530029296875,
+        "mass": 5797.56298828125,
+        "complexity": 0.149169921875,
+        "spatial_entropy": 3.036662981851755,
+        "num_clusters": 52,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        8
+      ],
+      "fitness": 0.1631406752858311,
+      "genome": {
+        "kernel_type": "rbf_mixture",
+        "kernel_radius": 19.46380010134423,
+        "kernel_peaks": 0.8940773446499108,
+        "growth_type": "step_function",
+        "growth_mu": 0.22676349238321197,
+        "growth_sigma": 0.12754069274648058,
+        "dt": 0.1098343520100549,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.43701171875,
+        "mass": 5995.6328125,
+        "complexity": 0.165771484375,
+        "spatial_entropy": 3.078626767019874,
+        "num_clusters": 118,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        10
+      ],
+      "fitness": 0.1889179860954755,
+      "genome": {
+        "kernel_type": "bump",
+        "kernel_radius": 24.944833482300986,
+        "kernel_peaks": 2.175991942899767,
+        "growth_type": "relu_like",
+        "growth_mu": 0.05624190910310622,
+        "growth_sigma": 0.14786202222351427,
+        "dt": 0.2718310997339676,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.50787353515625,
+        "mass": 2232.78076171875,
+        "complexity": 0.18896484375,
+        "spatial_entropy": 3.6204071342837696,
+        "num_clusters": 22,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        6
+      ],
+      "fitness": 0.06607285649806727,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 22.168065409375423,
+        "kernel_peaks": 3.931016545823666,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.18604749853825786,
+        "growth_sigma": 0.10972603451170126,
+        "dt": 0.0596553695323476,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.34356689453125,
+        "mass": 5546.8046875,
+        "complexity": 0.0732421875,
+        "spatial_entropy": 4.658617633875558,
+        "num_clusters": 14,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        7,
+        6
+      ],
+      "fitness": 0.3213651733531151,
+      "genome": {
+        "kernel_type": "spiral",
+        "kernel_radius": 5.087088960035056,
+        "kernel_peaks": 3.3787047395859737,
+        "growth_type": "bistable",
+        "growth_mu": 0.11527124714041713,
+        "growth_sigma": 0.044290060645851705,
+        "dt": 0.3492723657283468,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.3421630859375,
+        "mass": 3320.541015625,
+        "complexity": 0.35693359375,
+        "spatial_entropy": 3.0207638207437193,
+        "num_clusters": 3053,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        3
+      ],
+      "fitness": 0.12825408251956105,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 9.22357309457929,
+        "kernel_peaks": 1.3175808711924444,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.06607414513922048,
+        "growth_sigma": 0.09422110166018666,
+        "dt": 0.390684716626284,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.198974609375,
+        "mass": 2819.49853515625,
+        "complexity": 0.201171875,
+        "spatial_entropy": 2.783870407472074,
+        "num_clusters": 156,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        3
+      ],
+      "fitness": 0.08669135172385722,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 6.411652119315182,
+        "kernel_peaks": 2.156766813428078,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.06607414513922048,
+        "growth_sigma": 0.1120538600970551,
+        "dt": 0.390684716626284,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.198486328125,
+        "mass": 3085.0693359375,
+        "complexity": 0.13623046875,
+        "spatial_entropy": 2.2032597077770797,
+        "num_clusters": 250,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        5,
+        5
+      ],
+      "fitness": 0.21692363284455496,
+      "genome": {
+        "kernel_type": "gabor",
+        "kernel_radius": 10.506742345449783,
+        "kernel_peaks": 2.0538634169882757,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.1707480759372295,
+        "growth_sigma": 0.027609945748005012,
+        "dt": 0.09170748057453806,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.27386474609375,
+        "mass": 3669.1669921875,
+        "complexity": 0.272705078125,
+        "spatial_entropy": 2.778346577806871,
+        "num_clusters": 88,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        10
+      ],
+      "fitness": 0.1388715849170694,
+      "genome": {
+        "kernel_type": "rbf_mixture",
+        "kernel_radius": 22.36772034282728,
+        "kernel_peaks": 3.4760674502605595,
+        "growth_type": "step_function",
+        "growth_mu": 0.16676850316742803,
+        "growth_sigma": 0.05284206608414561,
+        "dt": 0.3070402779110047,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.53729248046875,
+        "mass": 2778.36962890625,
+        "complexity": 0.1396484375,
+        "spatial_entropy": 2.967797448218194,
+        "num_clusters": 86,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        12,
+        15
+      ],
+      "fitness": 0.4036014159792103,
+      "genome": {
+        "kernel_type": "bump",
+        "kernel_radius": 11.621076735557052,
+        "kernel_peaks": 1.5858294539467734,
+        "growth_type": "bistable",
+        "growth_mu": 0.26879401462564706,
+        "growth_sigma": 0.1101931066949245,
+        "dt": 0.18037716601585824,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.796630859375,
+        "mass": 6543.5048828125,
+        "complexity": 0.622802734375,
+        "spatial_entropy": 3.5734339852164405,
+        "num_clusters": 4,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        6,
+        4
+      ],
+      "fitness": 0.2320491732134542,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 7.5565321201122755,
+        "kernel_peaks": 1.3175808711924444,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.06607414513922048,
+        "growth_sigma": 0.09422110166018666,
+        "dt": 0.39310781714629334,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.24432373046875,
+        "mass": 2725.055908203125,
+        "complexity": 0.314208984375,
+        "spatial_entropy": 2.222351491092032,
+        "num_clusters": 1043,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        0,
+        19
+      ],
+      "fitness": 0.0,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 9.98727777813342,
+        "kernel_peaks": 1.4281780953574261,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.3114992068234301,
+        "growth_sigma": 0.1446917276365765,
+        "dt": 0.22648341143264894,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 9290.408203125,
+        "complexity": 0.00732421875,
+        "spatial_entropy": -0.0,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        8
+      ],
+      "fitness": 0.06239276099950075,
+      "genome": {
+        "kernel_type": "elliptical",
+        "kernel_radius": 27.213851631837922,
+        "kernel_peaks": 2.3072114590705803,
+        "growth_type": "bistable",
+        "growth_mu": 0.2815139789862386,
+        "growth_sigma": 0.1432954746330099,
+        "dt": 0.02275396580595139,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.4423828125,
+        "mass": 7200.90234375,
+        "complexity": 0.063232421875,
+        "spatial_entropy": 5.097274413893478,
+        "num_clusters": 6,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        8,
+        15
+      ],
+      "fitness": 0.316365414269967,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 13.584273993679142,
+        "kernel_peaks": 0.9679806882861208,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.17957916231866033,
+        "growth_sigma": 0.12855486146077816,
+        "dt": 0.4865334251293296,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.75177001953125,
+        "mass": 2893.66796875,
+        "complexity": 0.423828125,
+        "spatial_entropy": 2.7246798722498013,
+        "num_clusters": 803,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        17
+      ],
+      "fitness": 0.1139810331078479,
+      "genome": {
+        "kernel_type": "gabor",
+        "kernel_radius": 16.24874593313197,
+        "kernel_peaks": 3.776144370617273,
+        "growth_type": "step_function",
+        "growth_mu": 0.3847789975439609,
+        "growth_sigma": 0.12158988387708225,
+        "dt": 0.4807351153472724,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.8507080078125,
+        "mass": 6602.158203125,
+        "complexity": 0.224365234375,
+        "spatial_entropy": 3.4996734592460084,
+        "num_clusters": 17,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        13,
+        16
+      ],
+      "fitness": 0.417459348362172,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 5.123990017237096,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "relu_like",
+        "growth_mu": 0.05,
+        "growth_sigma": 0.1234952496152759,
+        "dt": 0.24078449560899326,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.8082275390625,
+        "mass": 1813.697998046875,
+        "complexity": 0.67333984375,
+        "spatial_entropy": 3.283727284622306,
+        "num_clusters": 82,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        15
+      ],
+      "fitness": 0.06990055140340701,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 22.121722032478452,
+        "kernel_peaks": 3.7137356654360687,
+        "growth_type": "step_function",
+        "growth_mu": 0.11320330488168234,
+        "growth_sigma": 0.1339745088451349,
+        "dt": 0.19916950021541419,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.751220703125,
+        "mass": 4778.7626953125,
+        "complexity": 0.093505859375,
+        "spatial_entropy": 2.5391060636920484,
+        "num_clusters": 58,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        2
+      ],
+      "fitness": 0.08692451583920047,
+      "genome": {
+        "kernel_type": "bump",
+        "kernel_radius": 23.34049560618522,
+        "kernel_peaks": 3.9171282430808914,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.10387689145311266,
+        "growth_sigma": 0.10895151866537454,
+        "dt": 0.3980356668911021,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.147216796875,
+        "mass": 1728.55908203125,
+        "complexity": 0.173095703125,
+        "spatial_entropy": 2.9673859001641905,
+        "num_clusters": 444,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        11
+      ],
+      "fitness": 0.06132966186851263,
+      "genome": {
+        "kernel_type": "elliptical",
+        "kernel_radius": 21.232997499871868,
+        "kernel_peaks": 2.208421268436892,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.4508310932183722,
+        "growth_sigma": 0.13969237686771604,
+        "dt": 0.1095934200157857,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.56842041015625,
+        "mass": 9260.9580078125,
+        "complexity": 0.0625,
+        "spatial_entropy": 4.340421884241178,
+        "num_clusters": 9,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        19
+      ],
+      "fitness": 0.017957233358174562,
+      "genome": {
+        "kernel_type": "rbf_mixture",
+        "kernel_radius": 24.485322549038283,
+        "kernel_peaks": 3.4760674502605595,
+        "growth_type": "step_function",
+        "growth_mu": 0.16676850316742803,
+        "growth_sigma": 0.05284206608414561,
+        "dt": 0.3070402779110047,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.956298828125,
+        "mass": 7575.08642578125,
+        "complexity": 0.107421875,
+        "spatial_entropy": 3.84808164979857,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        5,
+        15
+      ],
+      "fitness": 0.20005427876822068,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 23.681924619945743,
+        "kernel_peaks": 3.7137356654360687,
+        "growth_type": "step_function",
+        "growth_mu": 0.15382956049917718,
+        "growth_sigma": 0.1339745088451349,
+        "dt": 0.11033260213598148,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.75933837890625,
+        "mass": 5094.58837890625,
+        "complexity": 0.273681640625,
+        "spatial_entropy": 2.8253980011394533,
+        "num_clusters": 2085,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        5,
+        19
+      ],
+      "fitness": 0.04550924008071888,
+      "genome": {
+        "kernel_type": "step_ring",
+        "kernel_radius": 12.595309657312278,
+        "kernel_peaks": 0.9393392796652413,
+        "growth_type": "step_function",
+        "growth_mu": 0.1685048916159186,
+        "growth_sigma": 0.10558042079298625,
+        "dt": 0.4664784010390873,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.9593505859375,
+        "mass": 9804.0234375,
+        "complexity": 0.291748046875,
+        "spatial_entropy": 3.5939462981346573,
+        "num_clusters": 21,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        5
+      ],
+      "fitness": 0.19950754563615192,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 6.316643905819129,
+        "kernel_peaks": 1.1671129930404263,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.1717375254363428,
+        "growth_sigma": 0.1234952496152759,
+        "dt": 0.26472484879748226,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.2847900390625,
+        "mass": 4017.231201171875,
+        "complexity": 0.244873046875,
+        "spatial_entropy": 3.2814462981346573,
+        "num_clusters": 776,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        0,
+        1
+      ],
+      "fitness": 0.005970315560261952,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 7.350005358599386,
+        "kernel_peaks": 0.9579956820440063,
+        "growth_type": "step_function",
+        "growth_mu": 0.3570431289150916,
+        "growth_sigma": 0.08198726258611422,
+        "dt": 0.43931885677895965,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.05633544921875,
+        "mass": 405.9498291015625,
+        "complexity": 0.028076171875,
+        "spatial_entropy": 0.8248144431995964,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        15,
+        19
+      ],
+      "fitness": 0.0,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 21.502147608331526,
+        "kernel_peaks": 0.6346497859458037,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.186549523455183,
+        "growth_sigma": 0.04627971000432709,
+        "dt": 0.24925452321619207,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 4626.6865234375,
+        "complexity": 0.781005859375,
+        "spatial_entropy": 1.3330057673674771,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        12,
+        14
+      ],
+      "fitness": 0.5369461483132909,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 11.766166932060042,
+        "kernel_peaks": 0.5,
+        "growth_type": "bistable",
+        "growth_mu": 0.25040262266470337,
+        "growth_sigma": 0.1234952496152759,
+        "dt": 0.24078449560899326,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.70770263671875,
+        "mass": 5922.9541015625,
+        "complexity": 0.64892578125,
+        "spatial_entropy": 4.134373587245974,
+        "num_clusters": 32,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        7
+      ],
+      "fitness": 0.23179239017190412,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 5.123990017237096,
+        "kernel_peaks": 1.1671129930404263,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.1717375254363428,
+        "growth_sigma": 0.1234952496152759,
+        "dt": 0.26472484879748226,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.3834228515625,
+        "mass": 5489.7724609375,
+        "complexity": 0.2451171875,
+        "spatial_entropy": 2.988239085560707,
+        "num_clusters": 569,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        5,
+        6
+      ],
+      "fitness": 0.24562108555983286,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 23.681924619945743,
+        "kernel_peaks": 3.8594774541158894,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.11320330488168234,
+        "growth_sigma": 0.1339745088451349,
+        "dt": 0.3940498924637214,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.3326416015625,
+        "mass": 3567.056884765625,
+        "complexity": 0.276611328125,
+        "spatial_entropy": 3.149190150529811,
+        "num_clusters": 1844,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        9
+      ],
+      "fitness": 0.09870776316529373,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 13.00901496513529,
+        "kernel_peaks": 1.1338022369209764,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.19592241685793133,
+        "growth_sigma": 0.14942691248872295,
+        "dt": 0.213809664771773,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.46771240234375,
+        "mass": 7606.9658203125,
+        "complexity": 0.09912109375,
+        "spatial_entropy": 3.9076030781525786,
+        "num_clusters": 14,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        14,
+        17
+      ],
+      "fitness": 0.3645448452043638,
+      "genome": {
+        "kernel_type": "bump",
+        "kernel_radius": 11.621076735557052,
+        "kernel_peaks": 1.5858294539467734,
+        "growth_type": "bistable",
+        "growth_mu": 0.25860946966572634,
+        "growth_sigma": 0.1101931066949245,
+        "dt": 0.18037716601585824,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.85772705078125,
+        "mass": 6352.201171875,
+        "complexity": 0.746826171875,
+        "spatial_entropy": 3.8117494172967104,
+        "num_clusters": 10,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        5,
+        11
+      ],
+      "fitness": 0.25236029672669247,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 23.681924619945743,
+        "kernel_peaks": 3.7137356654360687,
+        "growth_type": "step_function",
+        "growth_mu": 0.15382956049917718,
+        "growth_sigma": 0.10434063590468166,
+        "dt": 0.11033260213598148,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.564208984375,
+        "mass": 5296.48828125,
+        "complexity": 0.256591796875,
+        "spatial_entropy": 2.9762215752641348,
+        "num_clusters": 5133,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        0,
+        4
+      ],
+      "fitness": 0.033775755247916095,
+      "genome": {
+        "kernel_type": "gabor",
+        "kernel_radius": 23.30333393893298,
+        "kernel_peaks": 2.16600204591904,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.09935202456565034,
+        "growth_sigma": 0.08467836104940235,
+        "dt": 0.40124801223704176,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.2271728515625,
+        "mass": 3706.037353515625,
+        "complexity": 0.048095703125,
+        "spatial_entropy": 4.688810203736036,
+        "num_clusters": 21,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        0,
+        9
+      ],
+      "fitness": 0.04901776750557474,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 28.991047691013126,
+        "kernel_peaks": 2.2176041504237642,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.3650859296277121,
+        "growth_sigma": 0.09669421897171851,
+        "dt": 0.1815596358583317,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.48333740234375,
+        "mass": 7897.01220703125,
+        "complexity": 0.049072265625,
+        "spatial_entropy": 4.3087682662886335,
+        "num_clusters": 5,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        0,
+        5
+      ],
+      "fitness": 0.033020360686350614,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 9.98727777813342,
+        "kernel_peaks": 1.4281780953574261,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.3114992068234301,
+        "growth_sigma": 0.1446917276365765,
+        "dt": 0.22648341143264894,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.293701171875,
+        "mass": 2831.18701171875,
+        "complexity": 0.039794921875,
+        "spatial_entropy": 1.9528195311147831,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        6,
+        13
+      ],
+      "fitness": 0.29450932750478387,
+      "genome": {
+        "kernel_type": "bump",
+        "kernel_radius": 17.80515414903799,
+        "kernel_peaks": 3.25588551129755,
+        "growth_type": "step_function",
+        "growth_mu": 0.17763555713527684,
+        "growth_sigma": 0.039311476527504954,
+        "dt": 0.17686740995876113,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.69775390625,
+        "mass": 2896.1435546875,
+        "complexity": 0.34912109375,
+        "spatial_entropy": 1.9661859987912973,
+        "num_clusters": 270,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        0,
+        3
+      ],
+      "fitness": 0.027537754067452624,
+      "genome": {
+        "kernel_type": "elliptical",
+        "kernel_radius": 28.063928030957825,
+        "kernel_peaks": 1.366711619159275,
+        "growth_type": "relu_like",
+        "growth_mu": 0.06274238494739441,
+        "growth_sigma": 0.11129152767850493,
+        "dt": 0.13559094773705746,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.1812744140625,
+        "mass": 2960.807373046875,
+        "complexity": 0.04638671875,
+        "spatial_entropy": 4.475798827786958,
+        "num_clusters": 25,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        13,
+        19
+      ],
+      "fitness": 0.07863681211892981,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 13.26230848359023,
+        "kernel_peaks": 0.8799002530198817,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.11001039498913115,
+        "growth_sigma": 0.11206166783173897,
+        "dt": 0.49404170578447976,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.9708251953125,
+        "mass": 5860.873046875,
+        "complexity": 0.694091796875,
+        "spatial_entropy": 4.376964015923011,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        12,
+        19
+      ],
+      "fitness": 0.00109810384674347,
+      "genome": {
+        "kernel_type": "bump",
+        "kernel_radius": 13.632850526780715,
+        "kernel_peaks": 1.3175808711924444,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.06607414513922048,
+        "growth_sigma": 0.09422110166018666,
+        "dt": 0.390684716626284,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.99957275390625,
+        "mass": 5805.87158203125,
+        "complexity": 0.642822265625,
+        "spatial_entropy": 2.832217957243559,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        5,
+        7
+      ],
+      "fitness": 0.24634349341067718,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 22.121722032478452,
+        "kernel_peaks": 3.7137356654360687,
+        "growth_type": "step_function",
+        "growth_mu": 0.11320330488168234,
+        "growth_sigma": 0.09444428859912986,
+        "dt": 0.19916950021541419,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.36688232421875,
+        "mass": 1845.2091064453125,
+        "complexity": 0.26513671875,
+        "spatial_entropy": 3.2260602214445617,
+        "num_clusters": 760,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        11,
+        8
+      ],
+      "fitness": 0.5461881206429098,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 11.295769076100054,
+        "kernel_peaks": 2.2986245847844757,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.12769427636006225,
+        "growth_sigma": 0.13203308116231224,
+        "dt": 0.0500258575713075,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.4476318359375,
+        "mass": 4262.98046875,
+        "complexity": 0.55224609375,
+        "spatial_entropy": 2.782549182052806,
+        "num_clusters": 134,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        8,
+        18
+      ],
+      "fitness": 0.09125103375481558,
+      "genome": {
+        "kernel_type": "gabor",
+        "kernel_radius": 14.591107731290805,
+        "kernel_peaks": 0.93539834797074,
+        "growth_type": "step_function",
+        "growth_mu": 0.3793333147396852,
+        "growth_sigma": 0.1294182010224845,
+        "dt": 0.18329149823019375,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.94329833984375,
+        "mass": 6632.44091796875,
+        "complexity": 0.426513671875,
+        "spatial_entropy": 3.1771412874240257,
+        "num_clusters": 17,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        10,
+        11
+      ],
+      "fitness": 0.49888433886735584,
+      "genome": {
+        "kernel_type": "rbf_mixture",
+        "kernel_radius": 5.123990017237096,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.34839291263725863,
+        "growth_sigma": 0.14961674418875176,
+        "dt": 0.24078449560899326,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.59796142578125,
+        "mass": 7184.1220703125,
+        "complexity": 0.518798828125,
+        "spatial_entropy": 3.1626124420517887,
+        "num_clusters": 3357,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        9
+      ],
+      "fitness": 0.1829896827985067,
+      "genome": {
+        "kernel_type": "bump",
+        "kernel_radius": 13.841196629753902,
+        "kernel_peaks": 1.4281780953574261,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.3114992068234301,
+        "growth_sigma": 0.1446917276365765,
+        "dt": 0.22648341143264894,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.4874267578125,
+        "mass": 7580.83251953125,
+        "complexity": 0.18310546875,
+        "spatial_entropy": 2.970544520585889,
+        "num_clusters": 91,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        19
+      ],
+      "fitness": 0.0,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 16.868325408705125,
+        "kernel_peaks": 1.4959886751187548,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.14863697313544444,
+        "growth_sigma": 0.10273640732852012,
+        "dt": 0.26215233298793755,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 5636.62353515625,
+        "complexity": 0.201171875,
+        "spatial_entropy": 0.9992954443621549,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        0,
+        7
+      ],
+      "fitness": 0.03183007590996567,
+      "genome": {
+        "kernel_type": "rbf_mixture",
+        "kernel_radius": 23.74527725380717,
+        "kernel_peaks": 2.469457281402806,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.16637178523970875,
+        "growth_sigma": 0.14907504368030655,
+        "dt": 0.2900019840997094,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.3514404296875,
+        "mass": 5746.9560546875,
+        "complexity": 0.034912109375,
+        "spatial_entropy": 3.5865393061737816,
+        "num_clusters": 29,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        15,
+        16
+      ],
+      "fitness": 0.45424469257704914,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 27.004848839127767,
+        "kernel_peaks": 0.5,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.186549523455183,
+        "growth_sigma": 0.04627971000432709,
+        "dt": 0.24925452321619207,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.81982421875,
+        "mass": 2983.47705078125,
+        "complexity": 0.768798828125,
+        "spatial_entropy": 1.85615623273168,
+        "num_clusters": 2154,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        13,
+        12
+      ],
+      "fitness": 0.6279045608098386,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 16.271083489235597,
+        "kernel_peaks": 3.616319204795428,
+        "growth_type": "relu_like",
+        "growth_mu": 0.29672751152864035,
+        "growth_sigma": 0.09496175490121367,
+        "dt": 0.29195295250575765,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.63433837890625,
+        "mass": 4422.94921875,
+        "complexity": 0.6767578125,
+        "spatial_entropy": 4.367132914624721,
+        "num_clusters": 11,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        11
+      ],
+      "fitness": 0.1913795791188022,
+      "genome": {
+        "kernel_type": "step_ring",
+        "kernel_radius": 27.129843755138992,
+        "kernel_peaks": 2.071645304820964,
+        "growth_type": "step_function",
+        "growth_mu": 0.24099346675054167,
+        "growth_sigma": 0.14597217364905213,
+        "dt": 0.3477458410436062,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.5535888671875,
+        "mass": 4226.42822265625,
+        "complexity": 0.193603515625,
+        "spatial_entropy": 4.0891142598672285,
+        "num_clusters": 49,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        7,
+        7
+      ],
+      "fitness": 0.37099970493,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 19.556818399965337,
+        "kernel_peaks": 3.1770751119970106,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.11405433456770617,
+        "growth_sigma": 0.1052936023924037,
+        "dt": 0.48595961528127934,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.397705078125,
+        "mass": 1253.297607421875,
+        "complexity": 0.38720703125,
+        "spatial_entropy": 3.408980956773648,
+        "num_clusters": 113,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        10,
+        9
+      ],
+      "fitness": 0.5149868069565855,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 10.540549533928402,
+        "kernel_peaks": 2.6041325983477446,
+        "growth_type": "bistable",
+        "growth_mu": 0.13280439232123456,
+        "growth_sigma": 0.10096566327408396,
+        "dt": 0.38937307402276367,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.4720458984375,
+        "mass": 2628.7607421875,
+        "complexity": 0.5166015625,
+        "spatial_entropy": 4.283870407472074,
+        "num_clusters": 186,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        9,
+        10
+      ],
+      "fitness": 0.4939167044358328,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 10.597527507691913,
+        "kernel_peaks": 3.479550912215815,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.4459608873140476,
+        "growth_sigma": 0.14985612479877303,
+        "dt": 0.4943935360949127,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.5455322265625,
+        "mass": 4923.2041015625,
+        "complexity": 0.498046875,
+        "spatial_entropy": 3.680289306173782,
+        "num_clusters": 322,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        6,
+        8
+      ],
+      "fitness": 0.3309773567598313,
+      "genome": {
+        "kernel_type": "gaussian",
+        "kernel_radius": 5.123990017237096,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.22732347084658866,
+        "growth_sigma": 0.09454875433558937,
+        "dt": 0.24078449560899326,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.44384765625,
+        "mass": 5949.39453125,
+        "complexity": 0.335205078125,
+        "spatial_entropy": 3.230994188952478,
+        "num_clusters": 1308,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        8,
+        6
+      ],
+      "fitness": 0.39318427188845817,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 5.0,
+        "kernel_peaks": 1.3175808711924444,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.05518722542758624,
+        "growth_sigma": 0.09422110166018666,
+        "dt": 0.39310781714629334,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.3477783203125,
+        "mass": 2455.793212890625,
+        "complexity": 0.433349609375,
+        "spatial_entropy": 2.0364994350052346,
+        "num_clusters": 732,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        18,
+        16
+      ],
+      "fitness": 0.4875696392264217,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 5.544023518865688,
+        "kernel_peaks": 0.849112260100642,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.34536159062511296,
+        "growth_sigma": 0.07402635456959607,
+        "dt": 0.3824182643809812,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.8406982421875,
+        "mass": 5886.7080078125,
+        "complexity": 0.91015625,
+        "spatial_entropy": 3.6975273994329494,
+        "num_clusters": 16,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        2
+      ],
+      "fitness": 0.06787694961531088,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 8.562365520318078,
+        "kernel_peaks": 3.1085111711552145,
+        "growth_type": "bistable",
+        "growth_mu": 0.059245590435747064,
+        "growth_sigma": 0.12196462158445036,
+        "dt": 0.33284756307779817,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.134521484375,
+        "mass": 680.5349731445312,
+        "complexity": 0.145751953125,
+        "spatial_entropy": 1.2369830072378285,
+        "num_clusters": 173,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        8,
+        14
+      ],
+      "fitness": 0.33492921211291105,
+      "genome": {
+        "kernel_type": "step_ring",
+        "kernel_radius": 8.131792954414973,
+        "kernel_peaks": 3.488422941781262,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.2851808371523971,
+        "growth_sigma": 0.12880839871383937,
+        "dt": 0.49073490032939365,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.73480224609375,
+        "mass": 8811.1865234375,
+        "complexity": 0.4296875,
+        "spatial_entropy": 3.7202136274541524,
+        "num_clusters": 687,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        7,
+        13
+      ],
+      "fitness": 0.3329742098139832,
+      "genome": {
+        "kernel_type": "bump",
+        "kernel_radius": 24.944833482300986,
+        "kernel_peaks": 2.175991942899767,
+        "growth_type": "relu_like",
+        "growth_mu": 0.05624190910310622,
+        "growth_sigma": 0.14786202222351427,
+        "dt": 0.3585634490345427,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.6597900390625,
+        "mass": 2628.761962890625,
+        "complexity": 0.370849609375,
+        "spatial_entropy": 4.023743658160724,
+        "num_clusters": 20,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        8,
+        7
+      ],
+      "fitness": 0.4130813368719828,
+      "genome": {
+        "kernel_type": "spiral",
+        "kernel_radius": 25.004724644535756,
+        "kernel_peaks": 2.522190958982873,
+        "growth_type": "bistable",
+        "growth_mu": 0.1487161175191474,
+        "growth_sigma": 0.049001311107313164,
+        "dt": 0.38638203846675234,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.35687255859375,
+        "mass": 1690.0638427734375,
+        "complexity": 0.449951171875,
+        "spatial_entropy": 3.672922609267362,
+        "num_clusters": 281,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        19
+      ],
+      "fitness": 0.004770630879647797,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 23.681924619945743,
+        "kernel_peaks": 3.7137356654360687,
+        "growth_type": "step_function",
+        "growth_mu": 0.11320330488168234,
+        "growth_sigma": 0.1339745088451349,
+        "dt": 0.19916950021541419,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.98492431640625,
+        "mass": 6381.3056640625,
+        "complexity": 0.080322265625,
+        "spatial_entropy": 0.5456884388695525,
+        "num_clusters": 76,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        7,
+        5
+      ],
+      "fitness": 0.31380025553517044,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 5.675904619072814,
+        "kernel_peaks": 2.3868911297863606,
+        "growth_type": "relu_like",
+        "growth_mu": 0.1663031620155568,
+        "growth_sigma": 0.12493243681295357,
+        "dt": 0.08215766197024574,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.27685546875,
+        "mass": 2120.495361328125,
+        "complexity": 0.391845703125,
+        "spatial_entropy": 2.0531306932711404,
+        "num_clusters": 1155,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        8,
+        13
+      ],
+      "fitness": 0.36078447435284033,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 13.584273993679142,
+        "kernel_peaks": 0.9679806882861208,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.17957916231866033,
+        "growth_sigma": 0.12473254661518693,
+        "dt": 0.4865334251293296,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.697509765625,
+        "mass": 2269.8251953125,
+        "complexity": 0.427490234375,
+        "spatial_entropy": 2.528984473104872,
+        "num_clusters": 1007,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        9,
+        15
+      ],
+      "fitness": 0.3331666254598531,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 13.584273993679142,
+        "kernel_peaks": 0.7676110780895425,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.17957916231866033,
+        "growth_sigma": 0.12322851343728161,
+        "dt": 0.4865334251293296,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.76361083984375,
+        "mass": 2822.096435546875,
+        "complexity": 0.46142578125,
+        "spatial_entropy": 2.706855285961865,
+        "num_clusters": 850,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        3,
+        19
+      ],
+      "fitness": 0.020026967395097017,
+      "genome": {
+        "kernel_type": "step_ring",
+        "kernel_radius": 12.595309657312278,
+        "kernel_peaks": 0.9393392796652413,
+        "growth_type": "step_function",
+        "growth_mu": 0.2615490842099111,
+        "growth_sigma": 0.10558042079298625,
+        "dt": 0.5,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.9713134765625,
+        "mass": 12508.7578125,
+        "complexity": 0.1796875,
+        "spatial_entropy": 3.4730413547441144,
+        "num_clusters": 6,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        14,
+        11
+      ],
+      "fitness": 0.6915751343185548,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 21.502147608331526,
+        "kernel_peaks": 0.6346497859458037,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.186549523455183,
+        "growth_sigma": 0.04627971000432709,
+        "dt": 0.2389028183834605,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.5772705078125,
+        "mass": 2891.091796875,
+        "complexity": 0.70849609375,
+        "spatial_entropy": 0.11611507530476972,
+        "num_clusters": 5476,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        5,
+        12
+      ],
+      "fitness": 0.2508724623476155,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 7.1782006599366,
+        "kernel_peaks": 0.6687899504735427,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.4651806324163568,
+        "growth_sigma": 0.13531184027921173,
+        "dt": 0.2805187879265169,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.645751953125,
+        "mass": 9792.8984375,
+        "complexity": 0.274169921875,
+        "spatial_entropy": 1.9435454714871523,
+        "num_clusters": 4,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        13
+      ],
+      "fitness": 0.21887547147343867,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 23.681924619945743,
+        "kernel_peaks": 3.7137356654360687,
+        "growth_type": "step_function",
+        "growth_mu": 0.11320330488168234,
+        "growth_sigma": 0.1308748519821384,
+        "dt": 0.19916950021541419,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.6676025390625,
+        "mass": 4300.1103515625,
+        "complexity": 0.24658203125,
+        "spatial_entropy": 3.2907823617034615,
+        "num_clusters": 519,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        0,
+        14
+      ],
+      "fitness": 0.00732421875,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 9.98727777813342,
+        "kernel_peaks": 1.4281780953574261,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.3114992068234301,
+        "growth_sigma": 0.1446917276365765,
+        "dt": 0.22648341143264894,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.75,
+        "mass": 5706.54052734375,
+        "complexity": 0.009765625,
+        "spatial_entropy": 1.5,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        6,
+        9
+      ],
+      "fitness": 0.3034322283747315,
+      "genome": {
+        "kernel_type": "sinc",
+        "kernel_radius": 6.3059075055444485,
+        "kernel_peaks": 1.760305369605976,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.21853562065629684,
+        "growth_sigma": 0.12886559480253126,
+        "dt": 0.2448966283406987,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.45501708984375,
+        "mass": 6331.904296875,
+        "complexity": 0.305908203125,
+        "spatial_entropy": 1.958450133652773,
+        "num_clusters": 41,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        12,
+        13
+      ],
+      "fitness": 0.5422811857097258,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 19.04217677082653,
+        "kernel_peaks": 0.9382397613765937,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.09323225336964602,
+        "growth_sigma": 0.08952915536027804,
+        "dt": 0.38400972878029205,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.66180419921875,
+        "mass": 2427.955078125,
+        "complexity": 0.605712890625,
+        "spatial_entropy": 4.204936970755911,
+        "num_clusters": 110,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        16,
+        19
+      ],
+      "fitness": 0.0,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 29.653777494285073,
+        "kernel_peaks": 3.7892729566957617,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.2373010550605642,
+        "growth_sigma": 0.0748688490581701,
+        "dt": 0.2510929582879917,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 1.0,
+        "mass": 8124.734375,
+        "complexity": 0.810302734375,
+        "spatial_entropy": 1.936637602224123,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        9,
+        11
+      ],
+      "fitness": 0.4741079250234179,
+      "genome": {
+        "kernel_type": "rbf_mixture",
+        "kernel_radius": 5.123990017237096,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.34839291263725863,
+        "growth_sigma": 0.14961674418875176,
+        "dt": 0.3937422610882468,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.576904296875,
+        "mass": 7188.314453125,
+        "complexity": 0.485595703125,
+        "spatial_entropy": 3.1148701591068773,
+        "num_clusters": 3128,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        16
+      ],
+      "fitness": 0.11940426036017016,
+      "genome": {
+        "kernel_type": "bessel",
+        "kernel_radius": 16.24874593313197,
+        "kernel_peaks": 3.776144370617273,
+        "growth_type": "step_function",
+        "growth_mu": 0.3847789975439609,
+        "growth_sigma": 0.12158988387708225,
+        "dt": 0.4807351153472724,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.844482421875,
+        "mass": 6566.07080078125,
+        "complexity": 0.227294921875,
+        "spatial_entropy": 3.2048213715185603,
+        "num_clusters": 23,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        14,
+        18
+      ],
+      "fitness": 0.15833893912713393,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 5.0,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "relu_like",
+        "growth_mu": 0.05,
+        "growth_sigma": 0.13988939839674594,
+        "dt": 0.24078449560899326,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.94049072265625,
+        "mass": 2526.6044921875,
+        "complexity": 0.707275390625,
+        "spatial_entropy": 2.9124805701986367,
+        "num_clusters": 20,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        7,
+        9
+      ],
+      "fitness": 0.3749972954392433,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 16.80604532386076,
+        "kernel_peaks": 0.9796393709338107,
+        "growth_type": "cauchy_peak",
+        "growth_mu": 0.15216902130313004,
+        "growth_sigma": 0.11199437285967287,
+        "dt": 0.29151546908253256,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.4986572265625,
+        "mass": 3512.0625,
+        "complexity": 0.375,
+        "spatial_entropy": -0.0,
+        "num_clusters": 7835,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        13,
+        11
+      ],
+      "fitness": 0.6369410150837211,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 16.271083489235597,
+        "kernel_peaks": 3.616319204795428,
+        "growth_type": "relu_like",
+        "growth_mu": 0.29672751152864035,
+        "growth_sigma": 0.09496175490121367,
+        "dt": 0.29195295250575765,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.57623291015625,
+        "mass": 4111.26806640625,
+        "complexity": 0.652099609375,
+        "spatial_entropy": 4.098988235582062,
+        "num_clusters": 49,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        5,
+        9
+      ],
+      "fitness": 0.278719079480652,
+      "genome": {
+        "kernel_type": "sinc",
+        "kernel_radius": 6.3059075055444485,
+        "kernel_peaks": 1.760305369605976,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.21853562065629684,
+        "growth_sigma": 0.12886559480253126,
+        "dt": 0.22735579682582213,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.45489501953125,
+        "mass": 6335.1044921875,
+        "complexity": 0.281005859375,
+        "spatial_entropy": 2.315295732092106,
+        "num_clusters": 34,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        10
+      ],
+      "fitness": 0.22655985318124294,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 19.978986230227928,
+        "kernel_peaks": 1.6180363483203672,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.1031781756817167,
+        "growth_sigma": 0.07750871562334867,
+        "dt": 0.3925889836737145,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.501708984375,
+        "mass": 3828.52490234375,
+        "complexity": 0.2265625,
+        "spatial_entropy": 4.1617384298164914,
+        "num_clusters": 3,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        6,
+        6
+      ],
+      "fitness": 0.2696463077736553,
+      "genome": {
+        "kernel_type": "gaussian",
+        "kernel_radius": 7.577089169279448,
+        "kernel_peaks": 3.205265091402042,
+        "growth_type": "bistable",
+        "growth_mu": 0.13370628323142464,
+        "growth_sigma": 0.06884699533702729,
+        "dt": 0.17658511062305607,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.3336181640625,
+        "mass": 4666.169921875,
+        "complexity": 0.30322265625,
+        "spatial_entropy": 3.3063038618967613,
+        "num_clusters": 1546,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        7,
+        10
+      ],
+      "fitness": 0.3925215452545672,
+      "genome": {
+        "kernel_type": "sinc",
+        "kernel_radius": 6.3059075055444485,
+        "kernel_peaks": 1.760305369605976,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.21853562065629684,
+        "growth_sigma": 0.12886559480253126,
+        "dt": 0.22735579682582213,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.51861572265625,
+        "mass": 6260.78515625,
+        "complexity": 0.39306640625,
+        "spatial_entropy": 1.4832454149104457,
+        "num_clusters": 96,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        9,
+        19
+      ],
+      "fitness": 0.07973010622663423,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 6.246304042852245,
+        "kernel_peaks": 1.6595514201023722,
+        "growth_type": "step_function",
+        "growth_mu": 0.3208920067506222,
+        "growth_sigma": 0.07861436039784095,
+        "dt": 0.25170880257689454,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.955810546875,
+        "mass": 8891.435546875,
+        "complexity": 0.471923828125,
+        "spatial_entropy": 2.923213255578001,
+        "num_clusters": 3,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        5,
+        18
+      ],
+      "fitness": 0.0690758609562181,
+      "genome": {
+        "kernel_type": "step_ring",
+        "kernel_radius": 12.595309657312278,
+        "kernel_peaks": 0.9393392796652413,
+        "growth_type": "step_function",
+        "growth_mu": 0.13668248713093448,
+        "growth_sigma": 0.10558042079298625,
+        "dt": 0.5,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.9281005859375,
+        "mass": 9351.173828125,
+        "complexity": 0.2587890625,
+        "spatial_entropy": 3.888667713367374,
+        "num_clusters": 86,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        13,
+        17
+      ],
+      "fitness": 0.26644039059465285,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 5.0,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "relu_like",
+        "growth_mu": 0.05,
+        "growth_sigma": 0.13988939839674594,
+        "dt": 0.24078449560899326,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.8873291015625,
+        "mass": 2463.8505859375,
+        "complexity": 0.666259765625,
+        "spatial_entropy": 2.8728741180377275,
+        "num_clusters": 428,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        4,
+        9
+      ],
+      "fitness": 0.20385042298585176,
+      "genome": {
+        "kernel_type": "spiral",
+        "kernel_radius": 9.962434885705443,
+        "kernel_peaks": 1.31695755932616,
+        "growth_type": "asymmetric_bell",
+        "growth_mu": 0.39986019513638194,
+        "growth_sigma": 0.1446917276365765,
+        "dt": 0.22648341143264894,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.4970703125,
+        "mass": 7828.14794921875,
+        "complexity": 0.203857421875,
+        "spatial_entropy": 3.7718892929844596,
+        "num_clusters": 29,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        1,
+        2
+      ],
+      "fitness": 0.03724443197643268,
+      "genome": {
+        "kernel_type": "polynomial",
+        "kernel_radius": 11.900492901924283,
+        "kernel_peaks": 2.7708198480953117,
+        "growth_type": "step_function",
+        "growth_mu": 0.07703971011375149,
+        "growth_sigma": 0.026812308593069812,
+        "dt": 0.019229848339336574,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.14422607421875,
+        "mass": 2327.192138671875,
+        "complexity": 0.075439453125,
+        "spatial_entropy": 3.16853706336902,
+        "num_clusters": 127,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        12,
+        12
+      ],
+      "fitness": 0.586496219439141,
+      "genome": {
+        "kernel_type": "cosine",
+        "kernel_radius": 24.397387033192953,
+        "kernel_peaks": 3.174668670346276,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.2322985559994662,
+        "growth_sigma": 0.041896453799207006,
+        "dt": 0.32967639948341143,
+        "geometry": "hyperbolic_H2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.64105224609375,
+        "mass": 2808.219482421875,
+        "complexity": 0.63720703125,
+        "spatial_entropy": 3.962193118360757,
+        "num_clusters": 12,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        8,
+        5
+      ],
+      "fitness": 0.3260497651353944,
+      "genome": {
+        "kernel_type": "power_law",
+        "kernel_radius": 27.954989737406265,
+        "kernel_peaks": 2.1817405939008725,
+        "growth_type": "bistable",
+        "growth_mu": 0.1835538718394168,
+        "growth_sigma": 0.03451037788446699,
+        "dt": 0.31081073551294847,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.2828369140625,
+        "mass": 1638.2607421875,
+        "complexity": 0.40185546875,
+        "spatial_entropy": 3.327612211296895,
+        "num_clusters": 399,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        15,
+        12
+      ],
+      "fitness": 0.7047207435534801,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 25.52440276280685,
+        "kernel_peaks": 0.6346497859458037,
+        "growth_type": "sigmoid_pair",
+        "growth_mu": 0.186549523455183,
+        "growth_sigma": 0.04627971000432709,
+        "dt": 0.23491114241309424,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.63458251953125,
+        "mass": 2885.0576171875,
+        "complexity": 0.759765625,
+        "spatial_entropy": 0.6962122601251458,
+        "num_clusters": 522,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        13,
+        10
+      ],
+      "fitness": 0.659584901703056,
+      "genome": {
+        "kernel_type": "yukawa",
+        "kernel_radius": 11.968442821853454,
+        "kernel_peaks": 3.574924802440701,
+        "growth_type": "bistable",
+        "growth_mu": 0.07764333558301637,
+        "growth_sigma": 0.03852471539899592,
+        "dt": 0.3629476979002835,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.51470947265625,
+        "mass": 1947.4088134765625,
+        "complexity": 0.66015625,
+        "spatial_entropy": 1.9582944556584096,
+        "num_clusters": 981,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        13,
+        15
+      ],
+      "fitness": 0.44570701783231925,
+      "genome": {
+        "kernel_type": "mexican_hat",
+        "kernel_radius": 13.632850526780715,
+        "kernel_peaks": 1.3175808711924444,
+        "growth_type": "laplace_peak",
+        "growth_mu": 0.06607414513922048,
+        "growth_sigma": 0.0759871588222045,
+        "dt": 0.390684716626284,
+        "geometry": "sphere_S2",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.79534912109375,
+        "mass": 3580.9599609375,
+        "complexity": 0.6845703125,
+        "spatial_entropy": 4.064867633875558,
+        "num_clusters": 47,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        2,
+        12
+      ],
+      "fitness": 0.09534328151494265,
+      "genome": {
+        "kernel_type": "spiral",
+        "kernel_radius": 28.25500571404119,
+        "kernel_peaks": 3.8496849490555665,
+        "growth_type": "gaussian_bell",
+        "growth_mu": 0.09110159350461444,
+        "growth_sigma": 0.07142930947017963,
+        "dt": 0.4209871392533322,
+        "geometry": "flat_plane",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.64794921875,
+        "mass": 2929.60888671875,
+        "complexity": 0.1044921875,
+        "spatial_entropy": 2.952819531114783,
+        "num_clusters": 6,
+        "is_dead": false,
+        "longevity": 309
+      }
+    },
+    {
+      "bin": [
+        16,
+        16
+      ],
+      "fitness": 0.5023401897778967,
+      "genome": {
+        "kernel_type": "sinc",
+        "kernel_radius": 5.0,
+        "kernel_peaks": 0.5534519299168306,
+        "growth_type": "relu_like",
+        "growth_mu": 0.10685003090798231,
+        "growth_sigma": 0.13988939839674594,
+        "dt": 0.24078449560899326,
+        "geometry": "torus_embedded",
+        "num_channels": 1
+      },
+      "metrics": {
+        "alive_fraction": 0.8094482421875,
+        "mass": 2510.56494140625,
+        "complexity": 0.814208984375,
+        "spatial_entropy": 3.3659787139688855,
+        "num_clusters": 642,
+        "is_dead": false,
+        "longevity": 309
+      }
+    }
+  ]
+}

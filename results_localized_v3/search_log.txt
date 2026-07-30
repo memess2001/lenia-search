@@ -1,0 +1,55 @@
+Localized Creature Search v3
+  Resolution: 256, Steps: 10000, Device: mps
+  Focused on FitzHugh-Nagumo + classic kernels
+  Descriptors: velocity × mass
+  Fitness: spatial_concentration × velocity
+============================================================
+  [   1/500] eval=1 archive=1 nonzero_v=1 localized=0 (3s)
+  [  25/500] eval=25 archive=17 nonzero_v=17 localized=0 (50s)
+  [  50/500] eval=50 archive=34 nonzero_v=30 localized=3 (99s)
+  [  75/500] eval=75 archive=45 nonzero_v=48 localized=4 (152s)
+  [ 100/500] eval=100 archive=56 nonzero_v=68 localized=4 (200s)
+  [ 175/500] eval=175 archive=82 nonzero_v=122 localized=4 (332s)
+  [ 200/500] eval=200 archive=89 nonzero_v=140 localized=4 (376s)
+  [ 225/500] eval=225 archive=92 nonzero_v=154 localized=5 (423s)
+  [ 250/500] eval=250 archive=102 nonzero_v=174 localized=6 (470s)
+  [ 275/500] eval=275 archive=109 nonzero_v=191 localized=6 (509s)
+  [ 300/500] eval=300 archive=116 nonzero_v=209 localized=7 (561s)
+  [ 325/500] eval=325 archive=123 nonzero_v=233 localized=7 (615s)
+  [ 350/500] eval=350 archive=130 nonzero_v=251 localized=7 (656s)
+  [ 375/500] eval=375 archive=137 nonzero_v=270 localized=8 (707s)
+  [ 400/500] eval=400 archive=142 nonzero_v=289 localized=9 (751s)
+  [ 425/500] eval=425 archive=148 nonzero_v=305 localized=12 (797s)
+  [ 450/500] eval=450 archive=151 nonzero_v=325 localized=12 (852s)
+  [ 475/500] eval=475 archive=156 nonzero_v=343 localized=13 (897s)
+  [ 500/500] eval=500 archive=163 nonzero_v=353 localized=16 (936s)
+
+============================================================
+  LOCALIZED SEARCH v3 SUMMARY
+============================================================
+  Evaluated:        500
+  Archive bins:     163/400
+  Nonzero velocity: 353 (70.6%)
+  Localized:        16
+  Time:             936s
+
+  Top 10 by fitness (concentration × velocity):
+    1. mexican_hat/fitzhugh_nagumo fitness=640.6822 vel=1383.857 conc=0.463 alive=0.383
+    2. mexican_hat/fitzhugh_nagumo fitness=570.4878 vel=1159.277 conc=0.492 alive=0.584
+    3. mexican_hat/fitzhugh_nagumo fitness=516.9597 vel=1157.579 conc=0.447 alive=0.423
+    4. sinc/fitzhugh_nagumo fitness=488.0457 vel=1010.775 conc=0.483 alive=0.718
+    5. polynomial/fitzhugh_nagumo fitness=440.6190 vel=948.441 conc=0.465 alive=0.582
+    6. gabor/fitzhugh_nagumo fitness=416.4934 vel=910.633 conc=0.457 alive=0.707
+    7. sinc/bistable fitness=350.1046 vel=751.499 conc=0.466 alive=0.801
+    8. bump/fitzhugh_nagumo fitness=307.9348 vel=685.177 conc=0.449 alive=0.597
+    9. sinc/bistable fitness=266.9780 vel=565.870 conc=0.472 alive=0.742
+    10. sinc/laplace_peak fitness=225.6355 vel=484.113 conc=0.466 alive=0.698
+
+  Entries with velocity > 0.1: 149
+    mexican_hat/fitzhugh_nagumo vel=1383.857 conc=0.463 alive=0.383
+    mexican_hat/fitzhugh_nagumo vel=1159.277 conc=0.492 alive=0.584
+    mexican_hat/fitzhugh_nagumo vel=1157.579 conc=0.447 alive=0.423
+    sinc/fitzhugh_nagumo vel=1010.775 conc=0.483 alive=0.718
+    polynomial/fitzhugh_nagumo vel=948.441 conc=0.465 alive=0.582
+
+Saved to results_localized_v3/

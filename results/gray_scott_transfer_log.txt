@@ -1,0 +1,32 @@
+
+=== Strength = 0.01 ===
+  Running baseline_none... alive=0.000, complexity=0.002
+  Running cos_laplacian... alive=1.000, complexity=0.002
+  Running tanh_lap_sq... alive=0.000, complexity=0.002
+  Running pythagorean... alive=0.860, complexity=0.640
+  Running compete... alive=0.900, complexity=0.638
+  Running logistic... alive=1.000, complexity=0.579
+
+=== Strength = 0.05 ===
+  Running baseline_none... alive=0.000, complexity=0.002
+  Running cos_laplacian... alive=0.671, complexity=0.523
+  Running tanh_lap_sq... alive=0.000, complexity=0.002
+  Running pythagorean... alive=0.000, complexity=0.002
+  Running compete... alive=0.988, complexity=0.696
+  Running logistic... alive=1.000, complexity=0.002
+
+=== Summary ===
+Name                         Alive   Complexity
+-----------------------------------------------
+baseline_none_s0.01          0.000        0.002
+cos_laplacian_s0.01          1.000        0.002
+tanh_lap_sq_s0.01            0.000        0.002
+pythagorean_s0.01            0.860        0.640
+compete_s0.01                0.900        0.638
+logistic_s0.01               1.000        0.579
+baseline_none_s0.05          0.000        0.002
+cos_laplacian_s0.05          0.671        0.523
+tanh_lap_sq_s0.05            0.000        0.002
+pythagorean_s0.05            0.000        0.002
+compete_s0.05                0.988        0.696
+logistic_s0.05               1.000        0.002

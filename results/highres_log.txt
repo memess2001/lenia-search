@@ -1,0 +1,28 @@
+Rendering 5 top Track A entries at 256×256
+Steps: 8000, Device: mps
+============================================================
+
+[1/5] sech/fitzhugh_nagumo/flat_plane
+  bin=[19, 18], fitness=0.9971
+  alive=0.939 compl=0.992 clusters=17 (1.7s)
+
+[2/5] sech/fitzhugh_nagumo/flat_plane
+  bin=[19, 17], fitness=0.9724
+  alive=0.885 compl=0.963 clusters=351 (1.8s)
+
+[3/5] riesz/gaussian_bell/flat_plane
+  bin=[19, 16], fitness=0.9507
+  alive=0.845 compl=0.943 clusters=667 (1.8s)
+
+[4/5] yukawa/laplace_peak/flat_plane
+  bin=[18, 19], fitness=0.9500
+  alive=0.986 compl=0.955 clusters=7 (1.7s)
+
+[5/5] power_law/bistable/flat_plane
+  bin=[18, 18], fitness=0.9497
+  alive=0.938 compl=0.948 clusters=5 (2.5s)
+
+============================================================
+  Rendered 5 entries at 256×256
+  Saved to results/highres_renders/
+============================================================

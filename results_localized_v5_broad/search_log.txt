@@ -1,0 +1,94 @@
+Broad Locomotion Search: 14000 genomes, 28×16 combos
+  Fitness = concentration × net_displacement²
+============================================================
+  [    1/14000] eval=1 archive=1 moving=0 localized=0 (2s)
+  [  200/14000] eval=200 archive=28 moving=13 localized=7 (346s)
+  [  400/14000] eval=400 archive=38 moving=45 localized=10 (694s)
+  [  600/14000] eval=600 archive=57 moving=92 localized=16 (1043s)
+  [  800/14000] eval=800 archive=70 moving=139 localized=23 (1411s)
+  [ 1000/14000] eval=1000 archive=77 moving=183 localized=31 (1752s)
+  [ 1200/14000] eval=1200 archive=88 moving=230 localized=40 (2112s)
+  [ 1400/14000] eval=1400 archive=97 moving=276 localized=46 (2460s)
+  [ 1600/14000] eval=1600 archive=110 moving=324 localized=53 (2818s)
+  [ 1800/14000] eval=1800 archive=117 moving=372 localized=63 (3181s)
+  [ 2000/14000] eval=2000 archive=134 moving=425 localized=72 (3497s)
+  [ 2200/14000] eval=2200 archive=151 moving=485 localized=83 (3818s)
+  [ 2400/14000] eval=2400 archive=156 moving=536 localized=96 (4119s)
+  [ 2600/14000] eval=2600 archive=179 moving=590 localized=106 (4428s)
+  [ 2800/14000] eval=2800 archive=190 moving=642 localized=114 (4716s)
+  [ 3000/14000] eval=3000 archive=199 moving=693 localized=127 (5016s)
+  [ 3200/14000] eval=3200 archive=207 moving=747 localized=136 (5322s)
+  [ 3400/14000] eval=3400 archive=220 moving=796 localized=150 (5630s)
+  [ 3600/14000] eval=3600 archive=225 moving=846 localized=163 (5931s)
+  [ 3800/14000] eval=3800 archive=230 moving=884 localized=178 (6232s)
+  [ 4000/14000] eval=4000 archive=234 moving=942 localized=196 (6528s)
+  [ 4200/14000] eval=4200 archive=240 moving=984 localized=206 (6813s)
+  [ 4400/14000] eval=4400 archive=243 moving=1026 localized=213 (7117s)
+  [ 4600/14000] eval=4600 archive=248 moving=1082 localized=226 (7416s)
+  [ 4800/14000] eval=4800 archive=252 moving=1132 localized=239 (7702s)
+  [ 5000/14000] eval=5000 archive=258 moving=1188 localized=258 (7994s)
+  [ 5200/14000] eval=5200 archive=264 moving=1247 localized=276 (8293s)
+  [ 5400/14000] eval=5400 archive=267 moving=1295 localized=290 (8566s)
+  [ 5600/14000] eval=5600 archive=275 moving=1347 localized=305 (8845s)
+  [ 5800/14000] eval=5800 archive=276 moving=1407 localized=324 (9151s)
+  [ 6000/14000] eval=6000 archive=281 moving=1460 localized=346 (9439s)
+  [ 6200/14000] eval=6200 archive=284 moving=1508 localized=357 (9718s)
+  [ 6400/14000] eval=6400 archive=285 moving=1574 localized=377 (10028s)
+  [ 6600/14000] eval=6600 archive=291 moving=1622 localized=390 (10312s)
+  [ 6800/14000] eval=6800 archive=295 moving=1670 localized=404 (10608s)
+  [ 7000/14000] eval=7000 archive=296 moving=1717 localized=416 (10929s)
+  [ 7200/14000] eval=7200 archive=301 moving=1775 localized=431 (11270s)
+  [ 7400/14000] eval=7400 archive=302 moving=1824 localized=441 (11580s)
+  [ 7600/14000] eval=7600 archive=306 moving=1882 localized=453 (11898s)
+  [ 7800/14000] eval=7800 archive=307 moving=1932 localized=469 (12199s)
+  [ 8000/14000] eval=8000 archive=311 moving=1981 localized=484 (12540s)
+  [ 8200/14000] eval=8200 archive=314 moving=2022 localized=498 (12861s)
+  [ 8400/14000] eval=8400 archive=316 moving=2074 localized=519 (13199s)
+  [ 8600/14000] eval=8600 archive=322 moving=2139 localized=538 (13512s)
+  [ 8800/14000] eval=8800 archive=324 moving=2192 localized=558 (13832s)
+  [ 9000/14000] eval=9000 archive=329 moving=2259 localized=580 (14167s)
+  [ 9200/14000] eval=9200 archive=330 moving=2321 localized=599 (14487s)
+  [ 9400/14000] eval=9400 archive=332 moving=2380 localized=614 (14795s)
+  [ 9600/14000] eval=9600 archive=335 moving=2436 localized=634 (15136s)
+  [ 9800/14000] eval=9800 archive=339 moving=2484 localized=652 (15443s)
+  [10000/14000] eval=10000 archive=344 moving=2546 localized=668 (15737s)
+  [10200/14000] eval=10200 archive=344 moving=2605 localized=686 (16052s)
+  [10400/14000] eval=10400 archive=346 moving=2656 localized=712 (16319s)
+  [10600/14000] eval=10600 archive=348 moving=2704 localized=719 (16601s)
+  [10800/14000] eval=10800 archive=350 moving=2756 localized=737 (16888s)
+  [11000/14000] eval=11000 archive=351 moving=2813 localized=747 (17185s)
+  [11200/14000] eval=11200 archive=352 moving=2867 localized=763 (17483s)
+  [11400/14000] eval=11400 archive=352 moving=2927 localized=796 (17777s)
+  [11600/14000] eval=11600 archive=353 moving=2975 localized=813 (18053s)
+  [11800/14000] eval=11800 archive=354 moving=3036 localized=841 (18330s)
+  [12000/14000] eval=12000 archive=354 moving=3099 localized=855 (18609s)
+  [12200/14000] eval=12200 archive=354 moving=3151 localized=868 (18900s)
+  [12400/14000] eval=12400 archive=354 moving=3199 localized=878 (19185s)
+  [12600/14000] eval=12600 archive=356 moving=3265 localized=893 (19482s)
+  [12800/14000] eval=12800 archive=357 moving=3312 localized=902 (19747s)
+  [13000/14000] eval=13000 archive=359 moving=3367 localized=918 (20029s)
+  [13200/14000] eval=13200 archive=361 moving=3425 localized=935 (20301s)
+  [13400/14000] eval=13400 archive=363 moving=3479 localized=948 (20581s)
+  [13600/14000] eval=13600 archive=364 moving=3551 localized=961 (20867s)
+  [13800/14000] eval=13800 archive=365 moving=3599 localized=980 (21160s)
+  [14000/14000] eval=14000 archive=368 moving=3654 localized=995 (21450s)
+
+============================================================
+  SUMMARY
+============================================================
+  Evaluated: 14000, Archive: 368, Moving: 3654, Localized: 995
+  Time: 21450s
+
+  Top 10:
+    1. sinc/step_function nd=172.6 conc=0.951 alive=0.006
+    2. double_well/step_function nd=154.1 conc=0.650 alive=0.049
+    3. riesz/laplace_peak nd=119.2 conc=0.794 alive=0.030
+    4. wendland_c2/laplace_peak nd=154.1 conc=0.420 alive=0.277
+    5. wendland_c2/laplace_peak nd=105.0 conc=0.799 alive=0.122
+    6. matern/laplace_peak nd=120.6 conc=0.586 alive=0.173
+    7. double_well/step_function nd=136.5 conc=0.456 alive=0.131
+    8. elliptical/sigmoid_pair nd=92.7 conc=0.960 alive=0.006
+    9. wendland_c2/laplace_peak nd=102.6 conc=0.655 alive=0.363
+    10. rbf_mixture/laplace_peak nd=84.5 conc=0.957 alive=0.005
+
+  *** LOCOMOTION CANDIDATES: 50 ***

@@ -1,0 +1,182 @@
+[
+  {
+    "resolution": 128,
+    "seed": 0,
+    "time_s": 50.43,
+    "alive_fraction": 0.9772,
+    "complexity": 0.9402,
+    "num_clusters": 8,
+    "spatial_entropy": 3.3664
+  },
+  {
+    "resolution": 128,
+    "seed": 1,
+    "time_s": 50.27,
+    "alive_fraction": 0.9777,
+    "complexity": 0.9395,
+    "num_clusters": 6,
+    "spatial_entropy": 3.4877
+  },
+  {
+    "resolution": 128,
+    "seed": 2,
+    "time_s": 38.36,
+    "alive_fraction": 0.9805,
+    "complexity": 0.9392,
+    "num_clusters": 8,
+    "spatial_entropy": 3.5582
+  },
+  {
+    "resolution": 128,
+    "seed": 3,
+    "time_s": 45.07,
+    "alive_fraction": 0.9775,
+    "complexity": 0.9421,
+    "num_clusters": 5,
+    "spatial_entropy": 3.4499
+  },
+  {
+    "resolution": 128,
+    "seed": 4,
+    "time_s": 45.69,
+    "alive_fraction": 0.9764,
+    "complexity": 0.938,
+    "num_clusters": 3,
+    "spatial_entropy": 3.2734
+  },
+  {
+    "resolution": 128,
+    "seed": 5,
+    "time_s": 35.15,
+    "alive_fraction": 0.9777,
+    "complexity": 0.9363,
+    "num_clusters": 4,
+    "spatial_entropy": 3.5391
+  },
+  {
+    "resolution": 128,
+    "seed": 6,
+    "time_s": 29.39,
+    "alive_fraction": 0.9781,
+    "complexity": 0.9397,
+    "num_clusters": 7,
+    "spatial_entropy": 3.6254
+  },
+  {
+    "resolution": 128,
+    "seed": 7,
+    "time_s": 49.19,
+    "alive_fraction": 0.9755,
+    "complexity": 0.9409,
+    "num_clusters": 7,
+    "spatial_entropy": 3.3857
+  },
+  {
+    "resolution": 128,
+    "seed": 8,
+    "time_s": 48.51,
+    "alive_fraction": 0.9763,
+    "complexity": 0.9375,
+    "num_clusters": 7,
+    "spatial_entropy": 3.6344
+  },
+  {
+    "resolution": 128,
+    "seed": 9,
+    "time_s": 51.23,
+    "alive_fraction": 0.9759,
+    "complexity": 0.937,
+    "num_clusters": 6,
+    "spatial_entropy": 3.5949
+  },
+  {
+    "resolution": 256,
+    "seed": 0,
+    "time_s": 55.42,
+    "alive_fraction": 0.9832,
+    "complexity": 0.8991,
+    "num_clusters": 29,
+    "spatial_entropy": 3.1678
+  },
+  {
+    "resolution": 256,
+    "seed": 1,
+    "time_s": 50.21,
+    "alive_fraction": 0.9829,
+    "complexity": 0.8967,
+    "num_clusters": 27,
+    "spatial_entropy": 3.0897
+  },
+  {
+    "resolution": 256,
+    "seed": 2,
+    "time_s": 48.03,
+    "alive_fraction": 0.9827,
+    "complexity": 0.9012,
+    "num_clusters": 29,
+    "spatial_entropy": 3.0744
+  },
+  {
+    "resolution": 256,
+    "seed": 3,
+    "time_s": 57.68,
+    "alive_fraction": 0.9823,
+    "complexity": 0.8994,
+    "num_clusters": 30,
+    "spatial_entropy": 3.024
+  },
+  {
+    "resolution": 256,
+    "seed": 4,
+    "time_s": 53.61,
+    "alive_fraction": 0.9825,
+    "complexity": 0.8961,
+    "num_clusters": 31,
+    "spatial_entropy": 2.8734
+  },
+  {
+    "resolution": 256,
+    "seed": 5,
+    "time_s": 56.02,
+    "alive_fraction": 0.9838,
+    "complexity": 0.9004,
+    "num_clusters": 27,
+    "spatial_entropy": 3.0549
+  },
+  {
+    "resolution": 256,
+    "seed": 6,
+    "time_s": 53.57,
+    "alive_fraction": 0.9837,
+    "complexity": 0.901,
+    "num_clusters": 30,
+    "spatial_entropy": 2.9783
+  },
+  {
+    "resolution": 256,
+    "seed": 7,
+    "time_s": 51.6,
+    "alive_fraction": 0.9835,
+    "complexity": 0.8986,
+    "num_clusters": 32,
+    "spatial_entropy": 3.0058
+  },
+  {
+    "resolution": 256,
+    "seed": 8,
+    "time_s": 56.5,
+    "alive_fraction": 0.9831,
+    "complexity": 0.9022,
+    "num_clusters": 34,
+    "spatial_entropy": 3.1553
+  },
+  {
+    "resolution": 256,
+    "seed": 9,
+    "time_s": 55.95,
+    "alive_fraction": 0.9833,
+    "complexity": 0.8985,
+    "num_clusters": 24,
+    "spatial_entropy": 2.975
+  }
+]

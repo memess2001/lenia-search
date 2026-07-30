@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# --- macOS ---
+.DS_Store
+
+# --- Secrets (never commit API keys) ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- Archives / bundles ---
+*.zip
+*.tar.gz
+
+# --- Paper LaTeX sources and figures (~113 MB) ---
+# The camera-ready PDF is included at the repository root instead.
+paper/*
+!paper/hero_math_analysis.md
+
+# --- Intermediate per-creature timeline frames (~50 MB, 174 files) ---
+# Regenerate with: python render_174_browse.py
+results_localized/browse/timelines/

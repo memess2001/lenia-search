@@ -1,0 +1,661 @@
+{
+  "hero": {
+    "name": "cos(4\u03c0\u00b7\u2207\u00b2A)",
+    "track": "B",
+    "seeds": [
+      {
+        "alive_fraction": 0.9771728515625,
+        "mass": 8416.75,
+        "complexity": 0.940185546875,
+        "spatial_entropy": 3.366387682660802,
+        "num_clusters": 8,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 40.31
+      },
+      {
+        "alive_fraction": 0.97772216796875,
+        "mass": 8494.189453125,
+        "complexity": 0.939453125,
+        "spatial_entropy": 3.4877473687263785,
+        "num_clusters": 6,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 39.21
+      },
+      {
+        "alive_fraction": 0.98052978515625,
+        "mass": 8466.623046875,
+        "complexity": 0.939208984375,
+        "spatial_entropy": 3.558224104848405,
+        "num_clusters": 8,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 39.56
+      },
+      {
+        "alive_fraction": 0.9775390625,
+        "mass": 8461.16796875,
+        "complexity": 0.942138671875,
+        "spatial_entropy": 3.4498521588919653,
+        "num_clusters": 5,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 36.54
+      },
+      {
+        "alive_fraction": 0.97637939453125,
+        "mass": 8467.83984375,
+        "complexity": 0.93798828125,
+        "spatial_entropy": 3.273402044149352,
+        "num_clusters": 3,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 35.63
+      },
+      {
+        "alive_fraction": 0.9776611328125,
+        "mass": 8462.29296875,
+        "complexity": 0.936279296875,
+        "spatial_entropy": 3.539106063692049,
+        "num_clusters": 4,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 39.01
+      },
+      {
+        "alive_fraction": 0.9781494140625,
+        "mass": 8466.048828125,
+        "complexity": 0.939697265625,
+        "spatial_entropy": 3.625449071731174,
+        "num_clusters": 7,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 36.83
+      },
+      {
+        "alive_fraction": 0.9754638671875,
+        "mass": 8445.552734375,
+        "complexity": 0.94091796875,
+        "spatial_entropy": 3.3857479879501304,
+        "num_clusters": 7,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 38.34
+      },
+      {
+        "alive_fraction": 0.97625732421875,
+        "mass": 8467.033203125,
+        "complexity": 0.9375,
+        "spatial_entropy": 3.6344403635761804,
+        "num_clusters": 7,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 38.93
+      },
+      {
+        "alive_fraction": 0.97589111328125,
+        "mass": 8437.7890625,
+        "complexity": 0.93701171875,
+        "spatial_entropy": 3.5948528839181493,
+        "num_clusters": 6,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 38.33
+      }
+    ],
+    "mean_complexity": 0.939,
+    "std_complexity": 0.0017,
+    "mean_alive": 0.9773
+  },
+  "trackA_1": {
+    "name": "sech/fitzhugh_nagumo/flat_plane",
+    "track": "A",
+    "original_fitness": 0.9970703125,
+    "seeds": [
+      {
+        "alive_fraction": 0.93792724609375,
+        "mass": 7573.076171875,
+        "complexity": 0.997802734375,
+        "spatial_entropy": 1.8404463645051812,
+        "num_clusters": 9,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.61
+      },
+      {
+        "alive_fraction": 0.9375,
+        "mass": 7537.97412109375,
+        "complexity": 0.997802734375,
+        "spatial_entropy": 1.8340044005963612,
+        "num_clusters": 11,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.59
+      },
+      {
+        "alive_fraction": 0.9403076171875,
+        "mass": 7538.6298828125,
+        "complexity": 0.997314453125,
+        "spatial_entropy": 1.681044169394186,
+        "num_clusters": 9,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.57
+      },
+      {
+        "alive_fraction": 0.94140625,
+        "mass": 7520.1318359375,
+        "complexity": 0.999755859375,
+        "spatial_entropy": 1.8341733734532526,
+        "num_clusters": 5,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.58
+      },
+      {
+        "alive_fraction": 0.9405517578125,
+        "mass": 7551.3369140625,
+        "complexity": 0.998291015625,
+        "spatial_entropy": 1.766067561029951,
+        "num_clusters": 10,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.63
+      },
+      {
+        "alive_fraction": 0.93304443359375,
+        "mass": 7564.1650390625,
+        "complexity": 0.99560546875,
+        "spatial_entropy": 1.7660675610299508,
+        "num_clusters": 10,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.58
+      },
+      {
+        "alive_fraction": 0.934814453125,
+        "mass": 7498.35986328125,
+        "complexity": 0.99658203125,
+        "spatial_entropy": 1.7895341619085976,
+        "num_clusters": 12,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.59
+      },
+      {
+        "alive_fraction": 0.940673828125,
+        "mass": 7548.90283203125,
+        "complexity": 0.99853515625,
+        "spatial_entropy": 1.8874532099253938,
+        "num_clusters": 9,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.6
+      },
+      {
+        "alive_fraction": 0.9385986328125,
+        "mass": 7526.189453125,
+        "complexity": 0.9970703125,
+        "spatial_entropy": 1.9936872203227431,
+        "num_clusters": 11,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.61
+      },
+      {
+        "alive_fraction": 0.93585205078125,
+        "mass": 7497.8916015625,
+        "complexity": 0.995849609375,
+        "spatial_entropy": 1.6934078563985093,
+        "num_clusters": 10,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.6
+      }
+    ],
+    "mean_complexity": 0.9975,
+    "std_complexity": 0.0012,
+    "mean_alive": 0.9381
+  },
+  "trackA_2": {
+    "name": "sech/fitzhugh_nagumo/flat_plane",
+    "track": "A",
+    "original_fitness": 0.972412109375,
+    "seeds": [
+      {
+        "alive_fraction": 0.88629150390625,
+        "mass": 7530.6015625,
+        "complexity": 0.971435546875,
+        "spatial_entropy": 1.312346754021827,
+        "num_clusters": 92,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.58
+      },
+      {
+        "alive_fraction": 0.8851318359375,
+        "mass": 7554.70751953125,
+        "complexity": 0.969482421875,
+        "spatial_entropy": 1.5227428812230048,
+        "num_clusters": 112,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.61
+      },
+      {
+        "alive_fraction": 0.89300537109375,
+        "mass": 7547.6298828125,
+        "complexity": 0.973388671875,
+        "spatial_entropy": 1.4245878855955434,
+        "num_clusters": 86,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.6
+      },
+      {
+        "alive_fraction": 0.88616943359375,
+        "mass": 7530.4033203125,
+        "complexity": 0.969970703125,
+        "spatial_entropy": 1.6689330520237013,
+        "num_clusters": 100,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.58
+      },
+      {
+        "alive_fraction": 0.88641357421875,
+        "mass": 7537.7978515625,
+        "complexity": 0.970703125,
+        "spatial_entropy": 1.4141112224162218,
+        "num_clusters": 95,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.58
+      },
+      {
+        "alive_fraction": 0.8878173828125,
+        "mass": 7561.4208984375,
+        "complexity": 0.97119140625,
+        "spatial_entropy": 1.5487489930399096,
+        "num_clusters": 101,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.65
+      },
+      {
+        "alive_fraction": 0.89349365234375,
+        "mass": 7535.32373046875,
+        "complexity": 0.972412109375,
+        "spatial_entropy": 1.4177598362072457,
+        "num_clusters": 92,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.6
+      },
+      {
+        "alive_fraction": 0.88800048828125,
+        "mass": 7534.86572265625,
+        "complexity": 0.970703125,
+        "spatial_entropy": 1.443271532360812,
+        "num_clusters": 87,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.58
+      },
+      {
+        "alive_fraction": 0.881103515625,
+        "mass": 7579.99609375,
+        "complexity": 0.970458984375,
+        "spatial_entropy": 1.2987949406953985,
+        "num_clusters": 85,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.58
+      },
+      {
+        "alive_fraction": 0.8890380859375,
+        "mass": 7565.947265625,
+        "complexity": 0.970703125,
+        "spatial_entropy": 1.3649917740667208,
+        "num_clusters": 88,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.59
+      }
+    ],
+    "mean_complexity": 0.971,
+    "std_complexity": 0.0011,
+    "mean_alive": 0.8876
+  },
+  "trackA_3": {
+    "name": "riesz/gaussian_bell/flat_plane",
+    "track": "A",
+    "original_fitness": 0.95068359375,
+    "seeds": [
+      {
+        "alive_fraction": 0.84136962890625,
+        "mass": 5840.89501953125,
+        "complexity": 0.9501953125,
+        "spatial_entropy": 3.6179640524434755,
+        "num_clusters": 198,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.54
+      },
+      {
+        "alive_fraction": 0.84771728515625,
+        "mass": 5770.7001953125,
+        "complexity": 0.950927734375,
+        "spatial_entropy": 3.6111869707559108,
+        "num_clusters": 155,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.54
+      },
+      {
+        "alive_fraction": 0.85308837890625,
+        "mass": 5824.7158203125,
+        "complexity": 0.95263671875,
+        "spatial_entropy": 3.7565055649015564,
+        "num_clusters": 142,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.58
+      },
+      {
+        "alive_fraction": 0.8486328125,
+        "mass": 5807.66552734375,
+        "complexity": 0.952880859375,
+        "spatial_entropy": 3.713207674083736,
+        "num_clusters": 165,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.6
+      },
+      {
+        "alive_fraction": 0.84576416015625,
+        "mass": 5714.08203125,
+        "complexity": 0.95068359375,
+        "spatial_entropy": 3.745114065632798,
+        "num_clusters": 189,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.62
+      },
+      {
+        "alive_fraction": 0.8570556640625,
+        "mass": 5892.8095703125,
+        "complexity": 0.957763671875,
+        "spatial_entropy": 3.6058081916861675,
+        "num_clusters": 181,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.6
+      },
+      {
+        "alive_fraction": 0.84393310546875,
+        "mass": 5560.2265625,
+        "complexity": 0.9462890625,
+        "spatial_entropy": 3.7676897443524275,
+        "num_clusters": 196,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.6
+      },
+      {
+        "alive_fraction": 0.8349609375,
+        "mass": 5544.798828125,
+        "complexity": 0.94482421875,
+        "spatial_entropy": 3.57227720519852,
+        "num_clusters": 195,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.55
+      },
+      {
+        "alive_fraction": 0.8392333984375,
+        "mass": 5825.73046875,
+        "complexity": 0.951904296875,
+        "spatial_entropy": 3.6153223224198237,
+        "num_clusters": 179,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.55
+      },
+      {
+        "alive_fraction": 0.85150146484375,
+        "mass": 5838.55810546875,
+        "complexity": 0.954833984375,
+        "spatial_entropy": 3.6788876826608026,
+        "num_clusters": 180,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.58
+      }
+    ],
+    "mean_complexity": 0.9513,
+    "std_complexity": 0.0036,
+    "mean_alive": 0.8463
+  },
+  "trackA_4": {
+    "name": "yukawa/laplace_peak/flat_plane",
+    "track": "A",
+    "original_fitness": 0.949951171875,
+    "seeds": [
+      {
+        "alive_fraction": 0.98974609375,
+        "mass": 8509.67578125,
+        "complexity": 0.958740234375,
+        "spatial_entropy": 3.996060946470745,
+        "num_clusters": 4,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.31
+      },
+      {
+        "alive_fraction": 0.9840087890625,
+        "mass": 8771.94921875,
+        "complexity": 0.96435546875,
+        "spatial_entropy": 4.074994383186907,
+        "num_clusters": 3,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.38
+      },
+      {
+        "alive_fraction": 0.98187255859375,
+        "mass": 8404.009765625,
+        "complexity": 0.961669921875,
+        "spatial_entropy": 3.8856837909820108,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.33
+      },
+      {
+        "alive_fraction": 0.97900390625,
+        "mass": 8362.0546875,
+        "complexity": 0.95947265625,
+        "spatial_entropy": 4.092888867995137,
+        "num_clusters": 5,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.29
+      },
+      {
+        "alive_fraction": 0.98712158203125,
+        "mass": 8499.8759765625,
+        "complexity": 0.95654296875,
+        "spatial_entropy": 4.13125279130504,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.31
+      },
+      {
+        "alive_fraction": 0.96966552734375,
+        "mass": 6350.4951171875,
+        "complexity": 0.94873046875,
+        "spatial_entropy": 3.9583079609312746,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.32
+      },
+      {
+        "alive_fraction": 0.98681640625,
+        "mass": 8533.7265625,
+        "complexity": 0.960693359375,
+        "spatial_entropy": 4.058157328518199,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.31
+      },
+      {
+        "alive_fraction": 0.98388671875,
+        "mass": 8367.119140625,
+        "complexity": 0.964111328125,
+        "spatial_entropy": 3.9953642598672277,
+        "num_clusters": 3,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.32
+      },
+      {
+        "alive_fraction": 0.98309326171875,
+        "mass": 8402.021484375,
+        "complexity": 0.962890625,
+        "spatial_entropy": 4.196873587245974,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.34
+      },
+      {
+        "alive_fraction": 0.98724365234375,
+        "mass": 8484.419921875,
+        "complexity": 0.9609375,
+        "spatial_entropy": 3.923393902104939,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 1.52
+      }
+    ],
+    "mean_complexity": 0.9598,
+    "std_complexity": 0.0043,
+    "mean_alive": 0.9832
+  },
+  "trackA_5": {
+    "name": "power_law/bistable/flat_plane",
+    "track": "A",
+    "original_fitness": 0.94970703125,
+    "seeds": [
+      {
+        "alive_fraction": 0.93585205078125,
+        "mass": 7310.2412109375,
+        "complexity": 0.952392578125,
+        "spatial_entropy": 2.484881925744047,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 2.19
+      },
+      {
+        "alive_fraction": 0.9407958984375,
+        "mass": 7255.4423828125,
+        "complexity": 0.953125,
+        "spatial_entropy": 2.16166613956418,
+        "num_clusters": 5,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 2.18
+      },
+      {
+        "alive_fraction": 0.9476318359375,
+        "mass": 7302.005859375,
+        "complexity": 0.962646484375,
+        "spatial_entropy": 2.340690961061809,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 2.21
+      },
+      {
+        "alive_fraction": 0.939697265625,
+        "mass": 7264.9453125,
+        "complexity": 0.953125,
+        "spatial_entropy": 2.1550194528246025,
+        "num_clusters": 3,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 2.19
+      },
+      {
+        "alive_fraction": 0.9302978515625,
+        "mass": 7351.33203125,
+        "complexity": 0.935302734375,
+        "spatial_entropy": 2.2376904170127028,
+        "num_clusters": 5,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 2.18
+      },
+      {
+        "alive_fraction": 0.93328857421875,
+        "mass": 7235.81640625,
+        "complexity": 0.9453125,
+        "spatial_entropy": 2.2134776781602996,
+        "num_clusters": 3,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 2.18
+      },
+      {
+        "alive_fraction": 0.9412841796875,
+        "mass": 7203.794921875,
+        "complexity": 0.958984375,
+        "spatial_entropy": 2.3483696685137643,
+        "num_clusters": 4,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 2.2
+      },
+      {
+        "alive_fraction": 0.9283447265625,
+        "mass": 7349.9326171875,
+        "complexity": 0.93896484375,
+        "spatial_entropy": 2.445967001462482,
+        "num_clusters": 1,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 2.28
+      },
+      {
+        "alive_fraction": 0.9400634765625,
+        "mass": 7204.853515625,
+        "complexity": 0.9580078125,
+        "spatial_entropy": 2.253174869780649,
+        "num_clusters": 2,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 2.27
+      },
+      {
+        "alive_fraction": 0.93206787109375,
+        "mass": 7304.8583984375,
+        "complexity": 0.946044921875,
+        "spatial_entropy": 2.190020810655243,
+        "num_clusters": 4,
+        "is_dead": false,
+        "longevity": 309,
+        "time_s": 2.2
+      }
+    ],
+    "mean_complexity": 0.9504,
+    "std_complexity": 0.0084,
+    "mean_alive": 0.9369
+  }
+}
