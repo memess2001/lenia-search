@@ -135,4 +135,9 @@ Two things are excluded to keep the repository a reasonable size; both are repro
 }
 ```
 
-The paper is published open access under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+---
+
+## License
+
+- **Code** (everything in `src/` and the top-level scripts): [MIT License](LICENSE) — © 2026 Zhe Hong, Mingyang Song.
+- **Paper** (`ALIFE2026_fp259_camera_ready.pdf`): published open access under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
